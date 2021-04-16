@@ -1,0 +1,84 @@
+@charset "utf-8";
+/* CSS Document */
+.font_level1{
+	font-size:85%;
+}
+
+.font_level2{
+	font-size:95%;
+}
+
+.font_level3{
+	font-size:110%;
+}
+
+.font_level4{
+	font-size:130%;
+}
+
+.font_level5,
+.font_level5_2{
+	font-size:140%;
+}
+
+.font_level7{
+	font-size:160%;
+}
+
+.font_level6{
+	font-size:200%;
+}
+
+.font_level8{
+	font-size:250%;
+}
+
+.font_level9{
+	font-size:300%;
+}
+
+/* color*/
+
+.color1{
+	color:#fff; /* white*/
+	}
+.color2{
+	color:#000000;/*gray color*/
+	}
+.color3{
+	color:#4d4d4d;/*blue color*/
+	}
+.color4{
+	color:#262626;/*สีดำ*/
+	}
+.color5{
+	color:#4c4c4c;/*สีฟ้าอ่อน*/
+	}
+.color6{
+	color:#0065ae;
+}
+.color7{
+	color:#999;
+}
+
+.c_donw_l{
+	color:#add374;
+}
+.color-file{
+	color:#adadad;
+}
+.minus-color{
+	color:#5091c4;
+}
+
+.d-select{
+	color:#adadad;
+}
+
+.b-word{
+	color:#00188f;
+}
+
+.bold{
+	font-weight:bold;
+}

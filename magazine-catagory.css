@@ -1,0 +1,136 @@
+@charset "utf-8";
+/* CSS Document */
+.col-xs-20, .col-xs-20-2, .col-xs-20-3 {
+    /* width: 20%; */
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: relative;
+}
+.margin-top1 {
+    margin-top: 40px;
+}
+.magazine-sub1 {
+    /* margin-top: 4px; */
+    margin-top: 2.608695652173913%;
+}
+.main-background {
+    /* background-color: #fff; */
+    padding-bottom: 42px;
+}
+.img-center {
+    margin: 0 auto;
+}
+.bg-magazine1 {
+    height: 24px;
+    background: url(../images/i-con/bg-top.jpg) no-repeat;
+    background-size: 100% 24px;
+}
+.bg-magazine2 {
+    height: auto;
+    background: url(../images/i-con/bg-center-2.png) repeat;
+    background-size: 100%;
+}
+.bg-magazine3 {
+    height: 6px;
+    background: url(../images/i-con/bg-bottom.jpg) no-repeat;
+    background-size: 100% 6px;
+}
+.bg-magazine-t {
+    height: 14px;
+    background-size: 100%;
+    font-size: 80%;
+    padding: 1px 4px;
+    margin-left: 8px;
+    margin-top: 1.739130434782609%;
+    white-space: normal;
+    line-height: 9px;
+    vertical-align: top;
+	border:1px solid #c49448;
+	border-radius:0;
+	color:#612f06;
+    background: #eac583; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#eac583, #d89e4f); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#eac583, #d89e4f); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#eac583, #d89e4f); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#eac583, #d89e4f); /* Standard syntax */
+}
+.col-xs-50 {
+    width: 50%;
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: relative;
+}
+.magazine-sub1 img {
+    width: 98px;
+    height: 112px;
+    object-fit: contain;
+    object-position: bottom center;
+}
+.bg-magazine-t {
+    font-size: 100%;
+}
+
+@media screen and (min-width: 320px){
+.magazine .display-lg, .magazine .display-md, .magazine .display-sm-1 {
+    display: none;
+}
+}
+@media screen and (min-width: 480px){
+.col-xs-20-3 {
+    width: 25%;
+}
+.bg-magazine3 {
+    height: 11px;
+    background-size: 100% 16px;
+    background-position: 0 -5px;
+}
+.bg-magazine-t {
+    margin-top: 0.5128205128205128%;
+    height: auto;
+    /* width: 108px; */
+    padding: 8px 8px;
+}
+.col-xs-20, .col-xs-20-2, .col-xs-20-3 {
+    /* width: 20%; */
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: relative;
+}
+.magazine .display-lg, .magazine .display-md, .magazine .display-sm-1 {
+    display: none;
+}
+
+}
+@media screen and (min-width: 500px){
+.magazine .display-lg, .magazine .display-md, .magazine .display-sm-1 {
+    display: block;
+}
+}
+
+@media screen and (min-width: 768px){
+.magazine-sub1 img {
+    width: 98px;
+    height: 112px;
+}
+.bg-magazine-t {
+    font-size: 100%;
+}
+.magazine .display-lg, .magazine .display-md, .magazine .display-sm-1 {
+    display: block;
+}
+}
+@media screen and (min-width: 1200px){
+.magazine-sub1 {
+    margin-top: 36px;
+}
+.magazine .display-lg, .magazine .display-md, .magazine .display-sm-1 {
+    display: block;
+}
+.magazine-sub1 img {
+    width: 120px;
+    height: 140px;
+}
+}

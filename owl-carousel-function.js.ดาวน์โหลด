@@ -1,0 +1,74 @@
+// JavaScript Document
+$(document).ready(function($) {
+	   $("#owl-demo2").owlCarousel({
+  	    pagination: true,
+	    autoPlay:true,  
+		navigation : true, // Show next and prev buttons
+       slideSpeed : 300,
+       paginationSpeed : 400,
+	   items : 3,
+       itemsDesktop : [1199,3],
+	   itemsTablet: [768,3],
+	   itemsMobile : [479,3],  
+ 
+    });
+	
+	 $("#owl-example").owlCarousel({
+		 pagination: true,
+		 autoPlay:true,  
+		 navigation : true,
+		 slideSpeed : 300,
+		  // paginationSpeed : 600,
+         paginationSpeed : 2500,
+		 items : 1,
+		 itemsDesktop : [1199,1],
+	   	 itemsTablet: [768,1],
+	  	 itemsMobile : [479,1], 
+         
+		 
+	  }
+	  );
+
+	$("#owl-example-en").owlCarousel({
+		 pagination: true,
+		 autoPlay:true,  
+		 navigation : true,
+		 items : 1,
+		 itemsDesktop : [1199,1],
+	   	 itemsTablet: [768,1],
+	  	 itemsMobile : [479,1], 
+	  	 slideSpeed : 4000,
+	     paginationSpeed : 5000,
+	     rewindSpeed: 3000,   
+	  }
+	);
+	  
+	   $("#owl-example2").owlCarousel({
+		 pagination:true,
+		 autoPlay: true,  
+		 navigation : true,
+		 slideSpeed : 300,
+         paginationSpeed : 1000,
+		 items : 3,
+         itemsDesktop : [1199,3],
+		 itemsTablet: [768,3],
+		 itemsMobile : [640,1],
+		 
+	  }
+	  );
+	  
+	  $("#owl-example3").owlCarousel({
+		 pagination:false,
+		 autoPlay: false,  
+		 navigation : true,
+		 slideSpeed : 300,
+         paginationSpeed : 1000,
+		 items : 3,
+         itemsDesktop : [1199,3],
+		 itemsTablet: [768,3],
+		 itemsMobile : [640,2],
+		 
+	  }
+	  );
+	  
+    });

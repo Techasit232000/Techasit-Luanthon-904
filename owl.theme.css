@@ -1,0 +1,454 @@
+
+/*
+* 	Owl Carousel Owl Demo Theme 
+*	v1.3.3
+*/
+
+.owl-theme .owl-controls{
+	margin-top: 10px;
+	text-align: center;
+}
+.owl-theme .owl-controls .owl-page active{
+	z-index:10;
+	}
+/* Styling Next and Prev buttons */
+
+.owl-theme .owl-controls .owl-buttons div{
+	color: #FFF;
+	display: inline-block;
+	/*zoom: 1;*/
+	/**display: inline;*//*IE7 life-saver */
+	margin: 13px;
+	/*padding: 3px 10px 16px 10px;*/
+	font-size: 12px;
+	/*-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	border-radius: 30px;
+	background: #869791;*/
+	/*filter: Alpha(Opacity=50);/*IE7 fix
+	opacity: 0.5;
+	background: url(../images/home/i-conarrowleft.png) no-repeat;*/
+	/*text-indent:*/
+}
+
+.owl-prev{
+	/*background:url(../imgs/slide/i-conprev.png) no-repeat;*/
+	text-indent:-9999px;
+	position:absolute;
+	left:-26px;
+	background-size:34px 34px;
+	
+}
+
+.owl-next{
+	/*background:url(../imgs/slide/i-connext.png) no-repeat;*/
+	text-indent:-9999px;
+	position:absolute;
+	right:-22px;
+	background-size:34px 34px;
+	
+}
+
+.owl-buttons{
+	position:relative;
+	/*bottom:0px;*/
+	width:50%;
+	margin:0 auto;
+}
+
+.item-link {
+	text-align:center;
+	position:relative;
+		
+}
+
+.item-link .item-topic {
+	background:url(../images/main-page/bg_topic.png) no-repeat top center;
+	/*background-size:100%;*/
+	padding:0px 0;
+	height:170px;
+	
+	
+}
+
+
+
+.owl-pagination{
+	display:block;
+	
+}
+.owl-buttons{
+	position:absolute;
+	width:100%;
+	/*top:30px;
+	bottom:-20px;*/
+	top: 17.345%;
+}
+
+.se-slide .owl-carousel{
+	margin:0;
+	/*margin-top:6px;*/
+}
+
+.se-slide .owl-buttons{
+	top: 86.345%;
+}
+.se-slide .owl-pagination{
+	padding:3px;
+	
+}
+
+
+.owl-buttons .owl-prev{
+	left:-7px;
+	background-position:0 0px;
+}
+
+.owl-buttons .owl-next{
+	right:-8px;
+	background-position:0px 0px;
+}
+
+
+/*footer slide*/
+.thirdslide .owl-buttons{
+	top:22.345%;
+}
+
+/**hack for ie8**/
+.footerslide .owl-buttons{
+	/*top:6px\0/;*/
+}
+
+.thirdslide .owl-prev{
+	width:18px;
+	height:18px;
+	background:url(../images/i-con/angle-r.png) no-repeat;
+	background-size:8px 16px;
+	background-position:center;
+	margin:4px !important;
+	left:-18px;
+}
+.thirdslide .owl-next{
+	background:url(../images/i-con/angle-l.png) no-repeat;
+	background-size:8px 16px;
+	width:18px;
+	height:18px;
+	background-position:center;
+	margin:4px !important;
+	right:-18px;
+}
+
+/**hack for ie8**/
+.footerslide .owl-prev{
+	/*width:37px\0/;
+	height:38px\0/;
+	background: url(../imgs/slide/i-conprev-s.png) no-repeat\0/;
+	left:-32px\0/;*/
+}
+.footerslide .owl-next{
+	/*background: url(../imgs/slide/i-connext-s.png) no-repeat\0/;
+	width:37px\0/;
+	height:38px\0/;
+	right:-32px\0/;*/
+}
+
+
+
+/**/
+
+.fr-slide .owl-prev,
+.top-slide .owl-prev{
+	width:34px;
+	height:26px;
+	background:url(../images/i-con/ar-left.png) no-repeat top center;
+	background-size:24px 24px;
+	margin:13px 0px !important;
+	left:4px;
+}
+
+.fr-slide .owl-next,
+.top-slide .owl-next{
+	width:34px;
+	height:26px;
+	background:url(../images/i-con/ar-right.png) no-repeat top center;
+	background-size:24px 24px;
+	margin:13px 0px !important;
+	right:6px;
+}
+
+.se-slide .owl-theme .owl-controls{
+	background: rgba(250,251,252,1);
+	background: -moz-linear-gradient(top, rgba(250,251,252,1) 0%, rgba(244,246,248,1) 47%, rgba(238,241,245,1) 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(250,251,252,1)), color-stop(47%, rgba(244,246,248,1)), color-stop(100%, rgba(238,241,245,1)));
+	background: -webkit-linear-gradient(top, rgba(250,251,252,1) 0%, rgba(244,246,248,1) 47%, rgba(238,241,245,1) 100%);
+	background: -o-linear-gradient(top, rgba(250,251,252,1) 0%, rgba(244,246,248,1) 47%, rgba(238,241,245,1) 100%);
+	background: -ms-linear-gradient(top, rgba(250,251,252,1) 0%, rgba(244,246,248,1) 47%, rgba(238,241,245,1) 100%);
+	background: linear-gradient(to bottom, rgba(250,251,252,1) 0%, rgba(244,246,248,1) 47%, rgba(238,241,245,1) 100%);
+	margin-top:0;
+}
+
+.se-slide .owl-prev{
+	width:26px;
+	height:28px;
+	margin:0px 0px !important;
+	left:4px;
+	background:url(../images/i-con/sm-ar-left.png) no-repeat;
+	
+	
+}
+
+.se-slide .owl-next{
+	width:26px;
+	height:28px;
+	margin:0px 0px !important;
+	right:5px;
+	background:url(../images/i-con/sm-ar-right.png) no-repeat;
+	
+	
+}
+
+
+/* Clickable class fix problem with hover on touch devices */
+/* Use it for non-touch hover action */
+.owl-theme .owl-controls.clickable .owl-buttons div:hover{
+	filter: Alpha(Opacity=100);/*IE7 fix*/
+	opacity: 1;
+	
+	text-decoration: none;
+}
+
+/* Styling Pagination*/
+
+.owl-theme .owl-controls .owl-page{
+	display: inline-block;
+	/*zoom: 1;
+	*display: inline;*//*IE7 life-saver */
+}
+.owl-theme .owl-controls .owl-page span{
+	display: block;
+	width: 16px;
+	height: 16px;
+	margin: 5px 2px;
+	filter: Alpha(Opacity=50);/*IE7 fix*/
+	opacity: 0.5;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+	background: #000;
+	border:3px solid #000;
+}
+
+.owl-theme .owl-controls .owl-page.active span,
+.owl-theme .owl-controls.clickable .owl-page:hover span{
+	filter: Alpha(Opacity=100);/*IE7 fix*/
+	opacity: 1;
+	background: #fff;
+	border:3px solid #000;
+}
+
+
+/*se-slide*/
+
+.se-slide .owl-theme .owl-controls .owl-page span{
+	background:#aad8ff;
+	border:0;
+}
+
+.se-slide .owl-theme .owl-controls .owl-page.active span,
+.se-slide .owl-theme .owl-controls.clickable .owl-page:hover span{
+	background:#000;
+}
+
+
+
+
+.top-slide .owl-theme .owl-controls .owl-page span{
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+}
+
+/* If PaginationNumbers is true */
+
+.owl-theme .owl-controls .owl-page span.owl-numbers{
+	height: auto;
+	width: auto;
+	color: #FFF;
+	padding: 2px 10px;
+	font-size: 12px;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	border-radius: 30px;
+}
+
+/* preloading images */
+.owl-item.loading{
+	min-height: 150px;
+	background: url(AjaxLoader.gif) no-repeat center center
+}
+
+.item-topic a,
+.item-topic img{
+	display:block;
+	
+}
+.item-topic img{
+	margin:0 auto;
+}
+
+.item-topic a{
+	display:inline-block;
+	margin-top:26px;
+	position:relative;
+}
+
+.item-topic span{
+	max-width:80%;
+	display:inline-block;
+	margin:0 auto;
+	font-family: "supermarket";	
+}
+
+.item-topic span{
+	/*font-family: Tahoma, Geneva, sans-serif\0/;
+	font-size:13px\0/;	*/
+	
+}
+
+.item-topic span{
+	/*max-width:114px\0/;*/
+	
+}
+
+@media (min-width:768px){
+
+	.owl-theme .owl-controls{
+		position:absolute;
+		bottom:70px;
+		width:100%;
+	}
+	
+	.top-slide .owl-theme .owl-controls{
+		position:relative;
+		bottom:0px;
+		width:100%;
+	}
+	
+	.owl-buttons{
+		top:-88px;
+	}
+	
+	.top-slide .owl-buttons{
+		top:-86px;
+	}
+	
+	.fr-slide .owl-prev,
+	.fr-slide .owl-next{
+		width:70px;
+		height:71px;
+		background-size:100%;
+		
+	}
+	
+	.fr-slide .owl-prev{
+		left:0;
+	}
+	.fr-slide .owl-next{
+		right:0;
+	}
+	
+	.se-slide .owl-buttons{
+		top:10.345%;
+	}
+	.se-slide .owl-theme .owl-controls{
+		position:relative;
+		bottom:0;
+	}
+	
+	.thirdslide .owl-theme .owl-controls{
+		bottom:46px;
+	}
+	
+	
+}
+
+@media (min-width:1024px){
+	.thirdslide .owl-prev{
+		width:12px;
+		height:16px;
+		background-size:12px 16px;
+		left: -16px;
+	}
+	.thirdslide .owl-next{
+		width:12px;
+		height:16px;
+		background-size:12px 16px;
+		right: -14px;
+	}
+	#slider .owl-buttons{
+		top:-138px;
+	}
+	#slider-sm img{
+		width:115px;
+		height:70px;
+		margin:0 auto;
+		border:2px solid #ccc;
+	}
+	
+	.owl-theme .owl-controls{
+		bottom: 50px;
+	}
+	
+	.top-slide .owl-buttons{
+		top:-102px;
+	}
+	
+}
+@media (min-width:1200px){
+
+	/*navigation slide*/
+	
+	#slider .owl-buttons{
+		top:-198px;
+	}
+	
+	.top-slide .owl-theme .owl-controls{
+		margin-top:10px;
+	}
+	
+	.top-slide .owl-buttons{
+		top:-120px;
+	}
+	
+	.owl-prev{
+		width:68px;
+		height:68px;
+		background-size:68px 68px;
+	}
+
+	.owl-next{
+		width:68px;
+		height:68px;
+		background-size:68px 68px;
+	}
+	
+	#slider-sm img{
+		/*height:145px;*/
+		margin:0px auto 0 auto;
+		/*-webkit-transition:all 0.7s ease;
+		-moz-transition:all 0.7s ease;
+		transition:all 0.7s ease;*/
+		
+	}
+	
+	
+	
+	.fr-slide .owl-prev{
+		left:128px;
+	}
+	.fr-slide .owl-next{
+		right:118px;
+	}
+
+}

@@ -1,0 +1,596 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	background-color:#000 !important;
+}
+
+
+.header{
+	background:none;
+}
+
+
+
+hr {
+    border-color: #ffff00;	
+    margin: 8px 0;
+}
+
+a:hover{
+	color:#fff;
+}
+
+/* ==================================================
+   Basic color
+================================================== */
+
+.form-control{
+	color:#555;
+	border:1px solid #ffff00;
+}
+
+select.form-control{
+	margin:2.758620689655172% 0;
+	color:#999999;
+	border:1px solid #ffff00;
+}
+
+.btn-default{
+	color:#333;
+	border:1px solid #ffff00;
+}
+
+.btn-5 .btn-default{
+	border:1px solid #ffff00;
+	background:none;
+}
+
+.color1{
+	color:#ffff00;
+}
+
+.color2{
+	color:#ffff00 !important;
+}
+
+.color3{
+	color:#ffff00;
+}
+
+.color4{
+	color:#ffff00;
+}
+
+.color5{
+	color:#ffff00;
+}
+.color6{
+	color:#ffff00;
+}
+
+.whiteColor{
+	color:#fff;
+}
+
+.date-time,.color7{
+	color:#ffff00;
+}
+
+.foot-alink{
+	color:#ffff00;
+}
+.b-word{
+	color:#ffff00;
+}
+
+hr.second{
+	background-color: #ffff00;
+    border-color: #ffff00;
+}
+.background-white{
+	background:none;
+	border:1px solid #ffff00;
+	
+}
+
+/* ==================================================
+   main menu
+================================================== */
+
+#menu{
+	background-color:#000 !important;	
+	border:1px solid #ffff00;	
+}
+
+.display-default{
+	display:none;
+}
+
+.display-black{
+	display:block;
+}
+
+.navbar-nav>li>a:hover{
+	background:none;
+	color:#949494 !important;
+}
+
+.navbar-inverse .navbar-nav > li > a,
+#mobile>.navbar-default .navbar-nav>li>a
+/*.first-menu a*/{
+	color:#ffff00;
+}
+.navbar-inverse .navbar-nav > li > a span.active-i-con{
+	color:#fff;
+}
+
+#mobile > .navbar-default .navbar-nav > .active > a, 
+#mobile > .navbar-default .navbar-nav > .active > a:focus, 
+#mobile > .navbar-default .navbar-nav > .active > a:hover, 
+#mobile .first-menu > .active > a{
+	background-color:#ffff00;
+	color:#000 !important;
+}
+
+.navbar-nav > li > a:hover span.nav-contact,
+.navbar-nav > li > a:hover span.nav-home,
+.navbar-nav > li > a:hover span.nav-about,
+.navbar-nav > li > a:hover span.nav-news,
+.navbar-nav > li > a:hover span.nav-live,
+.navbar-nav > li > a:hover span.nav-ondemand,
+.navbar-nav > li > a:hover span.nav-station,
+.navbar-nav > li > a:hover span.nav-program,
+.navbar-nav > li > a:hover span.nav-donwload,
+.first-menu #video:hover a{
+	color:#bf1e2e;
+	font-size:100%;
+}
+
+
+.navbar-nav > li > a:hover span.nav-contact,
+.navbar-nav > li > a:hover span.nav-home,
+.navbar-nav > li > a:hover span.nav-about,
+.navbar-nav > li > a:hover span.nav-news,
+.navbar-nav > li > a:hover span.nav-live,
+.navbar-nav > li > a:hover span.nav-ondemand,
+.navbar-nav > li > a:hover span.nav-station,
+.navbar-nav > li > a:hover span.nav-program,
+.navbar-nav > li > a:hover span.nav-donwload,
+.first-menu #video:hover a{
+	color:#bf1e2e;
+	font-size:100%;
+}
+
+.menu-text{
+	color:#949494 !important;
+}
+
+.first-menu,.dropdown-secondlevel,
+.dropdown-secondlevel2{
+	background-color:#000;
+}
+
+/*a.Contact-Us{
+	color:#ffff00;
+}*/
+
+.first-menu .wrap-contact a, .first-menu .wrap-about a {
+    color: #ffff00;
+}
+/*.first-menu .wrap-about a.About-Us{
+	color:#bf1e2e;
+}*/
+.first-menu .wrap-contact a.Contact-Us{
+	color:#bf1e2e;
+}
+
+#mobile .navbar-header,
+.navbar-default,#mobile .navbar-default .navbar-collapse{
+	background:none;
+}
+
+.navbar-default{
+	border:1px solid #ffff00;
+}
+
+#destop-hd{
+	background:none;
+}
+
+.panel .dropdown-menu{
+	background-color:#000;
+	border:1px solid #ffff00;
+}
+
+
+/* ==================================================
+   button
+================================================== */
+.change-bg-wh,
+.change-bg-yw
+{
+	background-color:#000;
+	border-radius:8px;
+	-moz-border-radius:8px;
+	-webkit-border-radius:8px;
+	padding:0px 10px 2px 10px;
+	display:inline-block;
+	font-size:160%;
+	border:1px solid #5091c4;
+	line-height:1em;
+	
+}
+
+.change-bg-wh{
+	color:#fff;
+	border:1px solid #fff;
+}
+.change-bg-yw{
+	color:#ffff00;
+	border:1px solid #ffff00;
+}
+
+.change-bg-wh:hover{
+	border:1px solid #fff;
+	color:#fff;
+}
+
+.change-bg-yw:hover{
+	border:1px solid #ffff00;
+	color:#ffff00;
+}
+
+.change-bg-default{
+	background-color:#fff;
+	border-radius:8px;
+	-moz-border-radius:8px;
+	-webkit-border-radius:8px;
+	padding:0px 10px 2px 10px;
+	display:inline-block;
+	font-size:160%;
+	border:1px solid #000;
+	color:#000;
+	line-height:1em;
+}
+.change-bg-default:hover{
+	color:#000;
+	
+}
+
+
+.btn-2{
+	background:none;
+	border:1px solid #ffff00;
+	/*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff', GradientType=0 );*/
+}
+.radius-button{
+	border: 3px solid #ffff00;
+}
+.btn-3,
+.bg-blue01{
+	background:none;
+	border:1px solid #ffff00;
+}
+table.contactform_table tr td.input-detail textarea{
+	background:none;
+}
+
+table.contactform_table tr td.input-detail input, 
+table.contactform_table tr td.input-detail select{
+	background:none;
+	border:1px solid #ffff00;
+	
+}
+
+.btn-6,
+.btn-4,
+.btn-7{
+	background:none;
+	border:1px solid #ffff00;
+}
+
+.active .btn-6,
+.active .btn-6:hover,
+.active .btn-6:focus,
+.active .btn-6:active{
+	color:#000;
+	background-color:#ffff00;
+	
+}
+
+.btn-7:hover,
+.btn-7:focus,
+.btn-7:active{
+	color:#ffff00;
+}
+.input-group-addon{
+	background:#ffff00;
+	/*border:1px solid #ffff00;*/
+}
+
+
+
+/* ==================================================
+   searchbox
+================================================== */
+.searchbox{
+	background-color:#fff;
+}
+.search-nd .form-control{
+	background:none;
+	border:1px solid #ffff00;
+}
+
+
+.searchbox form input[type="submit"]{
+	
+	background:#fff;
+	/*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff', GradientType=0 );*/
+	
+
+}
+
+.searchbox form input[type="text"]{
+	
+	padding:0;
+	padding-left:8px;
+	margin:0;
+	border:none;
+	outline:none;
+	background:none;
+	width:100%;
+	height: auto;
+	padding:7px 0 7px 4px;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+	border:1px solid #ffff00;	
+
+}
+.searchbox form input[type="text"]{
+	/*padding:9px 0 9px 4px\0/;*/
+}
+
+/* ==================================================
+   searchbox
+================================================== */
+
+#video-live{
+	background:url(../imgs/all-site/bg_uer_control.png) repeat;
+	margin:0% 0;
+	padding:3.517% 15px;
+}
+
+
+/* ==================================================
+   mainContent
+================================================== */
+
+#mainContent{
+	background-color:#000;
+}
+
+.background-video{
+	border:1px solid #ffff00;	
+}
+
+
+.panel-heading,
+.panel{
+	background:none;
+}
+.panel-heading,
+.background-panel-heading{
+	border:1px solid #ffff00;
+	border-bottom:1px solid #ffff00 !important;	
+}
+
+.run-text .panel-heading{
+	background:none !important;
+}
+
+.video-caption{
+	background:none;
+}
+
+
+/* ==================================================
+   calendar
+================================================== */
+
+.fc th {
+	background:none;
+}
+
+.fc-toolbar{
+	border:1px solid #ffff00;
+}
+
+.fc-unthemed .fc-popover, .fc-unthemed .fc-row, .fc-unthemed hr, 
+.fc-unthemed tbody, .fc-unthemed td, .fc-unthemed th, .fc-unthemed thead{
+	border-color:#ffff00;
+	color:#ffff00;
+}
+
+.fc-toolbar h2{
+	color:#ffff00;
+}
+
+
+/* ==================================================
+   news
+================================================== */
+
+.main-background{
+	background-color:#000;
+}
+
+
+.titleHeaderarticle{
+	
+	background:#000 ;
+	padding:12px 0;
+	border:1px solid #ffff00;
+	border-bottom:none;
+
+}
+
+.border-normal{
+	border:1px solid #ffff00;	
+}
+
+.located{
+	background-color:#000;
+}
+.located:hover{
+	background-color:#000;
+}
+
+.send-massenger{
+	border:1px solid #ffff00;
+}
+
+
+/* ==================================================
+  links
+================================================== */
+.ganeral-theme{
+	display:none;
+}
+
+.black-wh-theme{
+	display:block;
+}
+
+/* ==================================================
+  about 
+================================================== */
+
+.about-hedline .color4{
+	color:#ffff00;
+}
+
+
+/* ==================================================
+ slide
+================================================== */
+.owl-theme .owl-controls .owl-page span{
+	background: #ffff00;
+	border:3px solid #ffff00;
+}
+
+.owl-theme .owl-controls .owl-page.active span,
+.owl-theme .owl-controls.clickable .owl-page:hover span{
+	background: #ffff00;
+	border:3px solid #fff;
+}
+
+.thirdslide .owl-buttons{
+	top:22.345%;
+}
+
+.thirdslide .owl-prev{
+	width:18px;
+	height:18px;
+	background:url(../images/i-con/angle-r-w.png) no-repeat;
+	background-size:8px 16px;
+	background-position:center;
+	margin:4px !important;
+	left:-18px;
+}
+
+.thirdslide .owl-next{
+	background:url(../images/i-con/angle-l-w.png) no-repeat;
+	background-size:8px 16px;
+	width:18px;
+	height:18px;
+	background-position:center;
+	margin:4px !important;
+	right:-18px;
+}
+
+
+
+/* ==================================================
+  form
+================================================== */
+
+table.contactform_table tr td.input-detail input, table.contactform_table tr td.input-detail select,
+table.contactform_table tr td.input-detail textarea{
+	border: 1px solid #ffff00 !important;
+}
+
+
+/* ==================================================
+  wrap-interest 
+================================================== */
+.wrap-interest{
+	background-color:#2d2d2d;
+	border-top:1px solid #ffff00;	
+	border-bottom:1px solid #ffff00;	
+}
+
+
+.pagination > li > a{
+	border:1px solid #ffff00;
+	background:none;
+	
+}
+
+.pagination > li > a{
+	color:#ffff00;
+}
+
+.pagination > li.active > a{
+	color:#ffff00;
+	border:1px solid #fff;
+}
+
+
+footer{
+	background-color:#000;
+}
+
+.footer,
+.footer .breadcrumb{
+	
+	background:none;
+}
+.footer{
+	border:1px solid #ffff00;
+}
+
+
+
+@media screen and (min-width:768px){
+	#menu{
+		background-color:#000;
+		border:1px solid #ffff00;	
+		margin:1.5625% 0;
+		
+		
+	}
+	.thirdslide .owl-theme .owl-controls{
+		bottom:52px;
+	}
+}
+
+@media screen and (min-width:1200px){
+	
+	/*main menu*/
+	#menu{
+		margin:0% 0 0px 0;
+		background-color:#000;
+		
+		
+	}
+	/*search box*/
+	select.form-control{
+		margin:13px 0 15px 0;
+
+	}
+	
+	.searchbox form input[type="submit"]{
+		width:98px;
+		border:1px solid #ffff00;	
+	}
+}

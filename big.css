@@ -1,0 +1,102 @@
+#one{font-size: 20px;}
+
+
+/*change text for ie8*/
+/*#log-in-outtext{
+	font-size:140%\0/;
+}*/
+
+.font_level1{
+	font-size:120%;
+}
+
+.font_level2{
+	font-size:120%;
+}
+
+.font_level3{
+	font-size:140%;
+}
+
+/*#log-in-outtext{
+	font-size:14px;
+}
+*/
+.font_level4{
+	font-size:140%;
+}
+
+.font_level5{
+	font-size:140%;
+}
+
+.font_level5_2{
+	font-size:160%;
+}
+
+.font_level7{
+	font-size:160%;
+}
+
+.font_level6{
+	font-size:180%;
+}
+
+.font_level8{
+	font-size:220%;
+}
+
+.font_level9{
+	font-size:260%;
+}
+
+
+#ie-changetext a{
+	font-size:13px;
+}
+
+/* ==================================================
+   calendar
+================================================== */
+
+.fc-unthemed .fc-popover, .fc-unthemed .fc-row, .fc-unthemed hr, 
+.fc-unthemed tbody, .fc-unthemed td, .fc-unthemed th, .fc-unthemed thead{
+	font-size:110%;
+	
+}
+
+
+/* ==================================================
+   searbox texts
+================================================== */
+
+.form-control {
+    font-size: 120%;
+}
+
+.searchbox{
+	font-size:120%;
+}
+
+/* ==================================================
+   news section
+================================================== */
+.news-scroll{
+	/*max-height: 329px;
+    min-height: 329px;*/
+}
+
+/* ==================================================
+   footer
+================================================== */
+.footer .breadcrumb,
+.footer a{
+	font-size:160%;
+}
+
+
+@media screen and (min-width:1024px){
+	.font_level5{
+		font-size:150%;
+	}
+}
