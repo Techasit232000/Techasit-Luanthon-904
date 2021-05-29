@@ -1,0 +1,2531 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>โรงเรียนหนองบัว อำเภอหนองบัว จังหวัดนครสวรรค์</title>
+    <meta name="description" content="โรงเรียนหนองบัว อำเภอหนองบัว จังหวัดนครสวรรค์">
+	<meta name="keywords" content="โรงเรียนหนองบัว อำเภอหนองบัว จังหวัดนครสวรรค์">
+    <meta name="author" content="โรงเรียนหนองบัว อำเภอหนองบัว จังหวัดนครสวรรค์">
+	<meta name="stats-in-th" content="1b4c" />
+    	<link href="https://www.nongbua.ac.th/assets/css/bootstrap.css" rel="stylesheet">
+    <link href="https://www.nongbua.ac.th/assets/css/style.css" rel="stylesheet" />
+	
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="https://www.nongbua.ac.th/assets/css/bootstrap.min.css">
+	<script src="https://www.nongbua.ac.th/assets/css/jquery.min.js"></script>
+	<script src="https://www.nongbua.ac.th/assets/css/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="https://www.nongbua.ac.th/js/fullcalendar-2.1.1/fullcalendar.min.css">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-fileinput/5.1.2/css/fileinput.min.css" media="all" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" href="https://www.nongbua.ac.th/js/lightbox.css">
+	<link rel="stylesheet" href="https://www.nongbua.ac.th/assets/css/custom_colorpicker.css" type="text/css" />
+	<link rel="stylesheet" href="https://www.nongbua.ac.th/assets/js/jquery.datetimepicker.css">
+	<link rel="stylesheet" href="https://www.nongbua.ac.th/js/datatables.net-bs/css/dataTables.bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flexslider/2.7.2/flexslider.css" type="text/css"/>
+	<script src="https://www.nongbua.ac.th/tinymce/tinymce.min.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Sarabun&display=swap" rel="stylesheet">
+	<link href="https://www.nongbua.ac.th/blog.css" rel="stylesheet">
+	<script src="https://www.nongbua.ac.th/js/jquery.form.validator.min.js"></script>
+      <script src="https://www.nongbua.ac.th/js/security.js"></script>
+      <script src="https://www.nongbua.ac.th/js/file.js"></script>
+	  <link href="https://www.nongbua.ac.th/js/validator.css" rel="stylesheet">
+	<style>
+	  .carousel-inner > .item > img,
+	  .carousel-inner > .item > a > img {
+		  width: 100%;
+		  margin: auto;
+	  }
+	</style>
+	<style>
+.panel-body1 {
+ background:#333;
+ font-family: Sarabun;
+ }
+.flipper {
+  color: #333;
+  display: block;
+  font-size: 50px;
+  line-height: 100%;
+  padding: 0;
+  margin: 0;
+  height: 1.7em;
+}
+.flipper.flipper-invisible {
+  font-size: 0px !important;
+}
+
+.flipper-group {
+  position: relative;
+  white-space: nowrap;
+  display: block;
+  float: left;
+  padding: 0;
+  margin: 0;
+}
+.flipper-group label {
+  position: absolute;
+  color: #fff;
+  font-size: 20%;
+  top: 100%;
+  line-height: 1em;
+  left: 50%;
+  -webkit-transform: translate(-50%, 0);
+          transform: translate(-50%, 0);
+  text-align: center;
+  padding-top: .5em;
+}
+
+.flipper-digit {
+  white-space: nowrap;
+  position: relative;
+  padding: 0;
+  margin: 0;
+  display: inline-block;
+  float: left;
+  height: 1.2em;
+  overflow-y: hidden;
+}
+.flipper-digit span {
+  font-size: 25%;
+}
+
+.flipper-delimiter {
+  white-space: nowrap;
+  display: block;
+  float: left;
+  padding: 0;
+  margin: 0;
+  color: #fff;
+  min-width: .1em;
+  white-space: nowrap;
+  display: block;
+  padding-top: 0.1em;
+  padding-bottom: 0.1em;
+  line-height: 1em;
+}
+
+.digit-face {
+  display: block;
+  visibility: hidden;
+  position: relative;
+  border-radius: 0.1em;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 8;
+  padding-top: 0.1em;
+  padding-bottom: 0.1em;
+  padding-left: 0.1em;
+  padding-right: 0.1em;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.digit-next {
+  display: block;
+  position: relative;
+  border-radius: 0.1em;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 8;
+  height: 1.2em;
+  background: #fff;
+  padding-top: 0.1em;
+  padding-bottom: 0.1em;
+  padding-left: 0.1em;
+  padding-right: 0.1em;
+  box-sizing: border-box;
+  text-align: center;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.digit-top {
+  z-index: 10;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 50%;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  pointer-events: none;
+  overflow: hidden;
+  position: absolute;
+  background: #fff;
+  padding-top: 0.1em;
+  padding-bottom: 0;
+  padding-left: 0.1em;
+  padding-right: 0.1em;
+  border-top-left-radius: 0.1em;
+  border-top-right-radius: 0.1em;
+  box-sizing: border-box;
+  text-align: center;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  transition: background 0s linear, -webkit-transform 0s linear;
+  transition: transform 0s linear, background 0s linear;
+  transition: transform 0s linear, background 0s linear, -webkit-transform 0s linear;
+  -webkit-transform-origin: 0 0.6em 0 !important;
+          transform-origin: 0 0.6em 0 !important;
+  -webkit-transform-style: preserve-3d !important;
+          transform-style: preserve-3d !important;
+  z-index: 20;
+}
+.digit-top.r {
+  transition: background 0.2s linear, -webkit-transform 0.2s linear;
+  transition: transform 0.2s linear, background 0.2s linear;
+  transition: transform 0.2s linear, background 0.2s linear, -webkit-transform 0.2s linear;
+  -webkit-transform: rotateX(90deg);
+          transform: rotateX(90deg);
+  background: #cccccc;
+}
+
+.digit-top2 {
+  visibility: hidden;
+  position: absolute;
+  height: 50%;
+  left: 0;
+  right: 0;
+  background: #cccccc;
+  transition: -webkit-transform 0.2s linear;
+  transition: transform 0.2s linear;
+  transition: transform 0.2s linear, -webkit-transform 0.2s linear;
+  line-height: 0em !important;
+  top: 50% !important;
+  bottom: auto !important;
+  padding-top: 0;
+  padding-bottom: 0.1em;
+  padding-left: 0.1em;
+  padding-right: 0.1em;
+  border-bottom-left-radius: 0.1em;
+  border-bottom-right-radius: 0.1em;
+  overflow: hidden;
+  text-align: center;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  transition: background 0s linear, -webkit-transform 0s linear;
+  transition: transform 0s linear, background 0s linear;
+  transition: transform 0s linear, background 0s linear, -webkit-transform 0s linear;
+  -webkit-transform: rotateX(-90deg);
+          transform: rotateX(-90deg);
+  -webkit-transform-style: preserve-3d !important;
+          transform-style: preserve-3d !important;
+  -webkit-transform-origin: 0 0 0 !important;
+          transform-origin: 0 0 0 !important;
+  z-index: 20;
+}
+.digit-top2.r {
+  visibility: visible;
+  transition: background 0.2s linear 0.2s, -webkit-transform 0.2s linear 0.2s;
+  transition: transform 0.2s linear 0.2s, background 0.2s linear 0.2s;
+  transition: transform 0.2s linear 0.2s, background 0.2s linear 0.2s, -webkit-transform 0.2s linear 0.2s;
+  -webkit-transform: rotateX(0deg);
+          transform: rotateX(0deg);
+  background: #fff;
+}
+
+.digit-bottom {
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  pointer-events: none;
+  position: absolute;
+  overflow: hidden;
+  background: #fff;
+  height: 50%;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 9;
+  line-height: 0em;
+  padding-top: 0;
+  padding-bottom: 0.1em;
+  padding-left: 0.1em;
+  padding-right: 0.1em;
+  border-bottom-left-radius: 0.1em;
+  border-bottom-right-radius: 0.1em;
+  box-sizing: border-box;
+  text-align: center;
+  transition: none;
+}
+.digit-bottom.r {
+  transition: background 0.2s linear;
+  background: #cccccc;
+}
+.flipper-dark {
+  color: #fff;
+}
+.flipper-dark .flipper-delimiter {
+  color: #333;
+}
+.flipper-dark .digit-next {
+  background: #333;
+}
+.flipper-dark .digit-top {
+  background: #333;
+}
+.flipper-dark .digit-top.r {
+  background: black;
+}
+.flipper-dark .digit-top2 {
+  background: black;
+}
+.flipper-dark .digit-top2.r {
+  background: #333;
+}
+.flipper-dark .digit-bottom {
+  background: #333;
+}
+
+.flipper-dark-labels .flipper-group label {
+  color: #333;
+}
+    </style>
+	<script>
+	tinymce.init({
+    selector: "textarea",
+	theme: "modern",
+	file_browser_callback_types: 'file image media',
+	height: 400,
+    plugins: [
+    "advlist autolink autosave link image code lists charmap print preview hr anchor pagebreak",
+    "searchreplace wordcount visualblocks visualchars code fullscreen insertdatetime media nonbreaking",
+    "table contextmenu directionality emoticons template textcolor paste fullpage textcolor colorpicker textpattern"
+  ],
+    toolbar1: "newdocument fullpage | bold italic underline strikethrough | alignleft aligncenter alignright alignjustify | styleselect formatselect fontselect fontsizeselect",
+  toolbar2: "cut copy paste | searchreplace | bullist numlist | outdent indent blockquote | undo redo | link unlink anchor image code media | insertdatetime preview | forecolor backcolor",
+  toolbar3: "table | hr removeformat | subscript superscript | charmap emoticons | print fullscreen | ltr rtl | visualchars visualblocks nonbreaking template pagebreak restoredraft",
+  image_advtab: true ,
+   
+   external_filemanager_path:"https://www.nongbua.ac.th/filemanager/",
+   filemanager_title:"Responsive Filemanager" ,
+   external_plugins: { "filemanager" : "https://www.nongbua.ac.th/filemanager/plugin.min.js"}
+   ,relative_urls:false,
+   remove_script_host:false,
+   document_base_url:"https://www.nongbua.ac.th",
+   images_upload_url: 'upload.php',
+    
+    // override default upload handler to simulate successful upload
+    images_upload_handler: function (blobInfo, success, failure) {
+        var xhr, formData;
+      
+        xhr = new XMLHttpRequest();
+        xhr.withCredentials = false;
+        xhr.open('POST', 'upload.php');
+      
+        xhr.onload = function() {
+            var json;
+        
+            if (xhr.status != 200) {
+                failure('HTTP Error: ' + xhr.status);
+                return;
+            }
+        
+            json = JSON.parse(xhr.responseText);
+        
+            if (!json || typeof json.location != 'string') {
+                failure('Invalid JSON: ' + xhr.responseText);
+                return;
+            }
+        
+            success(json.location);
+        };
+      
+        formData = new FormData();
+        formData.append('file', blobInfo.blob(), blobInfo.filename());
+      
+        xhr.send(formData);
+    },
+ });
+ $(document).on('focusin', function(e) {
+    if ($(event.target).closest(".mce-window").length) {
+        e.stopImmediatePropagation();
+    }
+});
+</script>
+<style>
+	.list-group-item-primary{
+		color:#FFFFFF;
+		background-color:#428bca;
+		border-color:#428bca transparent transparent
+	}
+	a.list-group-item-primary{color:#428bca}
+	a.list-group-item-primary:hover{
+		background-color:#428bca;
+		border-color:#428bca transparent transparent
+	}
+	.panel-primary{
+		border-color:#428bca	
+	}
+	.panel-primary>.panel-heading{
+		color:#FFFFFF;
+		background-color:#428bca;
+		border-color:#428bca	
+	}
+	
+	.list-group-item-success{
+		color:#FFFFFF;
+		background-color:#5cb85c;
+		border-color:#5cb85c transparent transparent
+	}
+	a.list-group-item-success{color:#5cb85c}
+	a.list-group-item-success:hover{
+		background-color:#5cb85c;
+		border-color:#5cb85c transparent transparent
+	}
+	.panel-success{
+		border-color:#5cb85c	
+	}
+	.panel-success>.panel-heading{
+		color:#FFFFFF;
+		background-color:#5cb85c;
+		border-color:#5cb85c	
+	}
+	
+	.list-group-item-info{
+		color:#FFFFFF;
+		background-color:#5bc0de;
+		border-color:#5bc0de transparent transparent
+	}
+	a.list-group-item-info{color:#5bc0de}
+	a.list-group-item-info:hover{
+		background-color:#5bc0de;
+		border-color:#5bc0de transparent transparent
+	}
+	.panel-info{
+		border-color:#5bc0de	
+	}
+	.panel-info>.panel-heading{
+		color:#FFFFFF;
+		background-color:#5bc0de;
+		border-color:#5bc0de	
+	}
+	
+	.list-group-item-warning{
+		color:#FFFFFF;
+		background-color:#f0ad4e;
+		border-color:#f0ad4e transparent transparent
+	}
+	a.list-group-item-warning{color:#f0ad4e}
+	a.list-group-item-warning:hover{
+		background-color:#f0ad4e;
+		border-color:#f0ad4e transparent transparent
+	}
+	.panel-warning{
+		border-color:#f0ad4e	
+	}
+	.panel-warning>.panel-heading{
+		color:#FFFFFF;
+		background-color:#f0ad4e;
+		border-color:#f0ad4e	
+	}
+	
+	.list-group-item-danger{
+		color:#FFFFFF;
+		background-color:#d9534f;
+		border-color:#d9534f transparent transparent
+	}
+	a.list-group-item-danger{color:#d9534f}
+	a.list-group-item-danger:hover{
+		background-color:#d9534f;
+		border-color:#d9534f transparent transparent
+	}
+	.panel-danger{
+		border-color:#d9534f	
+	}
+	.panel-danger>.panel-heading{
+		color:#FFFFFF;
+		background-color:#d9534f;
+		border-color:#d9534f	
+	}
+	
+	.list-group-item-default{
+		color:#000000;
+		background-color:#ffffff;
+		border-color:#000000 transparent transparent
+	}
+	a.list-group-item-default{color:#ffffff}
+	a.list-group-item-default:hover{
+		background-color:#ffffff;
+		border-color:#000000 transparent transparent
+	}
+	.panel-default{
+		border-color:#000000	
+	}
+	.panel-default>.panel-heading{
+		color:#000000;
+		background-color:#ffffff;
+		border-color:#000000	
+	}
+.dropdown-submenu {
+  position: relative;
+}
+
+.dropdown-submenu a::after {
+  transform: rotate(-90deg);
+  position: absolute;
+  right: 6px;
+  top: .8em;
+}
+
+.dropdown-submenu .dropdown-menu {
+  top: 0;
+  width: 100%;
+  left: 100%;
+  margin-left: .1rem;
+  margin-right: .1rem;
+}
+	</style>	<style type="text/css">
+            body
+            {
+				font-family: 'Sarabun', sans-serif;
+				                background-color: #e4f312;
+								margin-left: 0px;
+				margin-top: 0px;
+				margin-right: 0px;
+				margin-bottom: 0px;
+            }
+    </style>
+<script src="//platform-api.sharethis.com/js/sharethis.js#property=5b0e617b43a707001159fdac&product=inline-share-buttons"></script>
+</head>
+<body>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = 'https://connect.facebook.net/th_TH/sdk.js#xfbml=1&version=v2.12&appId=226859551027291&autoLogAppEvents=1';
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+	<div class="container footShadow" style="background-color:#ffffff;">
+	
+            <div class="navbar-header navbar-default" style="background-color:#fff">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="https://www.nongbua.ac.th/home"><img alt="E-SCHOOL V.1.0" src="https://www.nongbua.ac.th/image/logo.png" hight="100px" width="100px"></a>
+            </div>
+							<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				<ul class="nav navbar-nav navbar-right">
+								<li><a href="https://www.nongbua.ac.th/home"><i class="glyphicon glyphicon-home"></i> หน้าแรก</a></li>
+																								<li><a href="https://www.nongbua.ac.th/boss"><i class="glyphicon glyphicon-user"></i> ครู-บุคลากรโรงเรียน</a></li>
+																					<li><a href="https://www.nongbua.ac.th/news"><i class="glyphicon glyphicon-bullhorn"></i> ข่าวประชาสัมพันธ์</a></li>
+																					<li><a href="https://www.nongbua.ac.th/picture"><i class="glyphicon glyphicon-picture"></i> ภาพกิจกรรม</a></li>
+																				<li class="dropdown">
+				  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="glyphicon glyphicon-globe"></i> ITA Online <span class="caret"></span></a>
+				  <ul class="dropdown-menu">
+											</ul>
+					</li>
+																					<li><a href="https://www.nongbua.ac.th/complaint"><i class="glyphicon glyphicon-comment"></i> สอบถาม/ร้องเรียน</a></li>
+																													</ul> 
+				</div>     	<style>
+            /* jssor slider loading skin spin css */
+            .jssorl-009-spin img {
+                animation-name: jssorl-009-spin;
+                animation-duration: 1.6s;
+                animation-iteration-count: infinite;
+                animation-timing-function: linear;
+            }
+
+            @keyframes jssorl-009-spin {
+                from {
+                    transform: rotate(0deg);
+                }
+
+                to {
+                    transform: rotate(360deg);
+                }
+            }
+        </style>
+		<div id="slider1_container" style="visibility: hidden; position: relative; margin: 0 auto; width: 1140px; height: 400px; overflow: hidden;">
+            <div data-u="loading" class="jssorl-009-spin" style="position:absolute;top:0px;left:0px;width:100%;height:100%;text-align:center;background-color:rgba(0,0,0,0.7);">
+                <img style="margin-top:-19px;position:relative;top:50%;width:38px;height:38px;" src="image/echool.svg" />
+            </div>
+            <div data-u="slides" style="position: absolute; left: 0px; top: 0px; width: 1140px; height: 400px;
+            overflow: hidden;">
+			                <div>
+                    <img data-u="image" src="https://www.nongbua.ac.th/files/config_slide/20210419XB9TPST9STAE51AK.jpg" />
+                </div>
+			                <div>
+                    <img data-u="image" src="https://www.nongbua.ac.th/files/config_slide/20210426X5LQQC4PK35C50ZU.jpg" />
+                </div>
+			                <div>
+                    <img data-u="image" src="https://www.nongbua.ac.th/files/config_slide/20210521XZ62W28NA5U8FQUZ.jpg" />
+                </div>
+			            </div>
+            <style>
+                .jssorb031 {position:absolute;}
+                .jssorb031 .i {position:absolute;cursor:pointer;}
+                .jssorb031 .i .b {fill:#000;fill-opacity:0.5;stroke:#fff;stroke-width:1200;stroke-miterlimit:10;stroke-opacity:0.3;}
+                .jssorb031 .i:hover .b {fill:#fff;fill-opacity:.7;stroke:#000;stroke-opacity:.5;}
+                .jssorb031 .iav .b {fill:#fff;stroke:#000;fill-opacity:1;}
+                .jssorb031 .i.idn {opacity:.3;}
+            </style>
+            <div data-u="navigator" class="jssorb031" style="position:absolute;bottom:12px;right:12px;" data-autocenter="1" data-scale="0.5" data-scale-bottom="0.75">
+                <div data-u="prototype" class="i" style="width:16px;height:16px;">
+                    <svg viewBox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;">
+                        <circle class="b" cx="8000" cy="8000" r="5800"></circle>
+                    </svg>
+                </div>
+            </div>
+            <style>
+                .jssora051 {display:block;position:absolute;cursor:pointer;}
+                .jssora051 .a {fill:none;stroke:#fff;stroke-width:360;stroke-miterlimit:10;}
+                .jssora051:hover {opacity:.8;}
+                .jssora051.jssora051dn {opacity:.5;}
+                .jssora051.jssora051ds {opacity:.3;pointer-events:none;}
+            </style>
+
+        </div>
+	    </div>
+    <div class="container footShadow" style="background-color:#ffffff;">
+         ﻿﻿<div class="row">
+							<div class="col-md-3">
+															<div class="panel panel-warning">
+                        <div class="panel-heading">
+                           <i class="glyphicon glyphicon-home"> <font style="font-family: 'Sarabun', sans-serif;">เมนูหลัก</font></i>
+                        </div>
+							<ul class="list-group">
+														<li class="list-group-item"><i class="glyphicon glyphicon-play"></i> 
+														<a href="https://www.nongbua.ac.th/Menu/1">ประวัติโรงเรียน</a>
+														</li>
+														<li class="list-group-item"><i class="glyphicon glyphicon-play"></i> 
+														<a href="https://www.nongbua.ac.th/Menu/2">สัญลักษณ์โรงเรียน</a>
+														</li>
+														<li class="list-group-item"><i class="glyphicon glyphicon-play"></i> 
+														<a href="https://www.nongbua.ac.th/Menu/3">วิสัยทัศน์ / ปรัชญา</a>
+														</li>
+														<li class="list-group-item"><i class="glyphicon glyphicon-play"></i> 
+														<a href="https://www.nongbua.ac.th/Menu/4">อัตลักษณ์ เอกลักษณ์</a>
+														</li>
+														<li class="list-group-item"><i class="glyphicon glyphicon-play"></i> 
+														<a href="https://www.nongbua.ac.th/calendar">ปฏิทินกิจกรรม</a>
+														</li>
+														<li class="list-group-item"><i class="glyphicon glyphicon-play"></i> 
+														<a href="https://www.nongbua.ac.th/bossold">ทำเนียบผู้บริหาร</a>
+														</li>
+														<li class="list-group-item"><i class="glyphicon glyphicon-play"></i> 
+														<a href="https://www.nongbua.ac.th/boss">ครู-บุคลากร</a>
+														</li>
+														<li class="list-group-item"><i class="glyphicon glyphicon-play"></i> 
+														<a href="https://www.nongbua.ac.th/kanmakan">คณะกรรมการสถานศึกษา</a>
+														</li>
+														<li class="list-group-item"><i class="glyphicon glyphicon-play"></i> 
+														<a href="https://www.nongbua.ac.th/student">คณะกรรมการนักเรียน</a>
+														</li>
+														<li class="list-group-item"><i class="glyphicon glyphicon-play"></i> 
+														<a href="https://www.nongbua.ac.th/DMC">ข้อมูลนักเรียน</a>
+														</li>
+														<li class="list-group-item"><i class="glyphicon glyphicon-play"></i> 
+														<a href="https://www.nongbua.ac.th/Menu/11">ติดต่อเรา</a>
+														</li>
+														</ul>
+						</div>
+																				<div class="panel panel-warning">
+                        <div class="panel-heading">
+                           <i class="glyphicon glyphicon-th-list"> <font style="font-family: 'Sarabun', sans-serif;">กลุ่มสาระการเรียนรู้</font></i>
+                        </div>
+							<ul class="list-group">
+														<li class="list-group-item"><i class="glyphicon glyphicon-asterisk"></i> 
+							<a href="https://www.nongbua.ac.th/saravicha/1/ผู้บริหาร">ผู้บริหาร</a></li>
+														<li class="list-group-item"><i class="glyphicon glyphicon-asterisk"></i> 
+							<a href="https://www.nongbua.ac.th/saravicha/2/กลุ่มสาระฯภาษาไทย">กลุ่มสาระฯภาษาไทย</a></li>
+														<li class="list-group-item"><i class="glyphicon glyphicon-asterisk"></i> 
+							<a href="https://www.nongbua.ac.th/saravicha/3/กลุ่มสาระฯคณิตศาตร์">กลุ่มสาระฯคณิตศาตร์</a></li>
+														<li class="list-group-item"><i class="glyphicon glyphicon-asterisk"></i> 
+							<a href="https://www.nongbua.ac.th/saravicha/4/กลุ่มสาระฯวิทยาศาสตร์และเทคโนโลยี">กลุ่มสาระฯวิทยาศาสตร์และเทคโนโลยี</a></li>
+														<li class="list-group-item"><i class="glyphicon glyphicon-asterisk"></i> 
+							<a href="https://www.nongbua.ac.th/saravicha/5/กลุ่มสาระฯสังคมศึกษาฯ">กลุ่มสาระฯสังคมศึกษาฯ</a></li>
+														<li class="list-group-item"><i class="glyphicon glyphicon-asterisk"></i> 
+							<a href="https://www.nongbua.ac.th/saravicha/6/กลุ่มสาระฯสุขศึกษาฯ">กลุ่มสาระฯสุขศึกษาฯ</a></li>
+														<li class="list-group-item"><i class="glyphicon glyphicon-asterisk"></i> 
+							<a href="https://www.nongbua.ac.th/saravicha/7/กลุ่มสาระฯศิลปะ">กลุ่มสาระฯศิลปะ</a></li>
+														<li class="list-group-item"><i class="glyphicon glyphicon-asterisk"></i> 
+							<a href="https://www.nongbua.ac.th/saravicha/8/กลุ่มสาระฯการงานอาชีพฯ">กลุ่มสาระฯการงานอาชีพฯ</a></li>
+														<li class="list-group-item"><i class="glyphicon glyphicon-asterisk"></i> 
+							<a href="https://www.nongbua.ac.th/saravicha/9/กลุ่มสาระฯภาษาต่างประเทศ">กลุ่มสาระฯภาษาต่างประเทศ</a></li>
+														<li class="list-group-item"><i class="glyphicon glyphicon-asterisk"></i> 
+							<a href="https://www.nongbua.ac.th/saravicha/10/กิจกรรมพัฒนาผู้เรียน">กิจกรรมพัฒนาผู้เรียน</a></li>
+														<li class="list-group-item"><i class="glyphicon glyphicon-asterisk"></i> 
+							<a href="https://www.nongbua.ac.th/saravicha/12/กลุ่มวิชาเทคโนโลยี">กลุ่มวิชาเทคโนโลยี</a></li>
+														<li class="list-group-item"><i class="glyphicon glyphicon-asterisk"></i> 
+							<a href="https://www.nongbua.ac.th/saravicha/14/กิจกรรมแนะแนว">กิจกรรมแนะแนว</a></li>
+														<li class="list-group-item"><i class="glyphicon glyphicon-asterisk"></i> 
+							<a href="https://www.nongbua.ac.th/saravicha/16/เจ้าหน้าที่ธุรการ">เจ้าหน้าที่ธุรการ</a></li>
+														<li class="list-group-item"><i class="glyphicon glyphicon-asterisk"></i> 
+							<a href="https://www.nongbua.ac.th/saravicha/17/ลูกจ้างประจำ">ลูกจ้างประจำ</a></li>
+														<li class="list-group-item"><i class="glyphicon glyphicon-asterisk"></i> 
+							<a href="https://www.nongbua.ac.th/saravicha/18/ลูกจ้างชั่วคราว">ลูกจ้างชั่วคราว</a></li>
+														<li class="list-group-item"><i class="glyphicon glyphicon-asterisk"></i> 
+							<a href="https://www.nongbua.ac.th/saravicha/19/นักศึกษาฝึกประสบการณ์สอน">นักศึกษาฝึกประสบการณ์สอน</a></li>
+														</ul>
+						</div>
+																				<div class="panel panel-warning">
+                        <div class="panel-heading">
+                           <i class="glyphicon glyphicon-th"> <font style="font-family: 'Sarabun', sans-serif;">บุคลากรโรงเรียน</font></i>
+                        </div>
+                       <div class="panel-body">
+						
+							<div id="per-slider" class="slider flexslider">
+								<ul class="slides">
+																				<li>
+										<a href="#"><img src="files/person/20210419XH6RDBHX1HYULP5X.jpg"  alt="นายสมัคร นรินทร์รัมย์" style="width:100%;height:300px;"></a>
+										
+											<div class="secondary clearfix" style="width:100%; text-align:center;"><br>นายสมัคร นรินทร์รัมย์<br>รองผู้อำนวยการสถานศึกษา</div>
+										
+										</li>
+																				<li>
+										<a href="#"><img src="files/person/20210421XADTY3GCSYYN9EVN.jpg"  alt="นางสาวณัฐทิวา  ขุนวังกรด" style="width:100%;height:300px;"></a>
+										
+											<div class="secondary clearfix" style="width:100%; text-align:center;"><br>นางสาวณัฐทิวา  ขุนวังกรด<br>รองผู้อำนวยการสถานศึกษา</div>
+										
+										</li>
+																				<li>
+										<a href="#"><img src="files/person/20210419X0DFFZSMF3676GTS.jpg"  alt="นางกฤติมา กองทองนอก  " style="width:100%;height:300px;"></a>
+										
+											<div class="secondary clearfix" style="width:100%; text-align:center;"><br>นางกฤติมา กองทองนอก  <br>รองผู้อำนวยการสถานศึกษา</div>
+										
+										</li>
+																				<li>
+										<a href="#"><img src="files/person/20210421XBNWDKGWUWPEKKV3.jpg"  alt="นายพฤกษ  อินทโลหิตเชิดชู" style="width:100%;height:300px;"></a>
+										
+											<div class="secondary clearfix" style="width:100%; text-align:center;"><br>นายพฤกษ  อินทโลหิตเชิดชู<br>รองผู้อำนวยการสถานศึกษา</div>
+										
+										</li>
+																				<li>
+										<a href="#"><img src="files/person/20210423X7T2ERV9FJUUM9TY.jpg"  alt="นางพัชริดา  ขำทวีพรหม  " style="width:100%;height:300px;"></a>
+										
+											<div class="secondary clearfix" style="width:100%; text-align:center;"><br>นางพัชริดา  ขำทวีพรหม  <br>ครูชำนาญการพิเศษ</div>
+										
+										</li>
+																				<li>
+										<a href="#"><img src="files/person/20210423XK4LYRLW429EY1YB.jpg"  alt="นางจิราพรรณ  พูลสวัสดิ์" style="width:100%;height:300px;"></a>
+										
+											<div class="secondary clearfix" style="width:100%; text-align:center;"><br>นางจิราพรรณ  พูลสวัสดิ์<br>ครูชำนาญการพิเศษ</div>
+										
+										</li>
+																				<li>
+										<a href="#"><img src="files/person/20210423XFFMQ15QCBMFVD3K.jpg"  alt="นายเสรี  บุญประเทือง" style="width:100%;height:300px;"></a>
+										
+											<div class="secondary clearfix" style="width:100%; text-align:center;"><br>นายเสรี  บุญประเทือง<br>ครูชำนาญการพิเศษ</div>
+										
+										</li>
+																				<li>
+										<a href="#"><img src="files/person/20210421XDDLXMTMVREVMFZ7.jpg"  alt="นางโสมนัส  บุญโห้" style="width:100%;height:300px;"></a>
+										
+											<div class="secondary clearfix" style="width:100%; text-align:center;"><br>นางโสมนัส  บุญโห้<br>ครูชำนาญการพิเศษ</div>
+										
+										</li>
+																				<li>
+										<a href="#"><img src="files/person/20210423XPWXVKLD0PDXHK9L.jpg"  alt="นางสาวบุษกร  ปนสันเทียะ" style="width:100%;height:300px;"></a>
+										
+											<div class="secondary clearfix" style="width:100%; text-align:center;"><br>นางสาวบุษกร  ปนสันเทียะ<br>ครูชำนาญการพิเศษ</div>
+										
+										</li>
+																				<li>
+										<a href="#"><img src="files/person/20210421XUQXQ32QADNGP6BJ.jpg"  alt="นายณรรฐพงษ์ ฉ่ำน้อย" style="width:100%;height:300px;"></a>
+										
+											<div class="secondary clearfix" style="width:100%; text-align:center;"><br>นายณรรฐพงษ์ ฉ่ำน้อย<br>ครูชำนาญการพิเศษ</div>
+										
+										</li>
+																				<li>
+										<a href="#"><img src="files/person/20210423X2XYPA82K1HNW4YK.jpg"  alt="นางวิกานดา  บุญเอก" style="width:100%;height:300px;"></a>
+										
+											<div class="secondary clearfix" style="width:100%; text-align:center;"><br>นางวิกานดา  บุญเอก<br>ครูชำนาญการพิเศษ</div>
+										
+										</li>
+																				<li>
+										<a href="#"><img src="files/person/20210423XY26TBH2HULQZMA6.jpg"  alt="นายทินกร  ว่องสาริกิจ  " style="width:100%;height:300px;"></a>
+										
+											<div class="secondary clearfix" style="width:100%; text-align:center;"><br>นายทินกร  ว่องสาริกิจ  <br>ครูชำนาญการพิเศษ</div>
+										
+										</li>
+																				<li>
+										<a href="#"><img src="files/person/20210423X6WK6HAKVQAGQTHR.jpg"  alt="นางไพลิน  ส่งวัฒนา" style="width:100%;height:300px;"></a>
+										
+											<div class="secondary clearfix" style="width:100%; text-align:center;"><br>นางไพลิน  ส่งวัฒนา<br>ครูชำนาญการพิเศษ</div>
+										
+										</li>
+																				<li>
+										<a href="#"><img src="files/person/20210423XYDT9A5H1K40R2BR.jpg"  alt="นางสาวฐิติพร  กระโจมทอง" style="width:100%;height:300px;"></a>
+										
+											<div class="secondary clearfix" style="width:100%; text-align:center;"><br>นางสาวฐิติพร  กระโจมทอง<br>ครูชำนาญการพิเศษ</div>
+										
+										</li>
+																				<li>
+										<a href="#"><img src="files/person/20210423X2S6EF29RCVQGSCA.jpg"  alt="นางสาวจริยา  ขุนพรหม" style="width:100%;height:300px;"></a>
+										
+											<div class="secondary clearfix" style="width:100%; text-align:center;"><br>นางสาวจริยา  ขุนพรหม<br>ครูชำนาญการพิเศษ</div>
+										
+										</li>
+																				<li>
+										<a href="#"><img src="files/person/20210421X4AY4J7STU71WFTE.jpg"  alt="นางศุธชา  นภาวิวัฒนากุล" style="width:100%;height:300px;"></a>
+										
+											<div class="secondary clearfix" style="width:100%; text-align:center;"><br>นางศุธชา  นภาวิวัฒนากุล<br>ครูชำนาญการพิเศษ</div>
+										
+										</li>
+																				<li>
+										<a href="#"><img src="files/person/20210423XTJE8YS7UQQDDT4W.jpg"  alt="นางยุพา  อ่อนสด" style="width:100%;height:300px;"></a>
+										
+											<div class="secondary clearfix" style="width:100%; text-align:center;"><br>นางยุพา  อ่อนสด<br>ครูชำนาญการพิเศษ</div>
+										
+										</li>
+																				<li>
+										<a href="#"><img src="files/person/20210421XPZEF0S6A47W3DRF.jpg"  alt="นางสุนันท์  รัตนเวชสิทธิ" style="width:100%;height:300px;"></a>
+										
+											<div class="secondary clearfix" style="width:100%; text-align:center;"><br>นางสุนันท์  รัตนเวชสิทธิ<br>ครูชำนาญการพิเศษ</div>
+										
+										</li>
+																				<li>
+										<a href="#"><img src="files/person/20210423XPF7JFJMUTB5WX3S.jpg"  alt="นางนารี  ดังดี" style="width:100%;height:300px;"></a>
+										
+											<div class="secondary clearfix" style="width:100%; text-align:center;"><br>นางนารี  ดังดี<br>ครูชำนาญการพิเศษ</div>
+										
+										</li>
+																				<li>
+										<a href="#"><img src="files/person/20210423XE9RQT41H792RKEP.jpg"  alt="นายมาโนชญ์  สุขสุม  " style="width:100%;height:300px;"></a>
+										
+											<div class="secondary clearfix" style="width:100%; text-align:center;"><br>นายมาโนชญ์  สุขสุม  <br>ครูชำนาญการพิเศษ</div>
+										
+										</li>
+																				<li>
+										<a href="#"><img src="files/person/20210421XKCU1MVFBXY0C2KP.jpg"  alt="นางธิรดา  วงษ์ทานมัย" style="width:100%;height:300px;"></a>
+										
+											<div class="secondary clearfix" style="width:100%; text-align:center;"><br>นางธิรดา  วงษ์ทานมัย<br>ครูชำนาญการพิเศษ</div>
+										
+										</li>
+																				<li>
+										<a href="#"><img src="files/person/20210423XFSH648RU8K54BQA.jpg"  alt="นางมลิวัล  อินทร์สุภา" style="width:100%;height:300px;"></a>
+										
+											<div class="secondary clearfix" style="width:100%; text-align:center;"><br>นางมลิวัล  อินทร์สุภา<br>ครูชำนาญการพิเศษ</div>
+										
+										</li>
+																				<li>
+										<a href="#"><img src="files/person/20210423X5PEER2BNSMZ74X9.jpg"  alt="นางรัชดา  ชินชา" style="width:100%;height:300px;"></a>
+										
+											<div class="secondary clearfix" style="width:100%; text-align:center;"><br>นางรัชดา  ชินชา<br>ครูชำนาญการพิเศษ</div>
+										
+										</li>
+																				<li>
+										<a href="#"><img src="files/person/20210423XHPJTC1E02ZN7TB0.jpg"  alt="นางส่งศรี  โอภาษี" style="width:100%;height:300px;"></a>
+										
+											<div class="secondary clearfix" style="width:100%; text-align:center;"><br>นางส่งศรี  โอภาษี<br>ครูชำนาญการพิเศษ</div>
+										
+										</li>
+																				<li>
+										<a href="#"><img src="files/person/20210421X9JEBF1PWTP6CC2N.jpg"  alt="นายสมเกียรติ  เอมใจ" style="width:100%;height:300px;"></a>
+										
+											<div class="secondary clearfix" style="width:100%; text-align:center;"><br>นายสมเกียรติ  เอมใจ<br>ครูชำนาญการพิเศษ</div>
+										
+										</li>
+																				<li>
+										<a href="#"><img src="files/person/20210421X18AMSB0TWPYU46A.jpg"  alt="นางสาวรุ่งทิพย์  เพ็งพรม" style="width:100%;height:300px;"></a>
+										
+											<div class="secondary clearfix" style="width:100%; text-align:center;"><br>นางสาวรุ่งทิพย์  เพ็งพรม<br>ครูชำนาญการพิเศษ</div>
+										
+										</li>
+																				<li>
+										<a href="#"><img src="files/person/20210423X26D21X9D6N0X7WR.jpg"  alt="นางสาวศิริวรรณ์  ฮ้อสิทธิสมบูรณ์" style="width:100%;height:300px;"></a>
+										
+											<div class="secondary clearfix" style="width:100%; text-align:center;"><br>นางสาวศิริวรรณ์  ฮ้อสิทธิสมบูรณ์<br>ครูชำนาญการพิเศษ</div>
+										
+										</li>
+																				<li>
+										<a href="#"><img src="files/person/20210423XMJJFJXGXVUFZ4T3.jpg"  alt="นายวีรชน  พูลพันธ์" style="width:100%;height:300px;"></a>
+										
+											<div class="secondary clearfix" style="width:100%; text-align:center;"><br>นายวีรชน  พูลพันธ์<br>ครูชำนาญการพิเศษ</div>
+										
+										</li>
+																				<li>
+										<a href="#"><img src="files/person/20210423XCG4LS1DYYH1GMJU.jpg"  alt="นางสาวธิดารัตน์  ขอดจันทึก" style="width:100%;height:300px;"></a>
+										
+											<div class="secondary clearfix" style="width:100%; text-align:center;"><br>นางสาวธิดารัตน์  ขอดจันทึก<br>ครูชำนาญการพิเศษ</div>
+										
+										</li>
+																				<li>
+										<a href="#"><img src="files/person/20210421XM5R265ZW6NHDQTT.jpg"  alt="นางสุภัทธา  ทองกันทา " style="width:100%;height:300px;"></a>
+										
+											<div class="secondary clearfix" style="width:100%; text-align:center;"><br>นางสุภัทธา  ทองกันทา <br>ครูชำนาญการพิเศษ</div>
+										
+										</li>
+																				<li>
+										<a href="#"><img src="files/person/20210423XMBHKA3V37BX8LS6.jpg"  alt="นายวันชัย  รัตนเวชสิทธิ" style="width:100%;height:300px;"></a>
+										
+											<div class="secondary clearfix" style="width:100%; text-align:center;"><br>นายวันชัย  รัตนเวชสิทธิ<br>ครูชำนาญการพิเศษ</div>
+										
+										</li>
+																				<li>
+										<a href="#"><img src="files/person/20210421XD8R2LVEH6JN0L6U.jpg"  alt="นางบุญญาภา  อิ่มศิล" style="width:100%;height:300px;"></a>
+										
+											<div class="secondary clearfix" style="width:100%; text-align:center;"><br>นางบุญญาภา  อิ่มศิล<br>ครูชำนาญการพิเศษ</div>
+										
+										</li>
+																				<li>
+										<a href="#"><img src="files/person/20210421XK3R96LBX0TG2FDP.jpg"  alt="นางสาวอุษณีย์  วงษ์จันทร์" style="width:100%;height:300px;"></a>
+										
+											<div class="secondary clearfix" style="width:100%; text-align:center;"><br>นางสาวอุษณีย์  วงษ์จันทร์<br>ครูชำนาญการพิเศษ</div>
+										
+										</li>
+																				<li>
+										<a href="#"><img src="files/person/20210421XKC1K73M6X74GUBW.jpg"  alt="นางสาวณัฐมน  แก้วเกล็ด" style="width:100%;height:300px;"></a>
+										
+											<div class="secondary clearfix" style="width:100%; text-align:center;"><br>นางสาวณัฐมน  แก้วเกล็ด<br>ครูชำนาญการ</div>
+										
+										</li>
+																				<li>
+										<a href="#"><img src="files/person/20210423XM2JFAEGXZ8H73MX.jpg"  alt="นายไกรสร  อ่อนบาง" style="width:100%;height:300px;"></a>
+										
+											<div class="secondary clearfix" style="width:100%; text-align:center;"><br>นายไกรสร  อ่อนบาง<br>ครูชำนาญการ</div>
+										
+										</li>
+																				<li>
+										<a href="#"><img src="files/person/20210423X3X1VFMRA4QYK5F1.jpg"  alt="นางสาวธนภรณ์  บุญอาจ" style="width:100%;height:300px;"></a>
+										
+											<div class="secondary clearfix" style="width:100%; text-align:center;"><br>นางสาวธนภรณ์  บุญอาจ<br>ครูชำนาญการ</div>
+										
+										</li>
+																				<li>
+										<a href="#"><img src="files/person/20210421XGK06DQ0K58BAJVQ.jpg"  alt="นางอัจฉรา  ชอนบุรี" style="width:100%;height:300px;"></a>
+										
+											<div class="secondary clearfix" style="width:100%; text-align:center;"><br>นางอัจฉรา  ชอนบุรี<br>ครูชำนาญการ</div>
+										
+										</li>
+																				<li>
+										<a href="#"><img src="files/person/20210421XN85BEFNALSEJWB6.jpg"  alt="นางลาวัณย์  ณ จำปาศักดิ์  " style="width:100%;height:300px;"></a>
+										
+											<div class="secondary clearfix" style="width:100%; text-align:center;"><br>นางลาวัณย์  ณ จำปาศักดิ์  <br>ครูชำนาญการ</div>
+										
+										</li>
+																				<li>
+										<a href="#"><img src="files/person/20210423XT2VUMTYY2Z5J4RC.jpg"  alt="นางสาวเอราวัณ  บุญมั่น" style="width:100%;height:300px;"></a>
+										
+											<div class="secondary clearfix" style="width:100%; text-align:center;"><br>นางสาวเอราวัณ  บุญมั่น<br>ครูชำนาญการ</div>
+										
+										</li>
+																				<li>
+										<a href="#"><img src="files/person/20210423XRWAFA3JE610DQC8.jpg"  alt="นายพรชัย  ศรีชมพู" style="width:100%;height:300px;"></a>
+										
+											<div class="secondary clearfix" style="width:100%; text-align:center;"><br>นายพรชัย  ศรีชมพู<br>ครูชำนาญการ</div>
+										
+										</li>
+																				<li>
+										<a href="#"><img src="files/person/20210421XYQYYS0U1VCJZ7D1.jpg"  alt="นางวิภา อินสุธา" style="width:100%;height:300px;"></a>
+										
+											<div class="secondary clearfix" style="width:100%; text-align:center;"><br>นางวิภา อินสุธา<br>ครูชำนาญการ</div>
+										
+										</li>
+																				<li>
+										<a href="#"><img src="files/person/20210421XJ5CFVL15KN3T14E.jpg"  alt="นางสมใจ  นามกระโทก" style="width:100%;height:300px;"></a>
+										
+											<div class="secondary clearfix" style="width:100%; text-align:center;"><br>นางสมใจ  นามกระโทก<br>ครูชำนาญการ</div>
+										
+										</li>
+																				<li>
+										<a href="#"><img src="files/person/20210421X0F4KX9HCCK3ZYKR.jpg"  alt="นางสาวจงรักษ์  คงสูน" style="width:100%;height:300px;"></a>
+										
+											<div class="secondary clearfix" style="width:100%; text-align:center;"><br>นางสาวจงรักษ์  คงสูน<br>ครูชำนาญการ</div>
+										
+										</li>
+																				<li>
+										<a href="#"><img src="files/person/20210423X06FQDZ3193478T0.jpg"  alt="นายวรณัฐ  หมีทอง" style="width:100%;height:300px;"></a>
+										
+											<div class="secondary clearfix" style="width:100%; text-align:center;"><br>นายวรณัฐ  หมีทอง<br>ครูชำนาญการ</div>
+										
+										</li>
+																				<li>
+										<a href="#"><img src="files/person/20210423X7XG5LRUF79CBLLN.jpg"  alt="นางสาวสาวิตรี  พงษ์ไพบูลย์" style="width:100%;height:300px;"></a>
+										
+											<div class="secondary clearfix" style="width:100%; text-align:center;"><br>นางสาวสาวิตรี  พงษ์ไพบูลย์<br>ครูชำนาญการ</div>
+										
+										</li>
+																				<li>
+										<a href="#"><img src="files/person/20210423XLBREHNLCUV1Y20H.jpg"  alt="นายอภิศาล  ไทยเจริญ" style="width:100%;height:300px;"></a>
+										
+											<div class="secondary clearfix" style="width:100%; text-align:center;"><br>นายอภิศาล  ไทยเจริญ<br>ครูชำนาญการ</div>
+										
+										</li>
+																				<li>
+										<a href="#"><img src="files/person/20210423XSB0T4ETBE3L6K85.jpg"  alt="นายอธิชัย  ตางาม  " style="width:100%;height:300px;"></a>
+										
+											<div class="secondary clearfix" style="width:100%; text-align:center;"><br>นายอธิชัย  ตางาม  <br>ครูชำนาญการ</div>
+										
+										</li>
+																				<li>
+										<a href="#"><img src="files/person/20210423X2MCNG4P58RYP873.jpg"  alt="นางสาววลัยลักษณ์  ปิยะตระกูลเลิศ" style="width:100%;height:300px;"></a>
+										
+											<div class="secondary clearfix" style="width:100%; text-align:center;"><br>นางสาววลัยลักษณ์  ปิยะตระกูลเลิศ<br>ครูชำนาญการ</div>
+										
+										</li>
+																				<li>
+										<a href="#"><img src="files/person/20210421XH4JG34TDFJFYBFJ.jpg"  alt="นางวารุณี  ฉ่ำน้อย" style="width:100%;height:300px;"></a>
+										
+											<div class="secondary clearfix" style="width:100%; text-align:center;"><br>นางวารุณี  ฉ่ำน้อย<br>ครูชำนาญการ</div>
+										
+										</li>
+																				<li>
+										<a href="#"><img src="files/person/20210421XUNSXRQGNANLQ375.jpg"  alt="นางสาวกมลทิพย์  นารี" style="width:100%;height:300px;"></a>
+										
+											<div class="secondary clearfix" style="width:100%; text-align:center;"><br>นางสาวกมลทิพย์  นารี<br>ครูชำนาญการ</div>
+										
+										</li>
+																				<li>
+										<a href="#"><img src="files/person/20210423X0NQFTTJ4NJJD61Z.jpg"  alt="นายปกรณ์  โอภาษี" style="width:100%;height:300px;"></a>
+										
+											<div class="secondary clearfix" style="width:100%; text-align:center;"><br>นายปกรณ์  โอภาษี<br>ครูชำนาญการ</div>
+										
+										</li>
+																				<li>
+										<a href="#"><img src="files/person/20210421X6P4PV7MXHE6WPG0.jpg"  alt="นายวรพล  ศรีแตง  " style="width:100%;height:300px;"></a>
+										
+											<div class="secondary clearfix" style="width:100%; text-align:center;"><br>นายวรพล  ศรีแตง  <br>ครูชำนาญการ</div>
+										
+										</li>
+																				<li>
+										<a href="#"><img src="files/person/20210421XN1HNVSC0HHQZJL4.jpg"  alt="นางรัชต์กมล  ว่องสาริกิจ" style="width:100%;height:300px;"></a>
+										
+											<div class="secondary clearfix" style="width:100%; text-align:center;"><br>นางรัชต์กมล  ว่องสาริกิจ<br>ครูชำนาญการ</div>
+										
+										</li>
+																				<li>
+										<a href="#"><img src="files/person/20210421X7UAPM4WZJL5PMG8.jpg"  alt="นางพัชรี  ปุ่มสันเทียะ" style="width:100%;height:300px;"></a>
+										
+											<div class="secondary clearfix" style="width:100%; text-align:center;"><br>นางพัชรี  ปุ่มสันเทียะ<br>ครู</div>
+										
+										</li>
+																				<li>
+										<a href="#"><img src="files/person/20210421XP8EYWNLRPLS9NQV.jpg"  alt="ว่าที่ ร.ต.เกียรติธงชัย ฉายะชาติ" style="width:100%;height:300px;"></a>
+										
+											<div class="secondary clearfix" style="width:100%; text-align:center;"><br>ว่าที่ ร.ต.เกียรติธงชัย ฉายะชาติ<br>ครู</div>
+										
+										</li>
+																				<li>
+										<a href="#"><img src="files/person/20210423XU2TX1YAESXB3D8Q.jpg"  alt="นายธนชัย  ขุนแก้ว" style="width:100%;height:300px;"></a>
+										
+											<div class="secondary clearfix" style="width:100%; text-align:center;"><br>นายธนชัย  ขุนแก้ว<br>ครู</div>
+										
+										</li>
+																				<li>
+										<a href="#"><img src="files/person/20210421X4T9EWY7NBABJ6Z9.jpg"  alt="นางสาวจุฑารัตน์  บุญเงิน" style="width:100%;height:300px;"></a>
+										
+											<div class="secondary clearfix" style="width:100%; text-align:center;"><br>นางสาวจุฑารัตน์  บุญเงิน<br>ครู</div>
+										
+										</li>
+																				<li>
+										<a href="#"><img src="files/person/20210421X8T1H1RZTAGT6PVH.jpg"  alt="นางสาวนิตยา  รัตนจันทร์" style="width:100%;height:300px;"></a>
+										
+											<div class="secondary clearfix" style="width:100%; text-align:center;"><br>นางสาวนิตยา  รัตนจันทร์<br>ครู</div>
+										
+										</li>
+																				<li>
+										<a href="#"><img src="files/person/20210423XXP9J19QU7U76TFE.jpg"  alt="นางวัลลภา  ต่อเติมพัฒนกุล" style="width:100%;height:300px;"></a>
+										
+											<div class="secondary clearfix" style="width:100%; text-align:center;"><br>นางวัลลภา  ต่อเติมพัฒนกุล<br>ครู</div>
+										
+										</li>
+																				<li>
+										<a href="#"><img src="files/person/20210421X0AZ9LZM0B34UQ0J.jpg"  alt="นางสาวพัชรียา  ขยันกิจ" style="width:100%;height:300px;"></a>
+										
+											<div class="secondary clearfix" style="width:100%; text-align:center;"><br>นางสาวพัชรียา  ขยันกิจ<br>ครู</div>
+										
+										</li>
+																				<li>
+										<a href="#"><img src="files/person/20210421X9RD1BG5VFU9FUS7.jpg"  alt="นางสาวรัชนี  โล่วันทา" style="width:100%;height:300px;"></a>
+										
+											<div class="secondary clearfix" style="width:100%; text-align:center;"><br>นางสาวรัชนี  โล่วันทา<br>ครู</div>
+										
+										</li>
+																				<li>
+										<a href="#"><img src="files/person/20210423X4E9HFEJKQ35FCR6.jpg"  alt="นางสาวสินจัย  โฉมชัย" style="width:100%;height:300px;"></a>
+										
+											<div class="secondary clearfix" style="width:100%; text-align:center;"><br>นางสาวสินจัย  โฉมชัย<br>ครู</div>
+										
+										</li>
+																				<li>
+										<a href="#"><img src="files/person/20210421XDAZ2D86HF5VK6ET.jpg"  alt="นายสัญญา  แดนพิมาย" style="width:100%;height:300px;"></a>
+										
+											<div class="secondary clearfix" style="width:100%; text-align:center;"><br>นายสัญญา  แดนพิมาย<br>ครู</div>
+										
+										</li>
+																				<li>
+										<a href="#"><img src="files/person/20210423XKQG0D0YAH2NAF93.jpg"  alt="นางมินตรา  จิตรโกศล" style="width:100%;height:300px;"></a>
+										
+											<div class="secondary clearfix" style="width:100%; text-align:center;"><br>นางมินตรา  จิตรโกศล<br>ครู</div>
+										
+										</li>
+																				<li>
+										<a href="#"><img src="files/person/20210423XUKWKPCDKW496LSW.jpg"  alt="นายสุรวิชญ์  เกตุแก้ว" style="width:100%;height:300px;"></a>
+										
+											<div class="secondary clearfix" style="width:100%; text-align:center;"><br>นายสุรวิชญ์  เกตุแก้ว<br>ครู</div>
+										
+										</li>
+																				<li>
+										<a href="#"><img src="files/person/20210423X070C35S1SM169PF.jpg"  alt="นายณัฐวุฒิ  ปกสุข" style="width:100%;height:300px;"></a>
+										
+											<div class="secondary clearfix" style="width:100%; text-align:center;"><br>นายณัฐวุฒิ  ปกสุข<br>ครู</div>
+										
+										</li>
+																				<li>
+										<a href="#"><img src="files/person/20210421XHV4DM4K3X81SK5J.jpg"  alt="นางสาวณัฏฐา  ชูมา" style="width:100%;height:300px;"></a>
+										
+											<div class="secondary clearfix" style="width:100%; text-align:center;"><br>นางสาวณัฏฐา  ชูมา<br>ครู</div>
+										
+										</li>
+																				<li>
+										<a href="#"><img src="files/person/20210421XHECML214VDUKHWR.jpg"  alt="นางสาวธีรวรรณ  ศรีพันธุ์" style="width:100%;height:300px;"></a>
+										
+											<div class="secondary clearfix" style="width:100%; text-align:center;"><br>นางสาวธีรวรรณ  ศรีพันธุ์<br>ครู</div>
+										
+										</li>
+																				<li>
+										<a href="#"><img src="files/person/20210423XNY4RSSCMVXCQSAQ.jpg"  alt="นางสุรารักษ์  แก้วไพรฑูรย์" style="width:100%;height:300px;"></a>
+										
+											<div class="secondary clearfix" style="width:100%; text-align:center;"><br>นางสุรารักษ์  แก้วไพรฑูรย์<br>ครู</div>
+										
+										</li>
+																				<li>
+										<a href="#"><img src="files/person/20210423XMEATHNVKAE6GDDN.jpg"  alt="นางสาวนันทชา  อัมฤทธิ์" style="width:100%;height:300px;"></a>
+										
+											<div class="secondary clearfix" style="width:100%; text-align:center;"><br>นางสาวนันทชา  อัมฤทธิ์<br>ครู</div>
+										
+										</li>
+																				<li>
+										<a href="#"><img src="files/person/20210421XFNRUEC65EYB95KN.jpg"  alt="นายอภิวัฒน์  บุญฤทธิ์" style="width:100%;height:300px;"></a>
+										
+											<div class="secondary clearfix" style="width:100%; text-align:center;"><br>นายอภิวัฒน์  บุญฤทธิ์<br>ครู</div>
+										
+										</li>
+																				<li>
+										<a href="#"><img src="files/person/20210421XMJFBHEFL0BCGMFL.jpg"  alt="นางสาวอรรถพร   ศรีดี" style="width:100%;height:300px;"></a>
+										
+											<div class="secondary clearfix" style="width:100%; text-align:center;"><br>นางสาวอรรถพร   ศรีดี<br>ครู</div>
+										
+										</li>
+																				<li>
+										<a href="#"><img src="files/person/20210423XFDX29UK52AEXB8D.jpg"  alt="นายนรินทร์  รอดศรีสมุทร" style="width:100%;height:300px;"></a>
+										
+											<div class="secondary clearfix" style="width:100%; text-align:center;"><br>นายนรินทร์  รอดศรีสมุทร<br>ครู</div>
+										
+										</li>
+																				<li>
+										<a href="#"><img src="files/person/20210421XKRQ2YCZT13ABBG4.jpg"  alt="นางสาววิชยา  กลั่นหุ่น" style="width:100%;height:300px;"></a>
+										
+											<div class="secondary clearfix" style="width:100%; text-align:center;"><br>นางสาววิชยา  กลั่นหุ่น<br>ครู</div>
+										
+										</li>
+																				<li>
+										<a href="#"><img src="files/person/20210421XQEVQXA6AHGKR0H6.jpg"  alt="นายดลภัช  ปิติเมธานนท์" style="width:100%;height:300px;"></a>
+										
+											<div class="secondary clearfix" style="width:100%; text-align:center;"><br>นายดลภัช  ปิติเมธานนท์<br>ครู</div>
+										
+										</li>
+																				<li>
+										<a href="#"><img src="files/person/20210421X8CTXB7LT7W4596S.jpg"  alt="นายพลวศิน  สารธรรม" style="width:100%;height:300px;"></a>
+										
+											<div class="secondary clearfix" style="width:100%; text-align:center;"><br>นายพลวศิน  สารธรรม<br>ครู</div>
+										
+										</li>
+																				<li>
+										<a href="#"><img src="files/person/20210421XMJZ2KPYCRFHCXRK.jpg"  alt="นางสาวสุนิสา  วงรอด" style="width:100%;height:300px;"></a>
+										
+											<div class="secondary clearfix" style="width:100%; text-align:center;"><br>นางสาวสุนิสา  วงรอด<br>ครู</div>
+										
+										</li>
+																				<li>
+										<a href="#"><img src="files/person/20210423XNJP88BR1H2QEQJZ.jpg"  alt="นายคมกริช  แพงแสง" style="width:100%;height:300px;"></a>
+										
+											<div class="secondary clearfix" style="width:100%; text-align:center;"><br>นายคมกริช  แพงแสง<br>ครู</div>
+										
+										</li>
+																				<li>
+										<a href="#"><img src="files/person/20210421XBXF30H0R565L1DC.jpg"  alt="นายธีระ  ราชสุภา" style="width:100%;height:300px;"></a>
+										
+											<div class="secondary clearfix" style="width:100%; text-align:center;"><br>นายธีระ  ราชสุภา<br>ครู</div>
+										
+										</li>
+																				<li>
+										<a href="#"><img src="files/person/20210423XTM5U8HA9A91SUXF.jpg"  alt="นางสาวปิยาพัชร  มัณฑการ" style="width:100%;height:300px;"></a>
+										
+											<div class="secondary clearfix" style="width:100%; text-align:center;"><br>นางสาวปิยาพัชร  มัณฑการ<br>ครู</div>
+										
+										</li>
+																				<li>
+										<a href="#"><img src="files/person/20210423XPYGAN1BD0UJU7KN.jpg"  alt="นางสาวธนิศา  จิตรเกื้อกูล" style="width:100%;height:300px;"></a>
+										
+											<div class="secondary clearfix" style="width:100%; text-align:center;"><br>นางสาวธนิศา  จิตรเกื้อกูล<br>ครู</div>
+										
+										</li>
+																				<li>
+										<a href="#"><img src="files/person/20210423XAZL1BSQCB9TFFPQ.jpg"  alt="นางสาวนพมาศ  อิสระบุตร" style="width:100%;height:300px;"></a>
+										
+											<div class="secondary clearfix" style="width:100%; text-align:center;"><br>นางสาวนพมาศ  อิสระบุตร<br>ครู</div>
+										
+										</li>
+																				<li>
+										<a href="#"><img src="files/person/20210423X8P5EHAPFVQES7H2.jpg"  alt="นายเจษฎา  อู่ชมภูทอง" style="width:100%;height:300px;"></a>
+										
+											<div class="secondary clearfix" style="width:100%; text-align:center;"><br>นายเจษฎา  อู่ชมภูทอง<br>ครู</div>
+										
+										</li>
+																				<li>
+										<a href="#"><img src="files/person/20210423XWFKT9WXFAXWY9AG.jpg"  alt="นายเจริญชัย  วงศ์สิริธารา" style="width:100%;height:300px;"></a>
+										
+											<div class="secondary clearfix" style="width:100%; text-align:center;"><br>นายเจริญชัย  วงศ์สิริธารา<br>ครู</div>
+										
+										</li>
+																				<li>
+										<a href="#"><img src="files/person/20210421XV1GS7DS17DPYU1C.jpg"  alt="นายณัฐพล  มีมุข" style="width:100%;height:300px;"></a>
+										
+											<div class="secondary clearfix" style="width:100%; text-align:center;"><br>นายณัฐพล  มีมุข<br>ครู</div>
+										
+										</li>
+																				<li>
+										<a href="#"><img src="files/person/20210421XXG75207NMW79070.jpg"  alt="นางสาวธนัชชา  รับงาน" style="width:100%;height:300px;"></a>
+										
+											<div class="secondary clearfix" style="width:100%; text-align:center;"><br>นางสาวธนัชชา  รับงาน<br>ครูผู้ช่วย</div>
+										
+										</li>
+																				<li>
+										<a href="#"><img src="files/person/20210423XGFP5VKCUE874WXV.jpg"  alt="นายวัชระ  คล้ายแสงฤกษ์" style="width:100%;height:300px;"></a>
+										
+											<div class="secondary clearfix" style="width:100%; text-align:center;"><br>นายวัชระ  คล้ายแสงฤกษ์<br>ครูผู้ช่วย</div>
+										
+										</li>
+																				<li>
+										<a href="#"><img src="files/person/20210423X06THUYS3J4DNRAL.jpg"  alt="นางสาวชนิดาภา   รุ่งจำรัส" style="width:100%;height:300px;"></a>
+										
+											<div class="secondary clearfix" style="width:100%; text-align:center;"><br>นางสาวชนิดาภา   รุ่งจำรัส<br>ครูผู้ช่วย</div>
+										
+										</li>
+																				<li>
+										<a href="#"><img src="files/person/20210423XH3HX08KJDGF16DG.jpg"  alt="นายจักรภพ  บุญขาว" style="width:100%;height:300px;"></a>
+										
+											<div class="secondary clearfix" style="width:100%; text-align:center;"><br>นายจักรภพ  บุญขาว<br>พนักงานราชการ</div>
+										
+										</li>
+																				<li>
+										<a href="#"><img src="files/person/20210423X5M1G15MTWND8EQX.jpg"  alt="นายจตุรงค์  เปรมเสถียร" style="width:100%;height:300px;"></a>
+										
+											<div class="secondary clearfix" style="width:100%; text-align:center;"><br>นายจตุรงค์  เปรมเสถียร<br>พนักงานราชการ</div>
+										
+										</li>
+																				<li>
+										<a href="#"><img src="files/person/20210423XGX9AVA28BAGHS26.jpg"  alt="นายเมธัส  จูอาภรณ์" style="width:100%;height:300px;"></a>
+										
+											<div class="secondary clearfix" style="width:100%; text-align:center;"><br>นายเมธัส  จูอาภรณ์<br>พนักงานราชการ</div>
+										
+										</li>
+																				<li>
+										<a href="#"><img src="files/person/20210423X3LG1B3Y397QMP5L.jpg"  alt="นายเทเวศร์  ม่วงพลับ" style="width:100%;height:300px;"></a>
+										
+											<div class="secondary clearfix" style="width:100%; text-align:center;"><br>นายเทเวศร์  ม่วงพลับ<br>พนักงานราชการ</div>
+										
+										</li>
+																				<li>
+										<a href="#"><img src="files/person/20210423XEKFNZFL3RPB6RJJ.jpg"  alt="นางณัฐฏ์ธนาพร  ภิรมย์ภักดิ์" style="width:100%;height:300px;"></a>
+										
+											<div class="secondary clearfix" style="width:100%; text-align:center;"><br>นางณัฐฏ์ธนาพร  ภิรมย์ภักดิ์<br>พนักงานราชการ</div>
+										
+										</li>
+																				<li>
+										<a href="#"><img src="files/person/20210423XH8JUAGQLVY62QF0.jpg"  alt="นางปุณณ์ภัสสร  จิรันธนินโภคิน" style="width:100%;height:300px;"></a>
+										
+											<div class="secondary clearfix" style="width:100%; text-align:center;"><br>นางปุณณ์ภัสสร  จิรันธนินโภคิน<br>พนักงานราชการ</div>
+										
+										</li>
+																		</ul>
+							</div>
+
+		
+						<script type="text/javascript">
+    $(function(){
+      SyntaxHighlighter.all();
+    });
+    $(window).load(function(){
+      $('.flexslider').flexslider({
+        animation: "slide",
+        start: function(slider){
+          $('body').removeClass('loading');
+        }
+      });
+    });
+  </script>
+						</div>
+						</div>
+																				<div class="panel panel-warning">
+                        <div class="panel-heading">
+                           <i class="glyphicon glyphicon-share-alt"> <font style="font-family: 'Sarabun', sans-serif;">ลิ้งค์น่าสนใจ</font></i>
+                        </div>
+							<div class="panel-body">
+						<table width="100%">
+        	            <tr><td align="center">
+				<select  onChange="window.open(this.options[this.selectedIndex].value,'_blank')" name="gmenu1" class="form-control">
+				<option value="" style="background-color:#990; color:#FFF">หน่วยงานทางการศึกษา</option>
+				                
+                <option value="http://www.moe.go.th/">กระทรวงศึกษาธิการ</option>
+                                
+                <option value="http://www.moe.go.th/OPS_Page/">สำนักงานปลัด ศธ.</option>
+                                
+                <option value="http://www.onec.go.th/">สนง.สภาการศึกษา</option>
+                                
+                <option value="http://www.mua.go.th/">สนง.การอุดมศึกษา</option>
+                                
+                <option value="http://www.vec.go.th/">สนง.การอาชีวศึกษา</option>
+                                
+                <option value="http://www.obec.go.th/">สพฐ.</option>
+                                
+                <option value="http://www.moe.go.th/webtcs/">สนง.ก.ค.ศ.</option>
+                                
+                <option value="http://www.ksp.or.th/">คุรุสภา</option>
+                                
+                <option value="http://www.otep.go.th/">สำนักงาน สกสค.</option>
+                                
+                <option value="http://www.nfe.go.th/">สนง.กศน.</option>
+                                
+                <option value="http://www.opec.go.th/">สนง.การศึกษาเอกชน</option>
+                                
+                <option value="http://www.onesqa.or.th/">สมศ.</option>
+                                
+                <option value="http://www.niets.or.th/">สำนักทดสอบทางการศึกษา</option>
+                                
+                <option value="http://www.studentloan.or.th/index.php">กองทุนกู้ยืมการศึกษา</option>
+                                
+                <option value="http://www.thailocaladmin.go.th/">กรมส่งเสริมปกครองท้องถิ่น</option>
+                            </select>
+         	</td></tr>
+			            <tr><td align="center">
+            <select class="form-control" onChange="window.open(this.options[this.selectedIndex].value,'_blank')" name="gmenu2">
+				<option value="" style="background-color:#990; color:#FFF">รวมลิ้งค์ สพป.</option>
+				                
+                <option value="http://www.bkkp.go.th">สพป.กรุงเทพมหานคร</option>
+                                
+                <option value="http://www.krabiedu.net">สพป.กระบี่</option>
+                                
+                <option value="http://www.kan1.go.th">สพป.กาญจนบุรี  เขต 1</option>
+                                
+                <option value="http://www.kan2.go.th">กาญจนบุรี  เขต 2</option>
+                                
+                <option value="http://www.kaned3.go.th">สพป.กาญจนบุรี เขต 3</option>
+                                
+                <option value="http://www.kan4.go.th">สพป.กาญจนบุรี  เขต 4</option>
+                                
+                <option value="http://www.ksn1.go.th">สพป.กาฬสินธุ์ เขต 1</option>
+                                
+                <option value="http://www.kalasin2.go.th">สพป.กาฬสินธุ์ เขต 2</option>
+                                
+                <option value="http://www.kalasin3.go.th">สพป.กาฬสินธุ์ เขต 3</option>
+                                
+                <option value="http://www.kpt1.go.th">สพป.กำแพงเพชร เขต 1</option>
+                                
+                <option value="http://www.kpp2.go.th">สพป.กำแพงเพชร เขต 2</option>
+                                
+                <option value="http://www.kkzone1.go.th">สพป.ขอนแก่น เขต 1</option>
+                                
+                <option value="http://202.143.147.121">สพป.ขอนแก่น เขต 2</option>
+                                
+                <option value="http://www.kkn3.go.th">สพป.ขอนแก่น เขต 3</option>
+                                
+                <option value="http://www.kkn4.obec.go.th">สพป.ขอนแก่น เขต 4</option>
+                                
+                <option value="http://www.kkn5.go.th">สพป.ขอนแก่น เขต 5</option>
+                                
+                <option value="http://www.chan1.go.th">สพป.จันทบุรี เขต 1</option>
+                                
+                <option value="http://chan2.obec.go.th">สพป.จันทบุรี เขต 2</option>
+                                
+                <option value="http://www.padriew1.com">สพป.ฉะเชิงเทรา เขต 1</option>
+                                
+                <option value="http://www.ccs2.go.th">สพป.ฉะเชิงเทรา เขต 2</option>
+                                
+                <option value="http://www.cpn1.go.th/main">สพป.ชุมพร เขต 1 </option>
+                                
+                <option value="http://www.chumphon2.go.th">สพป.ชุมพร เขต 2 </option>
+                                
+                <option value="http://www.chon1.go.th">สพป.ชลบุรี เขต 1 </option>
+                                
+                <option value="http://www.chon2.go.th">สพป.ชลบุรี เขต 2 </option>
+                                
+                <option value="http://www.chon3.go.th">สพป.ชลบุรี เขต 3 </option>
+                                
+                <option value="http://www.chiangmaiarea1.go.th">สพป.เชียงใหม่ เขต 1</option>
+                                
+                <option value="http://www.chiangmaiarea2.go.th">สพป.เชียงใหม่ เขต 2</option>
+                                
+                <option value="http://www.cmarea3.go.th">สพป.เชียงใหม่ เขต 3</option>
+                                
+                <option value="http://www.cmi4.go.th">สพป.เชียงใหม่ เขต 4</option>
+                                
+                <option value="http://www.chiangmaiarea5.go.th">สพป.เชียงใหม่ เขต 5</option>
+                                
+                <option value="http://www.chiangmaiarea6.go.th">สพป.เชียงใหม่ เขต 6</option>
+                                
+                <option value="http://www.cri1.obec.go.th">สพป.เชียงราย เขต 1</option>
+                                
+                <option value="http://www.cri2.obec.go.th">สพป.เชียงราย เขต 2</option>
+                                
+                <option value="http://www.cr3.go.th">สพป.เชียงราย เขต 3</option>
+                                
+                <option value="http://www.cri4.go.th">สพป.เชียงราย เขต 4</option>
+                                
+                <option value="http://202.143.169.120/web">สพป.ชัยนาท</option>
+                                
+                <option value="http://www.chaiyaphum1.go.th">สพป.ชัยภูมิ เขต 1</option>
+                                
+                <option value="http://www.chaiyaphum2.go.th">สพป.ชัยภูมิ เขต 2</option>
+                                
+                <option value="http://www.chaiyaphum3.go.th">สพป.ชัยภูมิ เขต 3</option>
+                                
+                <option value="http://www.takesa1.go.th">สพป.ตาก เขต 1</option>
+                                
+                <option value="http://www.takesa2.go.th/">สพป.เขต ตาก 2</option>
+                                
+                <option value="http://www.tratedu.go.th">สพป.ตราด</option>
+                                
+                <option value="http://www.trang1.go.th">สพป.ตรัง เขต 1</option>
+                                
+                <option value="http://www.trang2.go.th">สพป.ตรัง เขต 2</option>
+                                
+                <option value=" http://www.bki.ictbk.net">สพป.บึงกาฬ</option>
+                                
+                <option value="http://www.buriram1.go.th">สพป.บุรีรัมย์ เขต 1</option>
+                                
+                <option value="http://www.br2.go.th">สพป.บุรีรัมย์ เขต 2</option>
+                                
+                <option value="http://www.brm3.go.th">สพป.บุรีรัมย์ เขต 3</option>
+                                
+                <option value="http://www.br4.go.th">สพป.บุรีรัมย์ เขต 4</option>
+                                
+                <option value="http://www.pattani1.go.th">สพป.ปัตตานี เขต 1</option>
+                                
+                <option value="http://www.pattani2.go.th">สพป.ปัตตานี เขต 2</option>
+                                
+                <option value="http://www.pattani3.go.th">สพป.ปัตตานี เขต 3</option>
+                                
+                <option value="http://www.pck1.go.th">สพป.ประจวบคีรีขันธ์ เขต 1</option>
+                                
+                <option value="http://www.pkn2.go.th">สพป.ประจวบคีรีขันธ์ เขต 2</option>
+                                
+                <option value="http://www.prachin1.go.th">สพป.ปราจีนบุรี เขต 1</option>
+                                
+                <option value="http://www.prachinburi2.go.th">สพป.ปราจีนบุรี เขต 2</option>
+                                
+                <option value="http://www.ptt1.go.th">สพป.ปทุมธานี เขต 1</option>
+                                
+                <option value="http://www.ptt2.go.th">สพป.ปทุมธานี เขต 2</option>
+                                
+                <option value="http://www.aya1.go.th">สพป.พระนครศรีอยุธยา เขต 1</option>
+                                
+                <option value="http://www.ayutthaya2.go.th">สพป.พระนครศรีอยุธยา เขต 2</option>
+                                
+                <option value="http://www.pyo1.go.th">สพป.พะเยา เขต 1</option>
+                                
+                <option value="http://www.phayao2.go.th">สพป.พะเยา เขต 2</option>
+                                
+                <option value="http://www.petburi.go.th">สพป.เพชรบุรี เขต 1</option>
+                                
+                <option value="http://203.172.205.22/">สพป.เพชรบุรี เขต 2</option>
+                                
+                <option value="http://www.phetchabun1.go.th">สพป.เพชรบูรณ์ เขต 1</option>
+                                
+                <option value="http://www.pbn2.obec.go.th">สพป.เพชรบูรณ์ เขต 2</option>
+                                
+                <option value="http://www.pbn3.go.th">สพป.เพชรบูรณ์ เขต 3</option>
+                                
+                <option value="http://www.phrae1.go.th">สพป.แพร่ เขต 1</option>
+                                
+                <option value="http://www.phrae2.com">สพป.แพร่ เขต 2</option>
+                                
+                <option value="http://www.phichit1.go.th">สพป.พิจิตร เขต 1</option>
+                                
+                <option value="http://www.phichit2.net">สพป.พิจิตร เขต 2</option>
+                                
+                <option value="http://www.phitsanulok1.go.th">สพป.พิษณุโลก เขต 1</option>
+                                
+                <option value="http://www.phitsanulok2.go.th/">สพป.พิษณุโลก เขต 2</option>
+                                
+                <option value="http://www.phitsanulok3.go.th">สพป.พิษณุโลก เขต 3</option>
+                                
+                <option value="http://www.phangngaedarea.go.th">สพป.พังงา</option>
+                                
+                <option value="http://www.phatthalung1.go.th">สพป.พัทลุง เขต 1</option>
+                                
+                <option value="http://www.phatthalung2.go.th">สพป.พัทลุง เขต 2</option>
+                                
+                <option value="http://203.143.131.34">สพป.นครสวรรค์ เขต 1</option>
+                                
+                <option value="http://www.nsw2.go.th">สพป.นครสวรรค์ เขต 2</option>
+                                
+                <option value="http://www.nsw3.go.th">สพป.นครสวรรค์ เขต 3</option>
+                                
+                <option value="http://www.edunayok.org">สพป.นครนายก</option>
+                                
+                <option value="http://www.esanpt1.go.th">สพป.นครปฐม เขต 1</option>
+                                
+                <option value="http://www.npt2.obec.go.th">สพป.นครปฐม เขต 2</option>
+                                
+                <option value="http://www.nkpedu1.org">สพป.นครพนม เขต 1</option>
+                                
+                <option value="http://www.nkp2.go.th">สพป.นครพนม เขต 2</option>
+                                
+                <option value="http://www.nonedu1.org">สพป.นนทบุรี เขต 1</option>
+                                
+                <option value="http://www.nonedu2.net">สพป.นนทบุรี เขต 2</option>
+                                
+                <option value="http://www.nara1.org">สพป.นราธิวาส เขต 1</option>
+                                
+                <option value="http://www.narathiwat2.go.th">สพป.นราธิวาส เขต 2</option>
+                                
+                <option value="http://www.narathiwat3.go.th">สพป.นราธิวาส เขต 3</option>
+                                
+                <option value="http://korat-ed1.info">สพป.นครราชสีมา เขต 1</option>
+                                
+                <option value="http://www.korat2.go.th">สพป.นครราชสีมา เขต 2</option>
+                                
+                <option value="http://www.korat3.go.th">สพป.นครราชสีมา เขต 3</option>
+                                
+                <option value="http://www.korat4.go.th">สพป.นครราชสีมา เขต 4 </option>
+                                
+                <option value="http://www.korat5.go.th">สพป.นครราชสีมา เขต 5</option>
+                                
+                <option value="http://www.nma6.go.th">สพป.นครราชสีมา เขต 6</option>
+                                
+                <option value="http://www.korat7.go.th">สพป.นครราชสีมา เขต 7</option>
+                                
+                <option value="http://www.nst1.go.th">สพป.นครศรีธรรมราช เขต 1</option>
+                                
+                <option value="http://www.nst2.obec.go.th">สพป.นครศรีธรรมราช เขต 2</option>
+                                
+                <option value="http://www.nst3.go.th">สพป.นครศรีธรรมราช เขต 3</option>
+                                
+                <option value="http://www.pnst4.go.th">สพป.นครศรีธรรมราช เขต 4</option>
+                                
+                <option value="http://www.ednan1.go.th">สพป.น่าน เขต 1</option>
+                                
+                <option value="http://www.nan2.go.th">น่าน เขต 2</option>
+                                
+                <option value="http://www.phuketarea.go.th">สพป.ภูเก็ต</option>
+                                
+                <option value="http://www.mkarea1.go.th">สพป.มหาสารคาม เขต 1</option>
+                                
+                <option value="http://www.mkarea2.go.th">สพป.มหาสารคาม เขต 2</option>
+                                
+                <option value="http://www.mkarea3.go.th">สพป.มหาสารคาม เขต 3</option>
+                                
+                <option value="http://www.mdh.obec.go.th">สพป.มุกดาหาร</option>
+                                
+                <option value="http://www.mhs1.go.th">สพป.แม่ฮ่องสอน เขต 1</option>
+                                
+                <option value="http://www.mhs2.go.th">สพป.แม่ฮ่องสอน เขต 2</option>
+                                
+                <option value="http://www.yala1.go.th">สพป.ยะลา เขต 1</option>
+                                
+                <option value="http://www.yala2.go.th">สพป.ยะลา เขต 2</option>
+                                
+                <option value="http://www.yala3.org">สพป.ยะลา เขต 3</option>
+                                
+                <option value="http://www.yst1.go.th">สพป.ยโสธร เขต 1</option>
+                                
+                <option value="http://202.143.189.98">สพป.ยโสธร เขต 2</option>
+                                
+                <option value="http://www.rnedu.go.th">สพป.ระนอง</option>
+                                
+                <option value="http://www.rayong1.go.th">สพป.ระยอง เขต 1</option>
+                                
+                <option value="http://www.rayong2.go.th">สพป.ระยอง เขต 2</option>
+                                
+                <option value="http://www.ratchaburi1.org">ราชบุรี เขต 1</option>
+                                
+                <option value="http://www.rb-2.net">สพป.ราชบุรี เขต 2</option>
+                                
+                <option value="http://www.roiet1.go.th">สพป.ร้อยเอ็ด เขต 1</option>
+                                
+                <option value="http://www.ret2.go.th">สพป.ร้อยเอ็ด เขต 2</option>
+                                
+                <option value="http://www.roiet3.go.th">สพป.ร้อยเอ็ด เขต 3</option>
+                                
+                <option value="http://www.loei1.go.th">สพป.เลย เขต 1</option>
+                                
+                <option value="http://www.loei2.go.th">สพป.เลย เขต 2</option>
+                                
+                <option value="http://www.loei3.go.th">สพป.เลย เขต 3</option>
+                                
+                <option value="http://www.lpg1.obec.go.th">สพป.ลำปาง เขต 1</option>
+                                
+                <option value="http://www.lpg2.obec.go.th">สพป.ลำปาง เขต 2</option>
+                                
+                <option value="http://www.lpg3.go.th">สพป.ลำปาง เขต 3</option>
+                                
+                <option value="http://www.lopburi1.go.th">สพป.ลพบุรี เขต 1</option>
+                                
+                <option value="http://www.lopburi2.go.th">สพป.ลพบุรี เขต 2</option>
+                                
+                <option value="http://www.lpn1.obec.go.th">สพป.ลำพูน เขต 1</option>
+                                
+                <option value="http://www.lp2.go.th">สพป.ลำพูน เขต 2</option>
+                                
+                <option value="http://www.nb1.go.th">สพป.หนองบัวลำภู เขต 1</option>
+                                
+                <option value="http://www.nb2.go.th">สพป.หนองบัวลำภู เขต 2</option>
+                                
+                <option value="http://www.nkedu1.go.th">สพป.หนองคาย เขต 1</option>
+                                
+                <option value="http://www.nongkhai2.go.th">สพป.หนองคาย เขต 2</option>
+                                
+                <option value="http://www.sisaketedu1.go.th">สพป.ศรีสะเกษ เขต 1</option>
+                                
+                <option value="http://www.osea2.go.th">สพป.ศรีสะเกษ เขต 2</option>
+                                
+                <option value="http://www.ssk3.go.th">สพป.ศรีสะเกษ เขต 3</option>
+                                
+                <option value="http://www.sskedu4.go.th">สพป.ศรีสะเกษ เขต 4</option>
+                                
+                <option value="http://www.sesao.go.th">สพป.สตูล</option>
+                                
+                <option value="http://www.sk1edu.org">สพป.สระแก้ว เขต 1</option>
+                                
+                <option value="http://www.skarea2.go.th">สพป.สระแก้ว เขต 2</option>
+                                
+                <option value="http://www.singarea.moe.go.th">สพป.สิงห์บุรี</option>
+                                
+                <option value="http://www.surinarea1.go.th">สพป.สุรินทร์ เขต 1</option>
+                                
+                <option value="http://www.srn2.go.th">สพป.สุรินทร์ เขต 2</option>
+                                
+                <option value="http://www.surin3.go.th">สพป.สุรินทร์ เขต 3</option>
+                                
+                <option value="http://www.sakonarea1.go.th">สพป.สกลนคร เขต 1</option>
+                                
+                <option value="http://www.sakon2.go.th">สพป.สกลนคร เขต 2</option>
+                                
+                <option value="http://www.sakonnakhon3.go.th">สพป.สกลนคร เขต 3</option>
+                                
+                <option value="http://www.srb1.go.th">สพป.สระบุรี เขต 1</option>
+                                
+                <option value="http://www.saraburi2.org">สพป.สระบุรี เขต 2</option>
+                                
+                <option value="http://www.sukhothai1.go.th">สพป.สุโขทัย เขต 1</option>
+                                
+                <option value="http://www.sukhothai2.go.th">สพป.สุโขทัย เขต 2</option>
+                                
+                <option value="http://www.suphan1.go.th/">สพป.สุพรรณบุรี เขต 1</option>
+                                
+                <option value="http://www.sp2.go.th">สพป.สุพรรณบุรี เขต 2</option>
+                                
+                <option value="http://www.spb3.go.th">สพป.สุพรรณบุรี เขต 3</option>
+                                
+                <option value="http://smartschool.in.th/cms2014">สพป.สมุทรปราการ เขต 1</option>
+                                
+                <option value="http://202.143.169.210/samutprakan2">สพป.สมุทรปราการ เขต 2</option>
+                                
+                <option value="http://www.skn.go.th">สพป.สมุทรสาคร</option>
+                                
+                <option value="http://www.sskedarea.net">สพป.สมุทรสงคราม</option>
+                                
+                <option value="http://www.ska1.go.th">สพป.สงขลา เขต 1</option>
+                                
+                <option value="http://www.skz2.go.th">สพป.สงขลา เขต 2</option>
+                                
+                <option value="http://www.sk3.go.th">สพป.สงขลา เขต 3</option>
+                                
+                <option value="http://www.surat1.go.th">สพป.สุราษฎร์ธานี เขต 1</option>
+                                
+                <option value="http://www.surat2.go.th">สพป.สุราษฎร์ธานี เขต 2</option>
+                                
+                <option value="http://www.surat3.go.th">สพป.สุราษฎร์ธานี เขต 3</option>
+                                
+                <option value="http://www.atg.obec.go.th">สพป.อ่างทอง</option>
+                                
+                <option value="http://www.ubn1.go.th">สพป.อุบลราชธานี เขต 1</option>
+                                
+                <option value="http://www.ubn2-ed.go.th">สพป.อุบลราชธานี เขต 2</option>
+                                
+                <option value="http://www.ubn3.go.th">สพป.อุบลราชธานี เขต 3</option>
+                                
+                <option value="http://www.ubn4.go.th/main">สพป.อุบลราชธานี เขต 4</option>
+                                
+                <option value="http://www.ubon5.go.th">สพป.อุบลราชธานี เขต 5</option>
+                                
+                <option value="http://www.utt1.obec.go.th">สพป.อุทัยธานี เขต 1</option>
+                                
+                <option value="http://www.utt2.go.th">สพป.อุทัยธานี เขต 2</option>
+                                
+                <option value="http://www.udn1.go.th">สพป.อุดรธานี เขต 1</option>
+                                
+                <option value="http://www.udesa2.go.th">สพป.อุดรธานี เขต 2</option>
+                                
+                <option value="http://www.udonthani3.go.th">สพป.อุดรธานี เขต 3</option>
+                                
+                <option value="http://www.udon4.go.th">สพป.อุดรธานี เขต 4</option>
+                                
+                <option value="http://www.utd1.go.th">สพป.อุตรดิตถ์ เขต 1</option>
+                                
+                <option value="http://www.utd2.go.th">สพป.อุตรดิตถ์ เขต 2</option>
+                                
+                <option value="http://www.amnat-ed.go.th">สพป.อำนาจเจริญ</option>
+                            </select>
+         	</td></tr>
+			            <tr><td align="center">
+            <select class="form-control" onChange="window.open(this.options[this.selectedIndex].value,'_blank')" name="gmenu3">
+				<option value="" style="background-color:#990; color:#FFF">รวมลื้งค์ สพม.</option>
+				                
+                <option value="http://www.secondary.obec.go.th">สำนักบริหารงานการมัธยมศึกษาตอนปลาย สพฐ.</option>
+                                
+                <option value="http://www.sesao1.go.th">สำนักงานเขตพื้นที่การศึกษามัธยมศึกษา เขต 1</option>
+                                
+                <option value="http://www.secondary2.go.th">สำนักงานเขตพื้นที่การศึกษามัธยมศึกษา เขต 2</option>
+                                
+                <option value="http://www.sesao3.go.th">เขต 3 นนทบุรี พระนครศรีอยุธยา</option>
+                                
+                <option value="http://ssps4.go.th">เขต 4 ปทุมธานี สระบุรี</option>
+                                
+                <option value="http://www.secondary5.go.th/main"> เขต 5 สิงห์บุรี ลพบุรี ชัยนาท อ่างทอง</option>
+                                
+                <option value="http://www.spm6.go.th">เขต 6 ฉะเชิงเทรา-สมุทรปราการ</option>
+                                
+                <option value="http://www.spm7.go.th">เขต 7 ปราจีนบุรี นครนายก สระแก้ว</option>
+                                
+                <option value="http://www.sesao8.go.th">เขต 8 ราชบุรี กาญจนบุรี</option>
+                                
+                <option value="http://www.mathayom9.go.th">เขต 9 สุพรรณบุรี นครปฐม</option>
+                                
+                <option value="http://www.sesa10.go.th">เขต 10 เพชรบุรี ประจวบคีรีขันต์ สมุทรสงคราม สมุทรสาคร</option>
+                                
+                <option value="http://www.secondary11.go.th">เขต 11 สุราษฎร์ธานี ชุมพร</option>
+                                
+                <option value="http://www.sea12.go.th">เขต 12 นครศรีธรรมราช-พัทลุง</option>
+                                
+                <option value="http://www.matthayom13.go.th">เขต 13 ตรัง กระบี่</option>
+                                
+                <option value="http://www.sesao14.org">เขต 14 พังงา ภูเก็ต ระนอง</option>
+                                
+                <option value="http://www.sesao15.go.th">เขต 15 นราธิวาส ปัตตานี ยะลา</option>
+                                
+                <option value="http://www.sea16.go.th">เขต 16 สงขลา สตูล</option>
+                                
+                <option value="http://www.sesa17.go.th/">เขต 17 จันทบุรี ตราด</option>
+                                
+                <option value="http://www.spm18.go.th/">เขต 18 ชลบุรี ระยอง</option>
+                                
+                <option value="http://www.sesao19.go.th">เขต 19 เลย หนองบัวลำภู</option>
+                                
+                <option value="http://www.sesa20.go.th">เขต 20 อุดรธานี</option>
+                                
+                <option value="http://www.spm21.com">เขต 21 หนองคาย-บึงกาฬ</option>
+                                
+                <option value="http://www.secondary22.obec.go.th">เขต 22 นครพนม-มุกดาหาร</option>
+                                
+                <option value="http://www.sesarea23.go.th/web">เขต 23 สกลนคร</option>
+                                
+                <option value="http://www.sesa24.go.th">เขต 24 กาฬสินธุ์</option>
+                                
+                <option value="http://www.kksec.go.th">เขต 25 ขอนแก่น</option>
+                                
+                <option value="http://www.ses26.go.th">เขต 26 มหาสารคาม</option>
+                                
+                <option value="http://www.secondary27.go.th">เขต 27 ร้อยเอ็ด</option>
+                                
+                <option value="http://www.mskyt28.info">เขต 28 ศรีสะเกษ ยโสธร</option>
+                                
+                <option value="http://www.secondary29.go.th">เขต 29 อุบลราชธานี อำนาจเจริญ</option>
+                                
+                <option value="http://www.sesao30.go.th">เขต 30 ชัยภูมิ</option>
+                                
+                <option value="http://www.mattayom31.go.th">สพม.31 นครราชสีมา</option>
+                                
+                <option value="http://www.ssbr.go.th">เขต 32 บุรีรัมย์</option>
+                                
+                <option value="http://www.secondary33.go.th">เขต 33 สุรินทร์</option>
+                                
+                <option value="http://www.secondary34.go.th/web34">เขต 34 เชียงใหม่ แม่ฮ่องสอน</option>
+                                
+                <option value="http://www.secondary35.go.th">เขต 35 ลำปาง-ลำพูน</option>
+                                
+                <option value="http://www.secondary36.obec.go.th">เขต 36 เชียงราย-พะเยา</option>
+                                
+                <option value="http://www.sesa37.go.th">เขต 37 แพร่-น่าน</option>
+                                
+                <option value="http://www.spm38.go.th">เขต 38 สุโขทัย-ตาก</option>
+                                
+                <option value="http://www.secondary39.go.th">เขต 39 พิษณุโลก-อุตรดิตถ์</option>
+                                
+                <option value="http://www.sec40.go.th">เขต 40 เพชรบูรณ์</option>
+                                
+                <option value="http://www.secondary41.go.th">เขต 41 กำแพงเพชร พิจิตร</option>
+                                
+                <option value="http://www.secondary42.obec.go.th">เขต 42 นครสวรรค์-อุทัยธานี</option>
+                            </select>
+         	</td></tr>
+			            <tr><td align="center">
+            <select class="form-control" onChange="window.open(this.options[this.selectedIndex].value,'_blank')" name="gmenu5">
+				<option value="" style="background-color:#990; color:#FFF">หน่วยงานกรุงเทพมหานคร</option>
+				                
+                <option value="http://www.bangkok.go.th/th/main/index.php">กรุงเทพมหานคร </option>
+                                
+                <option value="http://www.bangkokeducation.in.th">สำนักการศึกษา กรุงเทพมหานคร </option>
+                                
+                <option value="http://www.bangkok.go.th/csc/">สำนักงาน ก.ก. </option>
+                                
+                <option value="http://www.facebook.com/teacherbkk">กองการเจ้าหน้าที่ สำนักการศึกษา </option>
+                                
+                <option value="http://www.otepbangkok.com/index.html">สกสค </option>
+                            </select>
+         	</td></tr>
+			        </table>
+						</div>
+						</div>
+																			<div class="panel panel-warning">
+                        <div class="panel-heading">
+                           <i class="glyphicon glyphicon-share-alt"> <font style="font-family: 'Sarabun', sans-serif;">ลิ้งค์การศึกษา</font></i>
+                        </div>
+                        <div class="panel-body">
+                                <div class="thumbnail">
+																		<a href="http://www.moe.go.th/" target="_blank" title="กระทรวงศึกษาธิการ"><img src="files/banner/20180426XVV48UJJNMZXWK31.png" alt="กระทรวงศึกษาธิการ" style="width:200px;height:65px;"></a>
+																		<a href="http://www.mua.go.th/" target="_blank" title="สำนักงานคณะกรรมการการอุดมศึกษา"><img src="files/banner/20180426XB06XY51T0UTJQJJ.png" alt="สำนักงานคณะกรรมการการอุดมศึกษา" style="width:200px;height:65px;"></a>
+																		<a href="http://www.obec.go.th/" target="_blank" title="สำนักงานคณะกรรมการการศึกษาขั้นพื้นฐาน"><img src="files/banner/20180426XRGJS9PF2U49PWBS.png" alt="สำนักงานคณะกรรมการการศึกษาขั้นพื้นฐาน" style="width:200px;height:65px;"></a>
+																		<a href="http://www.moe-news.net/" target="_blank" title="สำนักงานรัฐมนตรี กระทรวงศึกษาธิการ"><img src="files/banner/20180426XAJ9KHRF9VN3REP9.png" alt="สำนักงานรัฐมนตรี กระทรวงศึกษาธิการ" style="width:200px;height:65px;"></a>
+																		<a href="http://www.onec.go.th/" target="_blank" title="สำนักงานเลขาธิการสภาการศึกษา"><img src="files/banner/20180426XGX516LSQRP3TWEC.png" alt="สำนักงานเลขาธิการสภาการศึกษา" style="width:200px;height:65px;"></a>
+									                                </div>
+						</div>
+					</div>
+												</div>
+																			<div class="col-md-6">
+								<MARQUEE direction=left onmouseover=this.stop() onmouseout=this.start() scrollAmount=5 scrollDelay=120 ><!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+<p>ยินดีต้อนรับสู่โรงเรียนหนองบัว&nbsp; สำนักงานเขตพื้นที่การศึกษามัธยมศึกษานครสวรรค์</p>
+</body>
+</html></marquee>	
+																
+					<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+					<div class="carousel-inner" role="listbox">
+										  <div class="item ">
+						<img src="files/slide/20210430X6L3D9YL12Q9Y2DG.jpg" alt="ism" title="ism" style="width:100%;height:400px;">
+					  </div>
+										</div>
+					<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+					<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+					<span class="sr-only">Previous</span>
+				  </a>
+				  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+					<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+					<span class="sr-only">Next</span>
+				  </a>
+					</div><br>
+										
+														<div class="panel panel-warning">
+                        <div class="panel-heading">
+                           <i class="glyphicon glyphicon-th"> <font style="font-family: 'Sarabun', sans-serif;">สมัครเรียน</font></i>
+                        </div>
+                        <div class="panel-body">
+						<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+<p style="text-align: center;"><br /><img src="https://www.nongbua.ac.th/Upload/egp/b4.jpg?1619223180101" alt="" width="420" height="257" /></p>
+<p style="text-align: center;"><span style="font-size: 18pt; color: #ff0000;"><a style="color: #ff0000;" href="https://www.nongbua.ac.th/Admission/" target="_blank">คลิ๊กที่นี่เพื่อสมัครเรียนต่อ ม.1 และ ม.4</a></span></p>
+<p style="text-align: center;"><span style="font-size: 14pt;"><a href="https://online.fliphtml5.com/cewh/whny/" target="_blank">คู่มือการใช้งานระบบการสมัครเรียน (โปรดศึกษาการใช้งาน)</a></span></p>
+<p style="text-align: center;"><span style="font-size: 14pt; color: #0000ff;">หมายเหตุ :: ขณะนี้สามารถแก้ไขข้อมูลส่วนตัวนักเรียนได้&nbsp;</span><span style="font-size: 14pt; color: #0000ff;">และเปิดระบบในส่วนของการพิมพ์ใบสมัคร</span></p>
+<p style="text-align: center;"><span style="font-size: 14pt; color: #0000ff;">โดยกรอกเลขบัตรประชาชนนักเรียน</span></p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: center;">&nbsp;</p>
+</body>
+</html>						</div>
+					</div>
+										
+														<div class="panel panel-warning">
+                        <div class="panel-heading">
+                           <i class="glyphicon glyphicon-bullhorn"> <font style="font-family: 'Sarabun', sans-serif;">ข่าวประชาสัมพันธ์</font></i>
+                        </div>
+                        <div class="panel-body">
+						<div class="col-md-12">
+																								</div>
+						<div class="col-md-12">
+						<a href="news"><button class="btn btn-default btn-sm pull-right" >ดูข่าวทั้งหมด</button></a>
+						</div>
+						</div>
+					</div>
+										
+														<div class="panel panel-warning">
+                        <div class="panel-heading">
+                           <i class="glyphicon glyphicon-bullhorn"> <font style="font-family: 'Sarabun', sans-serif;">วารสารประชาสัมพันธ์</font></i>
+                        </div>
+                        <div class="panel-body">
+						<div class="col-md-12">
+												<table width="100%" border="0" cellspacing="0" cellpadding="0">
+						<tr valign="top">
+												</table>
+						</div>
+						<div class="col-md-12">
+						<a href="newsletter"><button class="btn btn-default btn-sm pull-right" >ดูข่าวทั้งหมด</button></a>
+						</div>
+						</div>
+					</div>
+										
+														<div class="panel panel-warning">
+                        <div class="panel-heading">
+                           <i class="glyphicon glyphicon-picture"> <font style="font-family: 'Sarabun', sans-serif;">ภาพกิจกรรม</font></i>
+                        </div>
+                        <div class="panel-body">
+						<div class="col-md-12">
+																								</div>
+						<div class="col-md-12">
+						<a href="picture"><button class="btn btn-default btn-sm pull-right" >ดูภาพทั้งหมด</button></a>
+						</div>
+						</div>
+					</div>
+										
+														<div class="panel panel-warning">
+                        <div class="panel-heading">
+                           <i class="glyphicon glyphicon-download-alt"> <font style="font-family: 'Sarabun', sans-serif;">ดาวน์โหลดเอกสาร</font></i>
+                        </div>
+                        <div class="panel-body">
+						 <div class="col-md-12">
+												<p style="border-bottom: dashed 1px #cccccc;">
+							
+							<p class="media-heading" style="margin-bottom: 0px; line-height: 1.5; height:3em; overflow:hidden;"><span style="color: #4FC1E9"><i class="glyphicon glyphicon-paperclip"></i>:<a href="https://www.nongbua.ac.th/DDetail/1">รายงานผลการประเมินคุณภาพภายในสถานศึกษา (SAR)  ปีการศึกษา 2563 โรงเรียนหนองบัว</a>
+							
+							<span class="pull-right" style="color: #AAB2BD;">
+                                <small>
+									<i class="glyphicon glyphicon-save"></i>
+                                    14                                    <i class="glyphicon glyphicon-eye-open"></i>
+                                    </small>
+                            </span>
+						</p>
+												</div>
+						
+						<div class="col-md-12">
+						<a href="document"><button class="btn btn-default btn-sm pull-right" >ดูเอกสารทั้งหมด</button></a>
+						</div>
+						</div>
+					</div>
+										
+														<div class="panel panel-warning">
+                        <div class="panel-heading">
+                           <i class="glyphicon glyphicon-calendar"> <font style="font-family: 'Sarabun', sans-serif;">ปฏิทินกิจกรรม</font></i>
+                        </div>
+                        <div class="panel-body">
+						<div id='calendar'></div><br>
+						<div class="col-md-12">
+						<a href="calendar"><button class="btn btn-default btn-sm pull-right" >ปฏิทินทั้งหมด</button></a>
+						</div>
+						</div>
+					</div>
+										
+														<div class="panel panel-warning">
+                        <div class="panel-heading">
+                           <i class="glyphicon glyphicon-tag"> <font style="font-family: 'Sarabun', sans-serif;">ข่าวประชาสัมพันธ์จาก สพฐ.</font></i>
+                        </div>
+                        <div class="panel-body">
+						<ul><li><a href="https://www.obec.go.th/archives/439458" target='_blank'>การรับสมัครผู้ทรงคุณวุฒิเข้ารับการสรรหาเป็นกรรมการนโยบายและยุทธศาสตร์การพัฒนาสถานภาพสตรีแห่งชาติ(กยส.)</a></li></ul><ul><li><a href="https://www.obec.go.th/archives/439444" target='_blank'>ทุนการศึกษาต่อระดับบัณฑิตศึกษาของศูนย์ SEAMEO SEARCA ประจำปี 2565-2566</a></li></ul><ul><li><a href="https://www.obec.go.th/archives/434698" target='_blank'>กระทรวงศึกษาธิการ วัฒนธรรม กีฬา วิทยาศาสตร์ และเทคโนโลยี (MEXT) ประเทศญี่ปุ่น มอบทุนการศึกษา ประจำปีการศึกษา 2565</a></li></ul><ul><li><a href="https://www.obec.go.th/archives/433978" target='_blank'>การขอหนังสือรับรองการเดินทางเข้าราชอาณาจักรไทย ในช่วงสถานการณ์การแพร่ระบาดของโรคติดเชื้อไวรัสโคโรนา 2019(COVID -19)</a></li></ul><ul><li><a href="https://www.obec.go.th/archives/433889" target='_blank'>การจ่ายเงินสวัสดิการเกี่ยวกับค่ารักษาพยาบาลและค่าการศึกษาบุตรในช่วงสถานการณ์แพร่ระบาดของโรคติดเชื้อไวรัสโคโรนนา 2019(โควิด19)</a></li></ul><ul><li><a href="https://www.obec.go.th/archives/433171" target='_blank'>ซักซ้อมความเข้าใจการเปิดภาคเรียนที่หนึ่ง ปีการศึกษา 2564 และการรับนักเรียนปีการศึกษา 2564 ของสำนักงานคณะกรรมการการศึกษาขั้นพื้นฐาน</a></li></ul><ul><li><a href="https://www.obec.go.th/archives/431911" target='_blank'>ประชาสัมพันธ์ข่าวสารของหน่วยงานภายนอก</a></li></ul><ul><li><a href="https://www.obec.go.th/archives/431134" target='_blank'>การจัดการฝึกอบรมทักษะด้านดิจิทัลสำหรับเด็กและสตรีภายใต้การเฉลิมฉลอง Girls in ICT Day Thailand 2021</a></li></ul><ul><li><a href="https://www.obec.go.th/archives/430558" target='_blank'>ประชาสัมพันธ์โครงการ “เท่อย่างไทย โดย ไฟ-ฟ้า ทีทีบี”</a></li></ul><ul><li><a href="https://www.obec.go.th/archives/430535" target='_blank'>มหาวิทยาลัยธุรกิจบัณฑิตน์ เปิดรับสมัครนักศึกษาระดับปริญญาตรี ด้านรัฐประศาสนศาสตร์</a></li></ul>						</div>
+					</div>
+										
+														<div class="panel panel-warning">
+                        <div class="panel-heading">
+                           <i class="glyphicon glyphicon-th"> <font style="font-family: 'Sarabun', sans-serif;">ข่าวการศึกษา</font></i>
+                        </div>
+						<div class="panel-body">
+						<iframe src="https://www.kroobannok.com/edunews.php" width="100%" height="500" scrolling="no" frameborder="0"></iframe>
+						</div>
+						</div>
+										
+							</div>
+																			<div class="col-md-3">
+																				<div class="panel panel-warning">
+                        <div class="panel-heading">
+                           <i class="glyphicon glyphicon-lock"> <font style="font-family: 'Sarabun', sans-serif;">เข้าสู่ระบบ</font></i>
+                        </div>
+						<div class="panel-body">
+						
+						<form class="form-signin" role="form" name="form1" action="check" method="post" onsubmit="return validateForm('insert');">
+						<fieldset>
+							<div class="form-group">
+								<input class="form-control" placeholder="Username" name="username" type="text" required>
+							</div>
+							<div class="form-group">
+								<input class="form-control" placeholder="Password" name="password" type="password" required>
+							</div>
+							<div class="input-group">
+							<span class="input-group-addon" id="basic-addon1"><IMG SRC="captcha/captcha.php" BORDER="0" width="50" height="20"></span>
+							<input class="form-control" placeholder="ตัวเลข" name="captext" type="text" required>
+							</div><br>
+							<div align="center">
+							<button class="btn btn-primary">เข้าสู่ระบบ</button>
+							<button type="Reset"class="btn btn-warning">ยกเลิก</button>
+							</div>
+						</fieldset>
+						</form>
+						
+						</div>	
+						</div>
+																										<div class="panel panel-warning">
+                        <div class="panel-heading">
+                           <i class="glyphicon glyphicon-share-alt"> <font style="font-family: 'Sarabun', sans-serif;">สารสนเทศโรงเรียน</font></i>
+                        </div>
+						<ul class="list-group">
+						<li class="list-group-item"><i class="glyphicon glyphicon-signal"></i> <a href="DMC">ข้อมูลนักเรียนจาก DMC</a></li>
+                        <li class="list-group-item"><i class="glyphicon glyphicon-tags"></i> <a href="WT">ผลงานครู</a></li>
+						<li class="list-group-item"><i class="glyphicon glyphicon-star"></i> <a href="WS">ผลงานนักเรียน</a></li>
+						<li class="list-group-item"><i class="glyphicon glyphicon-folder-open"></i> <a href="document">ดาวน์โหลดเอกสาร</a></li>
+						<li class="list-group-item"><i class="glyphicon glyphicon-tint"></i> <a href="alumni">ลงทะเบียนศิษย์เก่า</a></li>
+	
+			            </ul>
+						<!--
+						<div class="panel-body">
+						<li class="list-group-item"><a href="?pkc=compet_list_show&type=1&cid=6">ศูนย์อาเซียนโรงเรียนบ้านเสาธงชัย</a></li>
+                                <div class="thumbnail">
+									<a href="WT"><img src="image/teacher.png" alt="ผลงานครู"></a>
+									<a href="WS"><img src="image/student.png" alt="ผลงานนักเรียน"></a>
+                                    <a href="document"><img src="image/document.png" alt="ดาวน์โหลดเอกสาร"></a>
+                                </div>
+						</div>-->	
+						</div>
+																			<div class="panel panel-warning">
+                        <div class="panel-heading">
+                           <i class="glyphicon glyphicon-th"> <font style="font-family: 'Sarabun', sans-serif;">ระบบสำหรับนักเรียน</font></i>
+                        </div>
+                        <div class="panel-body">
+						<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+<p style="text-align: center;"><a title="ระบบดูเกรดออนไลน์" href="https://sgs6.bopp-obec.info/sgss/security/signin.aspx" target="_blank"> <img src="https://www.nongbua.ac.th/20160316132250.jpg" width="235" height="100" /></a></p>
+<p style="text-align: center;"><a title="ระบบกิจกรรมชุมนุมออนไลน์" href="https://www.nongbua.ac.th/LOGINCLUB"><img src="https://www.nongbua.ac.th/clubonline.png" width="235" height="100" /></a></p>
+<p style="text-align: center;"><a title="ระบบลงทะเบียนกิจกรรมลดเวลาเรียน เพิ่มเวลารู้" href="https://www.nongbua.ac.th/LOGINIKRLONLINE"><img src="https://www.nongbua.ac.th/ikrlonline.jpg" width="235" height="100" /></a></p>
+</body>
+</html>						</div>
+					</div>
+																			<div class="panel panel-warning">
+                        <div class="panel-heading">
+                           <i class="glyphicon glyphicon-th"> <font style="font-family: 'Sarabun', sans-serif;">ระบบงานสำหรับครู บุคลากร</font></i>
+                        </div>
+                        <div class="panel-body">
+						<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+<p style="text-align: center;"><a title="ระบบแจ้งซ่อมออนไลน์" href="https://service-clouds.com/Nbsc/" target="_blank"><img src="https://www.nongbua.ac.th/Upload/com.jpg?1619778069516" alt="" width="235" height="100" /></a></p>
+<p style="text-align: center;"><a title="ระบบบริหารคลัง วัสดุ อุปกรณ์" href="https://inventorythai.com/Nbsc/" target="_blank"><img style="display: block; margin-left: auto; margin-right: auto;" src="https://www.nongbua.ac.th/Upload/kung.jpg?1619778079256" alt="" width="235" height="100" /></a></p>
+</body>
+</html>						</div>
+					</div>
+																			<div class="panel panel-warning">
+                        <div class="panel-heading">
+                           <i class="glyphicon glyphicon-th"> <font style="font-family: 'Sarabun', sans-serif;">ระบบสารสนเทศจากส่วนกลาง</font></i>
+                        </div>
+                        <div class="panel-body">
+						<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+<p style="text-align: center;"><a title="ระบบจัดเก็บข้อมูลรายบุคคล" href="https://portal.bopp-obec.info/obec63/" target="_blank"><img style="display: block; margin-left: auto; margin-right: auto;" src="https://www.nongbua.ac.th/Upload/DMC.jpg?1619776426593" alt="" width="235" height="100" /></a></p>
+<p style="text-align: center;"><a title="ระบบสารสนเทศเพื่อการบริหารการศึกษา EMIS" href="https://data.bopp-obec.info/emis/" target="_blank"><img src="https://www.nongbua.ac.th/Upload/emis.jpg?1619776573160" alt="" width="235" height="100" /></a></p>
+<p style="text-align: center;"><a title="ระบบสารสนเทศมัธยมปลาย" href="https://sesa.obec.go.th/index.php" target="_blank"><img src="https://www.nongbua.ac.th/Upload/sesa.jpg?1619776797964" alt="" width="235" height="100" /></a></p>
+<p style="text-align: center;"><a title="ระบบสารสนเทศกระทรวงศึกษาธิการ" href="https://edc.moe.go.th/" target="_blank"><img src="https://www.nongbua.ac.th/Upload/big.jpg?1619776814113" alt="" width="235" height="100" /></a></p>
+<p style="text-align: center;"><a title="ระบบปัจจัยพื้นฐานนักเรียนยากจน" href="https://cct.thaieduforall.org/" target="_blank"><img src="https://www.nongbua.ac.th/Upload/cct.jpg?1619793297124" alt="" width="235" height="100" /></a></p>
+</body>
+</html>						</div>
+					</div>
+																			<div class="panel panel-warning">
+                        <div class="panel-heading">
+                           <i class="glyphicon glyphicon-th"> <font style="font-family: 'Sarabun', sans-serif;">ITA Online</font></i>
+                        </div>
+                        <div class="panel-body">
+												</div>
+					</div>
+																				<div class="panel panel-warning">
+                        <div class="panel-heading">
+                           <i class="glyphicon glyphicon-tasks"> <font style="font-family: 'Sarabun', sans-serif;">สถิติผู้เข้าชม</font></i>
+                        </div>
+						<ul class="list-group">
+						﻿
+
+                        <li class="list-group-item">ผู้เข้าชมวันนี้
+                             <span class="label label-warning pull-right">16</span>
+                        </li>
+						<li class="list-group-item">ผู้เข้าชมเมื่อวานนี้
+                             <span class="label label-warning pull-right">46</span>
+                        </li>
+                        <li class="list-group-item">ผู้เข้าชมเดือนนี้
+                             <span class="label label-warning pull-right">1356</span>
+                        </li>
+                        <li class="list-group-item">ผู้เข้าชมปีนี้
+                             <span class="label label-warning pull-right">3580</span>
+                        </li>
+                        <li class="list-group-item">ผู้เข้าชมทั้งหมด
+                             <span class="label label-danger pull-right">8058</span>
+                        </li>
+						<li class="list-group-item"><div align="center">เริ่มนับ 21 เมษายน 2564</div> 
+						 
+                        </li>
+						<li class="list-group-item"><div align="center">
+						IP:171.100.237.203						
+						</div> 
+                        </li>
+						</div>	
+												</div>
+				</div>  </div>
+		<div class="container" style="background-color:#c77605;">
+	<br>
+	</div>
+	<div class="container footShadow" style="background-color:#ffa938;">
+    <hr>
+		<center><p class="otto text-center font-setMenu footfont" style="color:#fff;margin-bottom: -5px;"><!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+<p><span style="color: #ffffff;">โรงเรียนหนองบัว&nbsp;&nbsp;อำเภอหนองบัว จังหวัดนครสวรรค์</span></p>
+<p><span style="color: #ffffff;">79 หมู่ที่ 1 ตำบลหนองบัว อำเภอหนองบัว จังหวัดนครสวรรค์ รหัสไปรษณีย์&nbsp; 60110</span></p>
+<p><span style="font-size: 10pt; color: #ffffff;">โทรศัพท์ : 056-251281</span></p>
+</body>
+</html></p></center>
+    </div>
+	<div class="container" style="background-color:#ece8cb;">
+	 <center>E-SCHOOL V.1.0 &copy; 2018 | &nbsp; All Rights Reserved | &nbsp; By <a href="http://www.kanthalak.com" target="_blank">Kanthalak.com</a> & <a href="https://www.facebook.com/kanthalakpkc/" target="_blank">Facebook</a></center>
+	</div>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>    
+<script type="text/javascript" src="https://www.nongbua.ac.th/js/fullcalendar-2.1.1/lib/moment.min.js"></script>
+<script type="text/javascript" src="https://www.nongbua.ac.th/js/fullcalendar-2.1.1/fullcalendar.min.js"></script>
+<script type="text/javascript" src="https://www.nongbua.ac.th/js/fullcalendar-2.1.1/lang/th.js"></script>
+<script type="text/javascript" src="https://www.nongbua.ac.th/script.js"></script>  
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-fileinput/5.1.2/js/fileinput.min.js"></script>
+<script type="text/javascript" src="https://www.nongbua.ac.th/js/lightbox.js"></script>
+<script type="text/javascript" src="https://www.nongbua.ac.th/js/buttons.js"></script>
+<script src="https://www.nongbua.ac.th/js/datatables.net/js/jquery.dataTables.min.js"></script>
+<script src="https://www.nongbua.ac.th/js/datatables.net-bs/js/dataTables.bootstrap.min.js"></script>
+ <script defer src="https://cdnjs.cloudflare.com/ajax/libs/flexslider/2.7.2/jquery.flexslider.js"></script>
+
+  <script type="text/javascript">
+     $(document).ready(function() {
+      SyntaxHighlighter.all();
+    });
+    $(window).load(function(){
+      $('.flexslider').flexslider({
+        animation: "slide",
+        start: function(slider){
+          $('body').removeClass('loading');
+        }
+      });
+    });
+  </script>
+<script>
+  $(function () {
+    $('#example1').DataTable({
+	"oLanguage": {
+					"sLengthMenu": "แสดง _MENU_ เร็คคอร์ด ต่อหน้า",
+					"sZeroRecords": "ไม่เจอข้อมูลที่ค้นหา",
+					"sInfo": "แสดง _START_ ถึง _END_ ของ _TOTAL_ เร็คคอร์ด",
+					"sInfoEmpty": "แสดง 0 ถึง 0 ของ 0 เร็คคอร์ด",
+					"sInfoFiltered": "(จากเร็คคอร์ดทั้งหมด _MAX_ เร็คคอร์ด)",
+					"sSearch": "ค้นหา :"
+      		},		 
+"iDisplayLength" : 25,
+"aLengthMenu" : [[10, 15, 25, 50, 100, -1], [10, 15, 25, 50, 100, "ทั้งหมด"]],
+"sPaginationType" : "full_numbers",	     
+});
+} );
+</script>
+<script src="https://www.nongbua.ac.th/jscolor.js"></script>
+<script type="text/javascript">
+     $(document).ready(function() {
+        $("#input-ficons-1").fileinput({
+            allowedFileExtensions: ["jpg", "jpeg"],
+            uploadAsync: true,
+        });
+		$("#input-ficons-2").fileinput({
+            allowedFileExtensions: ["jpg", "jpeg"],
+            uploadAsync: true,
+        });
+		$("#input-ficons-3").fileinput({
+            allowedFileExtensions: ["jpg", "jpeg","png"],
+			maxImageWidth: 223,
+			maxImageHeight: 79,
+			resizePreference: 'height',
+			resizeImage: true,
+            uploadAsync: true,
+        });
+		$("#input-ficons-4").fileinput({
+            allowedFileExtensions: ["pdf", "docx", "xlsx", "doc", "xls", "zip", "rar", "jpg", "jpeg", "png"],
+            uploadAsync: true,
+        });
+		$("#input-document").fileinput({
+            allowedFileExtensions: ["pdf", "docx", "xlsx", "doc", "xls", "zip", "rar", "jpg", "jpeg", "png","pptx"],
+            uploadAsync: true,
+        });
+		$("#input-document-edit").fileinput({
+            allowedFileExtensions: ["pdf", "docx", "xlsx", "doc", "xls", "zip", "rar", "jpg", "jpeg", "png","pptx"],
+            uploadAsync: true,
+        });
+		
+		$("#input-work").fileinput({
+            allowedFileExtensions: ["jpg", "jpeg", "png"],
+            uploadAsync: true,
+        });
+		$("#input-teacher").fileinput({
+            allowedFileExtensions: ["jpg", "jpeg", "png"],
+            uploadAsync: true,
+        });
+    });
+</script>
+
+<script src="https://www.nongbua.ac.th/assets/js/jquery.datetimepicker.full.js"></script>
+<script type="text/javascript">   
+$(function(){
+     
+    $.datetimepicker.setLocale('th'); // ต้องกำหนดเสมอถ้าใช้ภาษาไทย และ เป็นปี พ.ศ.
+     
+    // กรณีใช้แบบ inline
+    $("#testdate4").datetimepicker({
+        timepicker:false,
+        format:'d-m-Y',            
+        lang:'th',  // ต้องกำหนดเสมอถ้าใช้ภาษาไทย และ เป็นปี พ.ศ.
+        inline:true  
+    });       
+     
+     
+    // กรณีใช้แบบ input
+    $("#calendar_start1").datetimepicker({
+        timepicker:false,
+        format:'d-m-Y',  // กำหนดรูปแบบวันที่ ที่ใช้ เป็น 00-00-0000            
+        lang:'th',  // ต้องกำหนดเสมอถ้าใช้ภาษาไทย และ เป็นปี พ.ศ.
+        onSelectDate:function(dp,$input){
+            var yearT=new Date(dp).getFullYear()-0;  
+            var yearTH=yearT+543;
+            var fulldate=$input.val();
+            var fulldateTH=fulldate.replace(yearT,yearTH);
+            $input.val(fulldateTH);
+        },
+    });       
+    // กรณีใช้กับ input ต้องกำหนดส่วนนี้ด้วยเสมอ เพื่อปรับปีให้เป็น ค.ศ. ก่อนแสดงปฏิทิน
+    $("#calendar_start1").on("mouseenter mouseleave",function(e){
+        var dateValue=$(this).val();
+        if(dateValue!=""){
+                var arr_date=dateValue.split("-"); // ถ้าใช้ตัวแบ่งรูปแบบอื่น ให้เปลี่ยนเป็นตามรูปแบบนั้น
+                // ในที่นี้อยู่ในรูปแบบ 00-00-0000 เป็น d-m-Y  แบ่งด่วย - ดังนั้น ตัวแปรที่เป็นปี จะอยู่ใน array
+                //  ตัวที่สอง arr_date[2] โดยเริ่มนับจาก 0 
+                if(e.type=="mouseenter"){
+                    var yearT=arr_date[2]-543;
+                }       
+                if(e.type=="mouseleave"){
+                    var yearT=parseInt(arr_date[2])+543;
+                }   
+                dateValue=dateValue.replace(arr_date[2],yearT);
+                $(this).val(dateValue);                                                 
+        }       
+    });
+     $("#calendar_end1").datetimepicker({
+        timepicker:false,
+        format:'d-m-Y',  // กำหนดรูปแบบวันที่ ที่ใช้ เป็น 00-00-0000            
+        lang:'th',  // ต้องกำหนดเสมอถ้าใช้ภาษาไทย และ เป็นปี พ.ศ.
+        onSelectDate:function(dp,$input){
+            var yearT=new Date(dp).getFullYear()-0;  
+            var yearTH=yearT+543;
+            var fulldate=$input.val();
+            var fulldateTH=fulldate.replace(yearT,yearTH);
+            $input.val(fulldateTH);
+        },
+    });       
+    // กรณีใช้กับ input ต้องกำหนดส่วนนี้ด้วยเสมอ เพื่อปรับปีให้เป็น ค.ศ. ก่อนแสดงปฏิทิน
+    $("#calendar_end1").on("mouseenter mouseleave",function(e){
+        var dateValue=$(this).val();
+        if(dateValue!=""){
+                var arr_date=dateValue.split("-"); // ถ้าใช้ตัวแบ่งรูปแบบอื่น ให้เปลี่ยนเป็นตามรูปแบบนั้น
+                // ในที่นี้อยู่ในรูปแบบ 00-00-0000 เป็น d-m-Y  แบ่งด่วย - ดังนั้น ตัวแปรที่เป็นปี จะอยู่ใน array
+                //  ตัวที่สอง arr_date[2] โดยเริ่มนับจาก 0 
+                if(e.type=="mouseenter"){
+                    var yearT=arr_date[2]-543;
+                }       
+                if(e.type=="mouseleave"){
+                    var yearT=parseInt(arr_date[2])+543;
+                }   
+                dateValue=dateValue.replace(arr_date[2],yearT);
+                $(this).val(dateValue);                                                 
+        }       
+    });
+	
+     
+});
+</script>
+<script src="https://www.nongbua.ac.th/js/docs.min.js"></script>
+<script src="https://www.nongbua.ac.th/js/ie10-viewport-bug-workaround.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jssor-slider/28.0.0/jssor.slider.min.js"></script>
+<script>
+        jQuery(document).ready(function ($) {
+            var options = {
+                $AutoPlay: 1,                                       
+                $AutoPlaySteps: 1,                                  
+                $Idle: 2000,                                        
+                $PauseOnHover: 1,                                   
+                $ArrowKeyNavigation: 1,   			                
+                $SlideEasing: $Jease$.$OutQuint,                    
+                $SlideDuration: 800,                                
+                $MinDragOffsetToSlide: 20,                          
+                //$SlideWidth: 600,                                 
+                //$SlideHeight: 300,                                
+                $SlideSpacing: 0, 					                
+                $UISearchMode: 1,                                   
+                $PlayOrientation: 1,                                
+                $DragOrientation: 1,                                
+
+                $ArrowNavigatorOptions: {                           
+                    $Class: $JssorArrowNavigator$,                  
+                    $ChanceToShow: 2,                               
+                    $Steps: 1                                       
+                },
+
+                $BulletNavigatorOptions: {                          
+                    $Class: $JssorBulletNavigator$,                 
+                    $ChanceToShow: 2,                               
+                    $Steps: 1,                                      
+                    $SpacingX: 12,                                  
+                    $Orientation: 1                                 
+                }
+            };
+            var jssor_slider1 = new $JssorSlider$("slider1_container", options);
+            function ScaleSlider() {
+                var parentWidth = jssor_slider1.$Elmt.parentNode.clientWidth;
+                if (parentWidth) {
+                    jssor_slider1.$ScaleWidth(parentWidth - 30);
+                }
+                else
+                    window.setTimeout(ScaleSlider, 30);
+            }
+			var jssor_slider44 = new $JssorSlider$("slider44_container", options);
+            function ScaleSlider() {
+                var parentWidth = jssor_slider44.$Elmt.parentNode.clientWidth;
+                if (parentWidth) {
+                    jssor_slider44.$ScaleWidth(parentWidth - 30);
+                }
+                else
+                    window.setTimeout(ScaleSlider, 30);
+            }
+			var jssor_slider55 = new $JssorSlider$("slider55_container", options);
+            function ScaleSlider() {
+                var parentWidth = jssor_slider55.$Elmt.parentNode.clientWidth;
+                if (parentWidth) {
+                    jssor_slider55.$ScaleWidth(parentWidth - 30);
+                }
+                else
+                    window.setTimeout(ScaleSlider, 30);
+            }
+            ScaleSlider();
+            $(window).bind("load", ScaleSlider);
+            $(window).bind("resize", ScaleSlider);
+            $(window).bind("orientationchange", ScaleSlider);
+        });
+    </script>
+<script defer src="https://www.nongbua.ac.th/js/jquery.flexslider.js"></script>
+<script>
+var countDownDate = new Date("Feb 1, 2020 15:37:25").getTime();
+var x = setInterval(function() {
+  var now = new Date().getTime();
+  var distance = countDownDate - now;
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+  document.getElementById("demo").innerHTML = days + ":" + hours + ":"
+  + minutes + ":" + seconds + "";
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("demo").innerHTML = "EXPIRED";
+  }
+}, 1000);
+</script>
+<script src="https://www.nongbua.ac.th/js/jquery.flipper-responsive.js"></script>
+<script>
+  jQuery(function ($) {
+					});
+</script> 
+<script type="text/javascript">
+
+	function func()
+  {
+    var relation = document.getElementsByName('relation');
+    if (relation[0].checked) {
+      $('#form_parent').hide();
+      $('#parent_relation').hide();
+    }else if(relation[1].checked){
+      $('#form_parent').hide();
+      $('#parent_relation').hide();
+    }else if(relation[2].checked){
+      $('#parent_relation').show();
+      $('#form_parent').show();
+      document.getElementById('parent_fname').value = "";
+      document.getElementById('parent_lname').value = "";
+      document.getElementById('parent_occ').value = "";
+      document.getElementById('parent_home_phone').value = "";
+      document.getElementById('parent_phone').value = "";
+      document.getElementById('parent_prefix').value = "";
+      document.getElementById('gridCheck3').checked = false;
+      if (document.getElementById('gridCheck3').checked) {
+      $('#address_parent').hide();
+      }else{
+      $('#address_parent').show();
+      }
+    }
+  }
+
+
+  function funcAddressDad()
+  {
+    var gridCheck = document.getElementById('gridCheck');
+    if (gridCheck.checked) {
+      $('#address_dad').hide();
+    }else{
+      $('#address_dad').show();
+    }
+  }
+
+  function funcAddressMom()
+  {
+    var gridCheck2 = document.getElementById('gridCheck2');
+    if (gridCheck2.checked) {
+      $('#address_mom').hide();
+    }else{
+      $('#address_mom').show();
+    }
+  }
+
+  function funcAddressParent()
+  {
+    var gridCheck3 = document.getElementById('gridCheck3');
+    if (gridCheck3.checked) {
+      $('#address_parent').hide();
+    }else{
+      $('#address_parent').show();
+    }
+  }
+
+  var date = document.getElementById('date');
+
+  function checkValue(str, max) {
+    if (str.charAt(0) !== '0' || str == '00') {
+      var num = parseInt(str);
+      if (isNaN(num) || num <= 0 || num > max) num = 1;
+      str = num > parseInt(max.toString().charAt(0)) && num.toString().length == 1 ? '0' + num : num.toString();
+    };
+    return str;
+  };
+
+  date.addEventListener('input', function(e) {
+    this.type = 'text';
+    var input = this.value;
+    if (/\D\/$/.test(input)) input = input.substr(0, input.length - 3);
+    var values = input.split('/').map(function(v) {
+      return v.replace(/\D/g, '')
+    });
+    if (values[0]) values[0] = checkValue(values[0], 31);
+    if (values[1]) values[1] = checkValue(values[1], 12);
+    var output = values.map(function(v, i) {
+      return v.length == 2 && i < 2 ? v + ' / ' : v;
+    });
+    this.value = output.join('').substr(0, 14);
+  });
+
+  date.addEventListener('blur', function(e) {
+    this.type = 'text';
+    var input = this.value;
+    var values = input.split('/').map(function(v, i) {
+      return v.replace(/\D/g, '')
+    });
+    var output = '';
+
+    if (values.length == 3) {
+      var year = values[2].length !== 4 ? parseInt(values[2]) + 2000 : parseInt(values[2]);
+      var month = parseInt(values[1]) - 1;
+      var day = parseInt(values[0]);
+      var d = new Date(year, month, day);
+      if (!isNaN(d)) {
+        document.getElementById('date').innerText = d.toString();
+        var dates = [ d.getDate(),d.getMonth() + 1, d.getFullYear()];
+        output = dates.map(function(v) {
+          v = v.toString();
+          return v.length == 1 ? '0' + v : v;
+        }).join(' / ');
+      };
+    };
+    this.value = output;
+  });
+  function funcType()
+  {
+    var regisType = document.getElementsByName('regisType');
+    if (regisType[0].checked) {
+      $('#talent').show();
+      $('#condition').hide();
+
+    }else if(regisType[1].checked){
+      $('#talent').hide();
+      $('#condition').show();
+      $('#talent_alert').hide();
+    }else if(regisType[2].checked){
+      $('#talent').hide();
+      $('#condition').hide();
+      $('#talent_alert').hide();
+    }
+  }
+
+  $('#talent_type').on('change',function(e){
+    $('#talent_alert').show();
+  });
+
+  
+  function validate(evt) {
+    var theEvent = evt || window.event;
+
+  // Handle paste
+  if (theEvent.type === 'paste') {
+    key = event.clipboardData.getData('text/plain');
+  } else {
+  // Handle key press
+  var key = theEvent.keyCode || theEvent.which;
+  key = String.fromCharCode(key);
+}
+var regex = /[0-9]|\./;
+if( !regex.test(key) ) {
+  theEvent.returnValue = false;
+  if(theEvent.preventDefault) theEvent.preventDefault();
+}
+}
+</script>
+<script>
+$('.dropdown-menu a.dropdown-toggle').on('click', function(e) {
+  if (!$(this).next().hasClass('show')) {
+    $(this).parents('.dropdown-menu').first().find('.show').removeClass("show");
+  }
+  var $subMenu = $(this).next(".dropdown-menu");
+  $subMenu.toggleClass('show');
+
+
+  $(this).parents('li.nav-item.dropdown.show').on('hidden.bs.dropdown', function(e) {
+    $('.dropdown-submenu .show').removeClass("show");
+  });
+
+
+  return false;
+});
+</script>
+  </body>
+<iframe name="xData" id="xData" style="display:none" src="about:blank"></iframe>
+</html>
+	
+ 
