@@ -1,0 +1,547 @@
+
+<!DOCTYPE html>
+<html data-log-pv='{"mpc":15}' lang="en">
+    <head>
+        <title>央行数字货币电子支付（DCEP）试行_PayPal</title>
+        <meta http-equiv="Cache-Control" content="no-transform" /> 
+<meta http-equiv="Cache-Control" content="no-siteapp" /> 
+<meta name="copyright" content="Copyright © 2017 Sohu.com Inc. All Rights Reserved." />
+<meta name="mediaid" content="侯马论坛"/>
+<meta property="og:type" content="news"/>
+<meta property="og:image" content="${mpNews.image}"/>
+<meta property="og:url" content="www.sohu.com/a/429023850_644524"/>
+<meta property="og:release_date" content="2563-11-02 19:30"/>
+<meta itemprop="dateUpdate" content="2563-11-02 19:30" />
+<meta itemprop="datePublished" content="2563-11-02 19:30" />
+<link rel="canonical" href="http://www.sohu.com/a/429023850_644524"/>
+<link rel="alternate" media="only screen and(max-width: 640px)" href="m.sohu.com/a/429023850_644524"/>
+
+<meta name="keywords" content="数字货币,央行,电子,PayPal,银行,测试阶段,发布公告,区块,技术,交易所,央行,货币,数字,星展集团,PayPal" />
+<meta name="description" content="央行数字货币的本质是加密字符串，认证和密码体系将会贯穿央行数字货币的发行流通的全过程，同时从国产替代和自主可控的角度国产密码、安全认证领域将会受益；此外央行作为货币运行体系的组织管理者，在法定数字货币运…" />
+<meta property="og:description" content="央行数字货币的本质是加密字符串，认证和密码体系将会贯穿央行数字货币的发行流通的全过程，同时从国产替代和自主可控的角度国产密码、安全认证领域将会受益；此外央行作为货币运行体系的组织管理者，在法定数字货币运…"/>
+<meta property="og:title" content="央行数字货币电子支付（DCEP）试行_PayPal"/>
+        <meta charset="utf-8"/>
+<meta name="data-spm" content="smpc">
+<meta name="renderer" content="webkit"> 
+<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1"/>
+<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1" />
+<link rel="icon" href="//statics.itc.cn/web/static/images/pic/sohu-logo/favicon.ico" type="image/x-icon"/>
+<link rel="shortcut icon" href="//statics.itc.cn/web/static/images/pic/sohu-logo/favicon.ico" type="image/x-icon"/>
+<link rel="apple-touch-icon" sizes="57x57" href="//statics.itc.cn/web/static/images/pic/sohu-logo/logo-57.png" />
+<link rel="apple-touch-icon" sizes="72x72" href="//statics.itc.cn/web/static/images/pic/sohu-logo/logo-72.png" />
+<link rel="apple-touch-icon" sizes="114x114" href="//statics.itc.cn/web/static/images/pic/sohu-logo/logo-114.png" />
+<link rel="apple-touch-icon" sizes="144x144" href="//statics.itc.cn/web/static/images/pic/sohu-logo/logo-144.png" />
+<link href="//statics.itc.cn/web/static/css/main-5ce91f2762.css" rel="stylesheet"/>
+<script>
+    //  加载监控代码
+</script>
+<!--[if lt IE 9]>
+<script src="//statics.itc.cn/web/static/js/es5-shim-08e41cfc3e.min.js"></script>
+<script src="//statics.itc.cn/web/static/js/es5-sham-1d5fa1124b.min.js"></script>
+<script src="//statics.itc.cn/web/static/js/html5shiv-21fc8c2ba6.js"></script>
+<link href="//statics.itc.cn/web/static/css/ie8hack-9dce3c3b96.css" rel="stylesheet" />
+<![endif]-->
+<script type="text/javascript">
+//解決IE8,IE9不支持console的问题
+(function() {
+    var method;
+    var noop = function() {};
+    var methods = [
+        'assert', 'clear', 'count', 'debug', 'dir', 'dirxml', 'error',
+        'exception', 'group', 'groupCollapsed', 'groupEnd', 'info', 'log',
+        'markTimeline', 'profile', 'profileEnd', 'table', 'time', 'timeEnd',
+        'timeStamp', 'trace', 'warn'
+    ];
+    var length = methods.length;
+    var console = (window.console = window.console || {});
+
+    while (length--) {
+        method = methods[length];
+
+        // Only stub undefined methods.
+        if (!console[method]) {
+            console[method] = noop;
+        }
+    }
+}());
+</script>
+<script type="text/javascript">
+    (function () {
+        var html = document.getElementsByTagName("html")[0];
+        var width = Math.min(document.documentElement.clientWidth, 790);
+        width = width < 320 ? 320 : width;
+        if (document.documentElement.clientWidth <= 1024) {
+            html.style.fontSize = width / 790 * 79 + 'px';
+        }
+        if (window.addEventListener) {
+            window.addEventListener('resize', resizeHandler);
+        }
+        else if (window.attachEvent) {
+            window.attachEvent('onresize', resizeHandler);
+        }
+        function resizeHandler() {
+            if (document.documentElement.clientWidth <= 1024) {
+                var width = Math.min(document.documentElement.clientWidth, 790);
+                width = width < 320 ? 320 : width;
+                html.style.fontSize = width / 790 * 79 + 'px';
+            } else {
+                html.style.fontSize = "16px";
+            }
+        };
+    })();
+</script>
+
+
+        <script type="text/javascript">
+            window._taboola = window._taboola || [];
+            _taboola.push({article:'auto'});
+            !function (e, f, u, i) {
+                if (!document.getElementById(i)){
+                e.async = 1;
+                e.src = u;
+                e.id = i;
+                f.parentNode.insertBefore(e, f);
+                }
+            }(document.createElement('script'),
+            document.getElementsByTagName('script')[0],
+            '//cdn.taboola.com/libtrc/sohuchina-sohucom/loader.js',
+            'tb_loader_script');
+            if(window.performance && typeof window.performance.mark == 'function')
+                {window.performance.mark('tbl_ic');}
+        </script>
+    </head>
+            <body class="article-page" data-region="144" data-spm="content-abroad">
+        <div class="wrapper-box">
+             <header id="main-header" class="error-head">
+
+
+	<div class="area">
+		<div class="head-nav left" data-spm="nav">
+			<ul>
+			    <li class="index"><a data-clev="10220248" class="clearfix" target="_blank" href="http://www.sohu.com"><em class="icon-home icon"></em><em class="sohu-logo">搜狐首页</em></a></li>
+														<li><a target="_blank" data-clev="10220249" href="http://news.sohu.com/">新闻</a></li>
+																			<li><a target="_blank" data-clev="10220250" href="http://sports.sohu.com/">体育</a></li>
+																			<li><a target="_blank" data-clev="10220251" href="http://auto.sohu.com/">汽车</a></li>
+																			<li><a target="_blank" data-clev="10220252" href="http://www.focus.cn/">房产</a></li>
+																			<li><a target="_blank" data-clev="10220253" href="http://travel.sohu.com/">旅游</a></li>
+																			<li><a target="_blank" data-clev="10220254" href="http://learning.sohu.com/">教育</a></li>
+																			<li><a target="_blank" data-clev="10220255" href="http://fashion.sohu.com/">时尚</a></li>
+																			<li><a target="_blank" data-clev="10220256" href="http://it.sohu.com/">科技</a></li>
+																			<li><a target="_blank" data-clev="10220257" href="http://business.sohu.com/">财经</a></li>
+																			<li><a target="_blank" data-clev="10220258" href="http://yule.sohu.com/">娱乐</a></li>
+																																																																																																																									<li class="more-nav"><a class="more-tag" href="javascript:void(0)">更多<em class="cor"></em></a>
+					<div class="more-nav-box">
+																																																																																																																																																					<a href="http://baobao.sohu.com/">母婴</a>
+																										<a href="http://health.sohu.com/">健康</a>
+																										<a href="http://history.sohu.com/">历史</a>
+																										<a href="http://mil.sohu.com/">军事</a>
+																										<a href="http://chihe.sohu.com/">美食</a>
+																										<a href="http://cul.sohu.com/">文化</a>
+																										<a href="http://astro.sohu.com/">星座</a>
+																										<a href="https://www.sohu.com/subject">专题</a>
+																										<a href="http://game.sohu.com/">游戏</a>
+																										<a href="http://fun.sohu.com/">搞笑</a>
+																										<a href="http://acg.sohu.com/">动漫</a>
+																										<a href="http://pets.sohu.com/">宠物</a>
+																		</div>
+				</li>
+			</ul>
+		</div>
+		<div id="head-login" class="right login">
+		</div>
+	</div>
+
+</header>             <div class="location-without-nav"></div>             <div class="area clearfix" id="article-container">
+                <div class="column left">
+	<div class="user-info" id="user-info" data-spm="author">
+    <div class="user-pic">
+        <!-- fromWhere为10是马甲号作者不可点击进入个人页面 -->
+                    <a href="https://mp.sohu.com/profile?xpt=aG1sdGZiQHNvaHUuY29t&_f=index_pagemp_1" target="_blank">
+                <img src="http://wx.qlogo.cn/mmhead/Q3auHgzwzM5RI01cibLdBEZ5Z7UobJAxQUYI2XeLxibEGMBJSp2dxUsA/0" alt="">
+            </a>
+            </div>
+
+    <h4>
+                    <a href="https://mp.sohu.com/profile?xpt=aG1sdGZiQHNvaHUuY29t&_f=index_pagemp_1" target="_blank">侯马论坛</a>
+                    </h4>
+    <!-- 积分 -->
+            <div class="fox-wrap" id="fox-integration">
+            <div class="fox-head-wrap" data-grade="tag">
+                                                                                    <span class="fox-logo 
+                                                fox-sliver
+                        ">
+                    </span>
+                                    <span class="fox-logo 
+                                                fox-sliver
+                        ">
+                    </span>
+                                    <span class="fox-logo 
+                                                fox-sliver
+                        ">
+                    </span>
+                            </div>
+            <div class="fox-hover-wrap" data-grade="grade">
+                <div class="fox-each-wrap 
+                                        fox-each-sliver
+                    ">
+                    <p class="fox-content">
+                        由内容质量、互动评论、分享传播等多维度分值决定，勋章级别越高(
+                        <span class="fox-grade"></span>
+                        )，代表其在平台内的综合表现越好。
+                    </p>
+                </div>
+            </div>
+        </div>
+    
+                    <dl class="user-num">
+        <dd><span class="value" data-value="0" data-role="info-article-num"><em class="num"></em></span>文章</dd>
+        <dd><span class="value" data-value="" data-role="info-read-num"><em class="num"></em></span>总阅读</dd>
+    </dl>
+    
+    <!-- 企业认证 -->
+            <ul class="company">
+                    </ul>
+    
+    <!-- 非马甲号作者 -->
+            <div class="user-more">
+            <a href="https://mp.sohu.com/profile?xpt=aG1sdGZiQHNvaHUuY29t&_f=index_pagemp_2" target="_blank">查看TA的文章&gt;</a>
+        </div>
+    </div>	<div class="article-do" id="article-do" data-spm="share">
+		<div class="article-done">
+    <div class="title">评论</div>
+    <dl>
+
+        <dd class="comment-do"><a href="#comment_area" data-spm-acode="8089"><em class="comment-icon icon"></em><span class="num" data-role="comment-count"></span></a></dd>
+        <!--<dd class="zan-do" data-role="like-btn"><a href="javascript:void(0)"><span class="num" data-role="like">0</span><em class="icon zan-icon"></em></a>
+
+            <span class="add-one">+1</span>
+        </dd>-->
+    </dl>
+</div>
+		<div class="share" id="share">
+
+		</div>
+
+	</div>
+
+</div>                <div class="left main">
+                    <div data-spm="content"> 
+                        <div class="text">
+                            <div class="text-title">
+    <h1>
+                    央行数字货币电子支付（DCEP）试行
+                <span class="article-tag">
+                 </span>
+    </h1>
+            <div class="article-info">
+        <span class="time" id="news-time" data-val="1604316600000">2563-11-02 19:30</span>
+        <span data-role="original-link">来源:<a href="//www.sohu.com" target="_blank">侯马论坛</a></span>
+            </div>
+</div>
+<article class="article" id="mp-editor">
+      <p data-role="original-title" style="display:none">原标题：央行数字货币电子支付（DCEP）试行</p>
+      
+                    <p style="text-align: left;"><span style="font-size: 16px;">2020年，我国央行数字货币（DCEP）进入测试阶段，央行数字货币研究所开展与全国主要城市、银行以及互联网巨头的合作，测试场景不断丰富。</span><strong>10月8日，DCEP在深圳罗湖区通过发放数字红包的形式测试，较此前规模更大、范围更广、场景更丰富，当前DCEP已经到了发行关键阶段。</strong></p> 
+<p><span>央行数字货币的本质是加密字符串，认证和密码体系将会贯穿央行数字货币的发行流通的全过程，同时从国产替代和自主可控的角度国产密码、安全认证领域将会受益；此外央行作为货币运行体系的组织管理者，在法定数字货币运行中具有大数据主体责任，建议关注大数据分析领域标的。流通方面，央行采用“中央银行-商业银行”二元体系，催生商业银行IT系统升级需求。前端支付环节方面，支付终端需要配合央行数字货币双离线支付的需求。 <strong>数字钱包、ATM、POS等终端设备领域的标的也将带来更多替换升级需求。</strong></span></p> 
+<p><span>在数字货币发行关键时期，DETECON回顾了央行数字货币的发展历程，结合先进运营商发展经验，分析运营商应如何把握机遇，切入数字货币市场。</span></p> 
+<p><span style="font-size: 16px;"><strong>一、央行数字货币的起源与发展</strong></span></p> 
+<p><span style="font-size: 16px;">近年来，随着比特币、Libra等虚拟货币的出现以及电子支付的流行，为了保障支付的安全性和金融系统的稳定性，一些国家的央行开始研究推出法定数字货币。法定数字货币是指由国家法定货币发行机构发行的，具有国家信用背书、有无限法偿能力的电子货币。 <strong>根据国际清算银行（BIS）2018年底的一项调查，约有70%的央行正在研究数字货币概念，而且这一比例正在上升。</strong></span></p> 
+<p><span style="font-size: 16px;">中国央行较早进行了数字货币的论证研究并开展了实质性的发行推广工作，并于今年10月在深圳罗湖区进行发行测试。</span></p> 
+<p><img src="http://p7.itc.cn/q_70/images03/20201102/d98e7f8a135042bf944310c772e84359.png" /></p> 
+<p><span style="font-size: 16px;">从技术实现上来看，我国央行数字货币与比特币或者facebook发行的Libra不一样， <strong>央行数据货币不是完全依赖区块链技术的。</strong>有专家指出，央行数字在技术选型上综合了传统集中式架构与区块链技术优势，借鉴区块链技术核心内涵与优势，回避其短板。数字货币发行登记子系统是由中央银行负责维护，是中心化的，不需要运行共识算法，这样就不会受制于区块链的性能瓶颈。 <strong>区块链用于数字货币的确权登记，居于辅助地位，比如网上验钞功能。</strong></span></p> 
+<p><span style="font-size: 16px;"><strong>二、全球掀起数字货币潮</strong></span></p>            <div class="lookall-box">
+                <div class="lookall-shadow"></div>
+                <section class="lookall">
+                    <a href="javascript:;" class="show-all" id="showMore">
+                        <em>展开全文</em>
+                    </a>
+                </section>
+            </div>
+            <div class="hidden-content control-hide">
+                <p><span style="font-size: 16px;"><strong>1. PayPal宣布将开启数字货币服务允许用户买卖比特币和购物</strong></span></p> 
+<p><span style="font-size: 16px;">10月22日，支付平台PayPal发布公告称将上线新的虚拟货币服务，允许用户持有、买卖虚拟货币，同时也将允许用户使用虚拟货币在平台2600万商户处进行购物结算。 <strong>据悉，PayPal数字钱包中将支持比特币、以太坊、比特币现金和莱特币。PayPal预计美国用户将在2021年初体验到这一功能。</strong></span></p> 
+<p><span style="font-size: 16px;">据悉，PayPal已经从纽约州金融服务部获得了第一个有条件的加密货币许可证。受此消息影响，比特币应声上涨，突破13000美元关口，创下年内新高。</span></p> 
+<p><span style="font-size: 16px;"><strong><span>2.新加坡最大的银行宣布数字货币兑换计划</span></strong></span></p> 
+<p><span style="font-size: 16px;">新加坡最大的银行新加坡发展银行（DBS）宣布将启动数字货币交易所，但随后撤销了其公告。</span></p> 
+<p><span style="font-size: 16px;">10月27日，这一消息传开，星展集团在其网站上发布了他们的新数字货币兑换页面。星展集团在其官方公告中说： <strong>“数字资产有望成为未来数字经济的未来。</strong>借助由银行支持的数字交易所DBS Digital Exchange，公司和投资者现在可以利用集成的解决方案生态系统来挖掘私人市场和数字货币的巨大潜力。 <strong>通过DBS Digital Exchange，中小型企业和大型企业同样可以利用安全令牌平台，通过其证券和资产的数字化有效地筹集资金，使发行人能够接触到传统上可能无法使用此类令牌的广大投资者。</strong>” 星展集团将为法定交易对提供新加坡元（SGD），港元（HKD），日元（JPY）和美元（USD）的数字货币，甚至提到它们将使公司能够将来标记股票。 </span></p> 
+<p><span style="font-size: 16px;">但是，在星展银行发布此公告后不久，他们将其删除。星展银行发言人向CoinGeek澄清说：“星展银行的数字交易计划仍在制定过程中，尚未获得监管部门的批准。在获得批准之前，将不会再发布任何公告。”</span></p> 
+<p><span style="font-size: 16px;"><strong>三、数字货币将取代微信、支付宝？</strong></span></p> 
+<p><span style="font-size: 16px;">虽然在消费者眼中，数字人民币和微信、支付宝等第三方支付工具在体感上差别不大，但是在行业人士看来，这是两个完全不同的物种。</span></p> 
+<p><span style="font-size: 16px;">普华永道经济学家赵广彬撰文指出，从本质上来讲， <strong>数字人民币是“钱或货币”，而移动支付是“取收钱的方式”；二者的关系或可以比喻为“鱼”和“钩”，或“水”和“瓢”，性质完全不同。</strong></span></p> 
+<p><span style="font-size: 16px;">即便是把数字人民币和微信、支付宝等第三方支付工具里的资金相比，双方的属性也有很大的差异。“央行数字货币最简单的理解方式就是电子现金，把法定货币的载体由纸质形式变为电子形式，也就是纸币的数字化形式。”</span></p> 
+<p><span style="font-size: 16px;"><strong>手机上安装央行数字货币钱包，只要保证手机有电，就能把数字货币转移给另一个人，而微信、支付宝等支付软件要保证有网络才能完成支付。</strong>如果是普通货币配上数字钱包，只是电子货币；如果是加密存储于数字钱包并运行在特定数字货币网络中，才是纯数字货币。 </span></p> 
+<p><span style="font-size: 16px;">随着数字人民币账户的出现， <strong>央行或将占据个人资金账户上的主导权，从而削弱第三方支付钱包账户的价值。</strong>而商业银行以及支付宝、微信都将成为提供服务的运营机构。在深圳的数字人民币试点中就有用户发现，协议指出，微信支付和支付宝都是服务机构。 </span></p> 
+<p><span style="font-size: 16px;">对此，西南证券的研报提到， <strong>在DCEP正式落地后，支付宝、微信等第三方电子支付的部分业务，也可能会被DCEP整合</strong>，且可以肯定的是， <strong>（DCEP）一旦落地会分流第三方支付机构的用户，利用流量变现的金融类业务将会受到显著的负面影响。</strong>而被整合后，第三方支付机构的业务空间可能会受限。比如没办法在账户上做一些特殊的开发。 </span></p> 
+<p><span style="font-size: 16px;"><strong>数字货币的最大价值在跨境支付领域。</strong>传统跨境支付依托美元主导的SWIFT体系，资金往来受到开设账户等制约，而DC/EP只需要使用者拥有数字钱包，几乎与现钞交割没有区别。从这种层面上来说，我国央行发行数字货币，对人民币国际化有促进作用。 </span></p> 
+<p><strong><span>文章来源：德电咨询</span></strong><a href="//www.sohu.com/?strategyid=00001 " target="_blank" title="点击进入搜狐首页" id="backsohucom" style="white-space: nowrap;"><span class="backword"><i class="backsohu"></i>返回搜狐，查看更多</span></a></p>            </div>
+        
+        <p data-role="editor-name">责任编辑：<span></span></p>
+</article>
+<script>
+    (function() {
+        function getBrandHtml() {
+            var brands = [],
+            html = '';
+                        for(var i = 0; i < brands.length; i++) {
+                var brand = brands[i];
+                if(brands.length == i+1) {
+                    html+= '<a class="username-link" href="'+brand.url+'" target="_blank">'+brand.name+'</a>';
+                } else {
+                    html+= '<a class="username-link" href="'+brand.url+'" target="_blank">'+brand.name+'</a>、';
+                }
+            }
+            return html;
+
+        };
+        if(document.getElementById('linkBtn')){
+            document.getElementById('linkBtn').onclick = function() {
+                $('#brands').removeClass('brand');
+                $('#tipInfo').text('已实名回应');
+                $('#linkBtn').remove();
+                $('.real-response .content').css('line-height', '20px');
+                $('.real-response .time').css('line-height', '20px');
+            };
+    
+            document.getElementById('brands').innerHTML = getBrandHtml();
+        };
+    })();
+</script>
+    <div id="atricleVote"></div>
+  <div class="statement">声明：该文观点仅代表作者本人，搜狐号系信息发布平台，搜狐仅提供信息存储空间服务。</div>  <div class="bottom-relate-wrap clear type-3">
+    
+    <!-- 点赞选择方案2，contentLike对应值为3 -->
+            <div class="article-like" id="article-like" data-like-type="type-3">
+</div>        <div class="read-wrap">
+        <span class="read-num">阅读 (<em data-role="pv" data-val="$articleStat.pv"></em>)</span>
+    </div>
+</div>
+     
+                        </div>
+                    </div>
+                    <div class="taboolaContainer" data-spm="a-content-end">
+                        <a href="javascript:void(0);">
+                            <div id="taboola-below-article-thumbnails"></div>
+                            <script type="text/javascript">
+                                window._taboola = window._taboola || [];
+                                _taboola.push({
+                                    mode: 'thumbnails-a',
+                                    container: 'taboola-below-article-thumbnails',
+                                    placement: 'Below article thumbnails',
+                                    target_type: 'mix'
+                                });
+                            </script>
+                        </a>
+                    </div>
+                    
+                    <div class="comment" id="comment_area" data-spm="comment" data-abdata="1">
+
+
+    <div id="mp-comment" sid="429023850"></div> 
+
+
+</div>                    
+<div class="groom-read">
+    <div class="title"><span><em class="ln"></em>推荐阅读</span></div>
+    <div class="groom-menu clear " id="news-recommend-nav" data-spm="hottag">
+<ul>     <li class="cur" data-id=""><a href="javascript:void(0)"><em class="dot"></em>推荐</a></li>
+               <li data-id="" data-tag-id="57406" ><a href="//search.sohu.com/?keyword=汇率&queryType=outside">汇率</a></li>
+                <li data-id="" data-tag-id="57344" ><a href="//search.sohu.com/?keyword=虚拟货币&queryType=outside">虚拟货币</a></li>
+                <li data-id="" data-tag-id="77552" ><a href="//search.sohu.com/?keyword=贸易战&queryType=outside">贸易战</a></li>
+                <li data-id="" data-tag-id="70659" ><a href="//search.sohu.com/?keyword=映客&queryType=outside">映客</a></li>
+                <li data-id="" data-tag-id="67589" ><a href="//search.sohu.com/?keyword=苹果&queryType=outside">苹果</a></li>
+                <li data-id="" data-tag-id="70661" ><a href="//search.sohu.com/?keyword=蚂蚁金服&queryType=outside">蚂蚁金服</a></li>
+                <li data-id="" data-tag-id="57349" ><a href="//search.sohu.com/?keyword=微商&queryType=outside">微商</a></li>
+                <li data-id="" data-tag-id="67588" ><a href="//search.sohu.com/?keyword=双十一&queryType=outside">双十一</a></li>
+                <li data-id="" data-tag-id="57350" ><a href="//search.sohu.com/?keyword=第三方支付&queryType=outside">第三方支付</a></li>
+                <li data-id="" data-tag-id="70662" ><a href="//search.sohu.com/?keyword=债券通&queryType=outside">债券通</a></li>
+                <li data-id="" data-tag-id="70666" ><a href="//search.sohu.com/?keyword=前海人寿&queryType=outside">前海人寿</a></li>
+                <li data-id="" data-tag-id="70671" ><a href="//search.sohu.com/?keyword=可燃冰&queryType=outside">可燃冰</a></li>
+            
+</ul>
+</div>
+    <div class="news-list clear" id="main-news" style="min-height:1000px">
+         <!---->
+    </div>
+
+</div>                </div>
+                <div class="sidebar right" id="right-side-bar" data-a="${abData}">
+        <div class="search-right" id="search" data-spm="search-box"></div>
+        <div class="godA" id="nav_button" data-spm="ad-right-sponsor">
+    
+        </div>
+        <div class="godR" id="god_1" data-spm="ad-sq1" style="display: block;">
+        </div>
+        <div id="god_1_2" style="padding:10px 20px; display: none;" data-spm="ad-sq1">
+        </div>    
+            
+                    <div data-role="hot-pic" class="clearfix bord hot-atlas"></div>
+            <div data-role="four-pic" class="clearfix hot-atlas"></div>
+                <div class="godR" id="god_2" data-spm="ad-sq2" style="display:block">
+        </div>
+        <div id="god_2_2" style="padding:10px 20px; display: none;" data-spm="ad-sq2">
+        </div>
+        
+<div class="hot-article clear bord" id="hot-news" data-spm="tw">
+
+</div>
+        <div class="godR" id="god_3" data-spm="ad-sq3" style="display:block">
+        </div>
+        <div id="god_3_2" style="padding:10px 20px; display: none;" data-spm="ad-sq3">
+        </div>
+        
+<div class="bord clear recommend" id="recommend-writer" data-spm="mp">
+
+</div>
+        <div class="godR" id="god_4" data-spm="ad-sq4" style="display:block">
+        </div>
+        <div id="god_4_2" style="padding:10px 20px; display: none;" data-spm="ad-sq4">
+        </div>    
+        <div class="pages-fun  " id="pages-fun"></div>
+        <div id="god_fix_container" class="right-fixed" style="display:none;">
+            <div class="godR" id="god_fix_1" data-spm="ad-sq6"  style="display: block;">
+    
+            </div>
+            <div id="god_6_2" class="god-ad-fix" style="display: none; overflow: hidden;" data-spm="ad-sq6">
+
+            </div>
+        </div>
+         <div id="fixed-view" data-rel="#hot-news" style="z-index:2">
+        </div>
+    </div>
+    
+    
+    
+             </div>
+             <div id="float-btn" class="float-links"></div>              <div class="sohu-khd" data-role="wp-ad"><a href="javascript:void(0)" class="close-khd"></a><a href="https://www.microsoft.com/zh-cn/store/p/%E6%90%9C%E7%8B%90uwp/9nb9229mmbjh" target="_blank" class="download-khd"><i class="icon khd-d-icon"></i>免费获取</a></div>
+            <div id="pop-news" class="pop-news"></div>            <div class="left-bottom-float" id="left-bottom-god" data-spm="ad-ss">
+</div>        </div>
+            <div id="sohu-mod" class="sohu-mod">
+  <div class="area sohu-frag">
+    <div class="left sohu-news">
+      <div class="title">今日搜狐热点</div>
+      <div class="list">
+        <ul>
+                  </ul>
+      </div>
+    </div>
+    <div class="left auto-sohu">
+      <div class="count-down"><span>6</span>秒后</div>
+      <div class="go-sohu"><a href="http://www.sohu.com?strategyid=00004">进入搜狐首页</a></div>
+      <a href="#" target="_blank" class="close-sohu"></a>
+    </div>
+  </div>
+</div>
+<div id="sohu-remend" class="sohu-remend">
+    <div class="area sohu-remend-box">
+        <div class="remend-tt left">今日推荐</div>
+        <div class="left sohu-pp">
+            <ul>
+                            </ul>
+        </div>
+        <div class="right sohu-do">
+            <a data-clev="10220279" href="http://www.sohu.com?strategyid=00004"><div class="go-sohu">进入搜狐首页</div></a>
+            <a data-clev="10220280" href="//shang.qq.com/wpa/qunwpa?idkey=04e47b9e7004c967962f52532465719ae8a30cf05413c11934ec121fb7e2dd62" target="_blank" class="feedback-link">意见反馈</a>
+            <a data-clev="10220281" href="javascript:void(0)" target="_blank" class="close-remend"></a>
+        </div>
+    </div>
+    <div class="sohu-remend-layer"></div>
+</div>             
+
+<script src="//statics.itc.cn/web/static/js/lib-61587d9fb8.js"></script>
+<script src="//statics.itc.cn/pc_channel_script/pc_channel_script/jquery.xdomainrequest.min.js
+"></script>
+<script src="//39d0825d09f05.cdn.sohucs.com/sdk/passport-4.0.3.js"></script>
+<!--<script src="//statics.itc.cn/web/static/js/ie8hack-07e05e83f1.js"></script>-->
+<script src="//txt.go.sohu.com/ip/soip"></script>
+<script src="//statics.itc.cn/spm/prod/js/1.0.2/index.js"></script>
+<script src="//statics.itc.cn/web/static/js/main-dd6206f5c0.js"></script>
+<script src="//js.sohu.com/pv.js"></script>
+             <script>
+try{console.log("执行成功")
+        window.sohu_mp.article_abroad({
+        channel_id: "15",
+        news_id: "429023850",
+        cms_id: "$mpNews.cmsId",
+        media_id: "644524",
+        passport: "hmltfb@sohu.com",
+        weboUrl: "https://mp.sohu.com/profile?xpt=aG1sdGZiQHNvaHUuY29t",
+        title: "央行数字货币电子支付（DCEP）试行",
+        channel_url:"//business.sohu.com",
+        categoryId:"996",
+        //adData_fd用于abtest
+        abData:"",
+        abData_fd:"",
+        abData_tw:"",
+        originalId:"$mpNews.originalId",
+        originalStatus:"0",
+        hasVoteInfo: "false",
+        isPure: "${pure}",
+        mpNewsExt:{
+            "modelId":""
+        }});
+}
+catch(e){
+    var html = '<div class="err-js">' +
+                '<span><em class="icon err-js-icon"></em>JS加载错误，请重新加载。</span>' +
+                '<a href="javascript:window.location.reload()" target="_blank" class="cached-btn"' +
+                '><em class="icon-cached"></em>刷新</a></div>';
+    $(document.body).prepend(html);
+    // Raven.captureException(e);
+    console.error("发生错误",e);
+}
+</script>
+<!--[if lt IE 8]>
+<script type="text/javascript">
+(function(){
+    var ua = navigator.userAgent;
+    var version;
+    var html = '<div class="area clear">' +
+        '<div class="ie-low">' +
+        '<p>您的浏览器版本过低<br>为了更好的体验，请升级你的浏览器。</p>' +
+        '<h5><a href="https://ie.sogou.com" target="_blank" class="upgrade-btn">马上升级</a></h5>' +
+        '</div></div>';
+    if (/MSIE ([^;]+)/.test(ua)) {
+        version = parseInt(RegExp["$1"]);
+        if (version<8) {
+            document.body.innerHTML=html;
+            var reg = new RegExp("(^| )SUV=([^;]*)(;|$)");
+            var suvs = unescape(document.cookie.match(reg)[2]); 
+            var spv_server_src = "http://pv.sohu.com/action.gif?actionId=10078&SUV="+suvs;
+            var scripts = document.createElement('script');
+            scripts.src = spv_server_src;
+            document.body.appendChild(scripts);   
+            Raven.captureException(new Error('ie'+version));   
+        }
+    }
+})()
+</script>
+<![endif]--><script src="//images.sohu.com/bill/default/sohu-require.js"></script>
+<script type="text/javascript"> require(["sjs/matrix/ad/passion"]);</script>
+<script type="text/javascript">Techasit14607@gmail.com</script>
+<script type="text/javascript" src="//www.sohu.com/sohuflash_1.js"></script>
+<script type="text/javascript" src="//images.sohu.com/bill/s2015/jscript/lib/sjs/matrix/ad/form/delivery.js"></script>
+<script type="text/javascript" src="//images.sohu.com/bill/s2015/jscript/lib/sjs/matrix/pv/pagePVmonitor.js"></script>
+<!-- <script src="//statics.itc.cn/spm/prod/js/1.0.1/index.js"></script> -->
+
+<!-- 文章安全分低于等于10分不执行seo优化 -->
+<script>
+    (function(){
+        var bp = document.createElement('script');
+        var curProtocol = window.location.protocol.split(':')[0];
+        if (curProtocol === 'https') {
+            bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';        
+        }
+        else {
+            bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+        }
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(bp, s);
+    })();
+</script>
+<!-- 百度联盟广告，多条广告如下脚本只需引入一次 -->
+<script type="text/javascript" src="https://cpro.baidustatic.com/cpro/ui/c.js" async="async" defer="defer"></script>        <script type="text/javascript">
+            window._taboola = window._taboola || [];
+            _taboola.push({flush: true});
+        </script>
+    </body>
+</html>
