@@ -1,0 +1,508 @@
+
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge;chrome=1">
+    <title ng-bind="'console_common_huawei_developer'|translate"></title>
+    <base href="openPlatformSg/" />
+    <link rel="SHORTCUT ICON" href="images/favicon.ico?v=20210728192608">
+    <link rel="stylesheet" href="css/ngDialog/ngDialog.css?v=20210728192608">
+    <link rel="stylesheet" href="resources/css/base.min.css?v=20210728192608"/>
+    <script type="text/javascript" src="js/lib/apm.min.js?v=20210728192608"></script>
+    <!-- 在build区域内加入新的自定义样式表，方便打包处理 -->
+    <link rel="stylesheet" href="css/customs.css?v=20210728192608">
+    <!-- 此处CSS是为了解决：当页面刷新时，出现错误闪现的问题 -->
+    <style type="text/css">
+        @charset "UTF-8";
+        [ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak, .ng-hide {
+            display: none !important;
+        }
+
+        ng\:form {
+            display: block;
+        }
+
+        .ng-animate-start {
+            clip: rect(0, auto, auto, 0);
+            -ms-zoom: 1.0001;
+        }
+
+        .ng-animate-active {
+            clip: rect(-1px, auto, auto, 0);
+            -ms-zoom: 1;
+        }
+
+        .tips-content-text .icon-tip-small {
+            background-image: none;
+            background-color: transparent;
+            margin-top: -20px;
+            width: 100%;
+        }
+
+        .ucd-tooltip.list-tip {
+            border: 0;
+            background: transparent;
+            padding: 0;
+        }
+
+        .list-tip .ucd-tooltip-text {
+            width: 800px;
+            padding: 10px;
+            background: #f4f6fa;
+            border: 1px solid #ddd;
+            word-wrap: break-word;
+        }
+
+        .list-tip .ucd-tooltip-arrow {
+            display: none;
+        }
+    </style>
+</head>
+<!-- mcbg 会让浏览器背景变为灰色 -->
+<body class="hw-developer">
+<div ng-controller="MemberCenterController"
+     class="{{ langSim=='ru'?'ru':'english'}} {{isCustomizerShown?'unscroll':''}}" ng-cloak>
+    <cookie-warning
+            class="{{Model.userInfo.isShowAccountChange  == true ?'z-index-10001 relative':''}}"></cookie-warning>
+    <!-- 头部导航区开始 -->
+    <nav class="nav nav-spread {{Model.userInfo.isShowAccountChange  == true ?'z-index-10001':''}}" ng-cloak>
+        <div id="headTipbox" class="content-tip">
+            <!-- 头部导航区开始 -->
+            <div class="nav-content">
+                <div class="nav-logo">
+                    <a ng-href="{{ indexUrl }}" class="nav-link"> <img
+                            class="img logo"
+                            src="/images/logo.png"
+                            alt="">
+                    </a>
+                </div>
+                <div id="navigation" class="nav-tools mr-2 relative">
+                    <div class="inline-block pointer" ng-show="Model.userInfo.isShowAccountChange !==true"
+                         ng-repeat="navigation in getNavigationMenu()">
+                        <div ng-if="navigation.itemCode=='DiyDesktop'" class="relative">
+                            <img src="resources/images-asyn/header/service-config.png?v=20210728192608" class="v-middle"
+                                 data-target="#dialog-service-config" data-toggle="dialog" ng-click="showCustomizer()">
+                            <span data-target="#dialog-service-config" data-toggle="dialog" ng-click="showCustomizer()">{{navigation.itemName}}</span>
+
+                            <div class="tips-content" ng-if="isCustomizerGuideShown">
+                                <div class="tips-text">
+                                    <p>{{"console_common_custom_your_console"|translate}}</p>
+                                </div>
+                                <div class="tips-arrow">
+                                    <img ng-src="resources/images-asyn/intermodal/arrow-top.png?v=20210728192608"/>
+                                </div>
+                                <a class="tips-name" data-target="#dialog-service-config" data-toggle="dialog"
+                                   ng-click="showCustomizer()">
+                                    <img ng-src="resources/images-asyn/header/service-config.png?v=20210728192608" class="tips-ico"/>
+                                    <span>{{navigation.itemName}}</span>
+                                </a>
+                            </div>
+
+                            <div ng-if="isCustomizerGuideShown" class="dialog-cover" id="desktop-guide"
+                                 style="display:block;"></div>
+                        </div>
+
+                        <!-- Help特殊处理，打点-->
+                        <div ng-if="navigation.itemCode!='DiyDesktop'" bi-analytic biname="Customer Support"
+                             tagtype="DPRM0048">
+                            <span class="tools line-r"></span>
+                            <i class="icon {{navigation.iconUrl}}" ng-click="showClick(navigation.urlPattern)"
+                               name="{{navigation.itemCode}}"></i>
+                            <span ng-click="showClick(navigation.urlPattern)"
+                                  name="{{navigation.itemCode}}">{{navigation.itemName}}</span>
+                        </div>
+
+                    </div>
+
+                    <span class="tools line-r height-16"
+                          ng-show="localDisplayName && Model.userInfo.isShowAccountChange !==true"></span>
+                    <div class="head-tools logined">
+                        <ul class="role-tools">
+                            <li class="head-user-info" ng-mouseenter="queryUnreadMessage()">
+                                <div class="user-dropdown sm-down-hide">
+                                    <div class="round">
+                                        <img ng-src="{{ portraitPic || 'images/defaultsmall.png'}}" alt="">
+                                    </div>
+                                    <span class="drop-arrow"></span>
+                                    <div class="user-nav-layer">
+                                        <div class="user-nav-header">
+                                            <div class="round-big">
+                                                <img ng-src="{{ portraitPic || 'images/defaultlarge.png'}}">
+                                            </div>
+                                            <div class="caption-title ellipsis" title="{{localDisplayName}}">
+                                                {{localDisplayName}}
+                                            </div>
+                                            <div class="certification">
+                                                <i class="icon {{(userInfo.verifyRealState == 2 && !userInfo.updateInfo)?'icon-sucess-smaller':''}} {{(userInfo.verifyRealState == 1 || userInfo.verifyRealState == 2 && userInfo.updateInfo)?'icon-tip-smaller':''}}"
+                                                   ng-if="!mainUserID"></i>
+                                                <span ng-if="!mainUserID && (userInfo.verifyRealState == 1 || userInfo.verifyRealState == 2 && userInfo.updateInfo)">{{'profile_status_verifying'| translate}}</span>
+                                                <span ng-if="!mainUserID && userInfo.verifyRealState == 2 && !userInfo.updateInfo">{{'profile_status_verified'| translate}}</span>
+                                                <a class="text-link break-word info-small"
+                                                   ng-if="(userInfo.verifyType == 0 && userInfo.verifyRealState == 1) || (userInfo.verifyRealState == 2 && userInfo.updateInfo && userInfo.isChangeRealName != 1)"
+                                                   bi-analytic biname="Cancel Verification" tagtype="DPRM0066"
+                                                   aui-click-prevent="cancelDeveloperUpdate(userInfo)">{{"profile_cancel_verification"|translate}}</a>
+                                            </div>
+                                        </div>
+                                        <div class="change-number"
+                                             ng-if="Model.userRouteInfo.userRouteInfoList && (Model.userRouteInfo.userRouteInfoList.length>1 || (Model.userRouteInfo.userRouteInfoList.length ==1 && Model.userRouteInfo.userRouteInfoList[0].memberUserID))">
+                                            <a class="dropdown-trigger {{Model.isChangeAccount == true ? 'open':''}}"
+                                               ng-click="Model.isChangeAccount = !Model.isChangeAccount">{{"console_common_Change_account"|
+                                                translate}}
+                                                <span class="drop-arrow "></span>
+                                            </a>
+                                            <div class=" {{Model.isChangeAccount == true ? 'open':''}} dropdown-menu">
+                                                <ul class="dropdown-menu-list">
+                                                    <li ng-repeat="userRouteInfo in Model.userRouteInfo.userRouteInfoList"
+                                                        ng-class="{'current':userRouteInfo.userID == Model.userInfo.userID} "
+                                                        ng-if="(userRouteInfo.verifyRealState ==2 ||userRouteInfo.verifyRealState == 1) && userRouteInfo.userValidStatus == 1 && !userRouteInfo.memberUserID">
+                                                        <a class="ellipsis"
+                                                           ng-click="changeTeamAccount(userRouteInfo)"
+                                                           title="{{userRouteInfo.realName}}" bi-analytic
+                                                           biname="Switch to another team account" tagtype="DPRM0045">{{userRouteInfo.realName}}</a><i
+                                                            ng-class="{'checked-btn':userRouteInfo.userID == Model.userInfo.userID}"></i>
+                                                    </li>
+                                                    <li ng-repeat="userRouteInfo in Model.userRouteInfo.userRouteInfoList"
+                                                        ng-class="{'current':userRouteInfo.userID == Model.userInfo.userID}"
+                                                        ng-if="userRouteInfo.memberUserID ">
+                                                        <a class="ellipsis {{userRouteInfo.invalid == 1 || userRouteInfo.invalid == 2?'invalidTeam':''}}"
+                                                           ng-click="changeTeamAccount(userRouteInfo)"
+                                                           title="{{userRouteInfo.realName}}" bi-analytic
+                                                           biname="Switch to another team account" tagtype="DPRM0045">{{userRouteInfo.realName}}</a><i
+                                                            ng-class="{'checked-btn':userRouteInfo.userID == Model.userInfo.userID}"></i>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="user-nav-menu" ng-if="Model.userInfo.isShowAccountChange !==true">
+                                            <ul class="dropdown-menu-list">
+                                                <li
+                                                        ng-if="Model.userInfo.isShowAccountChange !==true">
+                                                    <a ui-sref="mymessages" ui-sref-opts="{reload:true}">{{"console_common_my_message"|translate}}
+                                                        <span
+                                                                ng-show="isAllMessageRead"
+                                                                class="news-badge">{{isAllMessageRead}}</span> </a>
+
+                                                </li>
+                                                <li
+                                                        ng-if="Model.userInfo.isShowAccountChange !==true"><a
+                                                        ng-click="iframhelp()" bi-analytic biname="Customer Support"
+                                                        tagtype="DPRM0048">{{"console_common_Customer_Service"|translate}}
+                                                    <span
+                                                            ng-show="unReadQuestions" class="news-badge">{{unReadQuestions}}</span></a>
+
+                                                </li>
+                                                <li
+                                                        ng-if="Model.userInfo.isShowAccountChange !==true && hasTeamMemberPermission">
+                                                    <a ng-click="teamMemberUrl()">{{"teamaccount_team_account"|translate}}</a>
+                                                </li>
+                                                <li
+                                                        ng-if="Model.userInfo.isShowAccountChange !==true"><a
+                                                        aui-click-prevent="gotoUserCenter()" bi-analytic
+                                                        biname="Account-Settings" tagtype="DPRM0046">{{"console_common_accountsetting"|translate}}</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="user-nav-bottom">
+                                            <a class="logout" ng-click="logOut()" bi-analytic biname="Log Out"
+                                               tagtype="DPRM0047">{{"console_common_sign_out"|translate}}</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+    <main class="fluid-box">
+        <!-- 左侧一级菜单 -->
+        <aside class="aside-nav fluid-column" ng-class="{true:'shrinking',false:''}[flag]">
+            <a class="menu-switch" data-toggle="aside-nav" ng-click="flag = !flag">
+                <i class="icon icon-menu-toggle-aside"></i>
+            </a>
+            <div class="aside-nav-head" ng-if="getServiceCardMenu().length>0"><span class="aside-nav-title">{{"console_common_ecosystem_services"|translate}}</span>
+            </div>
+            <ul class="aside-nav-list ucd-fastmenu">
+                <li ng-if="hasCustomizedServiceCards(menu.itemCode)" ng-repeat="menu in getServiceCardMenu()"
+                    class="aside-nav-item serviceCardMenu" ui-sref="serviceCards({dirId:'{{menu.itemCode}}'})"
+                    ui-sref-opts="{reload:true}" directory="{{menu.itemCode}}"
+                    ng-class="{'active': isMenuActived(menu),'menu-item':!flag}">
+                    <a class="aside-nav-head">
+                        <div class="aside-nav-icon">
+                            <i class="icon {{menu.iconUrl}}"></i>
+                        </div>
+                        <span class="aside-nav-title"><span class="text px-0">{{menu.itemName}}</span></span>
+                    </a>
+                </li>
+            </ul>
+            <div class="aside-nav-head" ng-if="Model.isMenuHasApi">
+                <span class="aside-nav-title">{{"apiconsole_hms_api_services_for_menu"| translate}}</span>
+            </div>
+
+            <ul class="ucd-fastmenu aside-nav-list" ng-if="Model.isMenuHasApi">
+                <li class="aside-nav-item {{!flag || (leftMenu.resourceTree.length)?'menu-item':''}} {{(!leftMenu.isOpen || leftMenu.resourceTree.length == 0) ?'':'open'}} {{flag && leftMenu.resourceTree.length > 0 ?'drop':''}} "
+                    ui-sref="{{leftMenu.urlPattern?leftMenu.urlPattern:'null'}}({projectKey:0})"
+                    ng-repeat="leftMenu in getLeftMenu() | orderBy:'itemIndex'" ui-sref-opts="{reload:true}"
+                    ng-if="leftMenu.itemCode=='myApi' || leftMenu.itemCode=='apiList' ||leftMenu.itemCode=='credentials' ||leftMenu.itemCode=='privacyContactor'"
+                    ng-class="{'active':$state.contains(leftMenu.hashList) || (leftMenu.itemCode=='credentials' && ($state.contains('addServiceAcccountKeys') || $state.contains('serviceAccount') || $state.contains('apiKey')||$state.contains('oauth')))}">
+                    <a class="aside-nav-head {{!flag ? 'menu-length-cont':''}}">
+                        <div class="aside-nav-icon">
+                            <i class="icon" ng-class="leftMenu.iconUrl"></i>
+                        </div>
+                        <span class="aside-nav-title" title="{{leftMenu.itemName}}">
+                         <span class="text px-0">{{leftMenu.itemName}}</span>
+                    </span>
+                    </a>
+                </li>
+            </ul>
+            <div class="aside-nav-head" ng-if="getLeftMenu().length>0">
+                <span class="aside-nav-title">{{"console_common_developer_center"|translate}}</span>
+            </div>
+            <ul class="aside-nav-list ucd-fastmenu">
+                <li ng-if="hasCustomizedReportCards(menu.itemCode)" ng-repeat="menu in getReportCardMenu()"
+                    class="aside-nav-item reportCardMenu" ui-sref="reportCards({dirId:'{{menu.itemCode}}'})"
+                    ui-sref-opts="{reload:true}" directory="{{menu.itemCode}}"
+                    ng-class="{'active': isMenuActived(menu),'menu-item':!flag}">
+                    <a class="aside-nav-head">
+                        <div class="aside-nav-icon">
+                            <i class="icon {{menu.iconUrl}}"></i>
+                        </div>
+                        <span class="aside-nav-title"><span class="text px-0">{{menu.itemName}}</span></span>
+                    </a>
+                </li>
+                <li class="aside-nav-item  {{((leftMenu.itemCode=='MyMessage'&&isAllMessageRead) || (leftMenu.itemCode=='CustomerService'&&unReadQuestions))?'new':'' }} {{(!leftMenu.isOpen || leftMenu.resourceTree.length == 0) ? '' : 'open'}} {{flag&& leftMenu.resourceTree.length > 0 ? 'drop' : ''}} "
+                    ui-sref="{{leftMenu.urlPattern?leftMenu.urlPattern:'null'}}"
+                    ng-if="leftMenu.itemCode !='myApi' && leftMenu.itemCode !='apiList' && leftMenu.itemCode!='credentials' && leftMenu.itemCode !='dashboard' && leftMenu.itemCode!='privacyContactor'"
+                    ng-repeat="leftMenu in getLeftMenu() | orderBy:'itemIndex'" ui-sref-opts="{reload:true}"
+                    ng-class="{'active':((leftMenu.hashList=='userSetting'&&($state.contains('nameChange')))||$state.contains(leftMenu.hashList))}">
+                    <a class="aside-nav-head" ng-click="openSec(leftMenu,getLeftMenu())">
+                        <div class="aside-nav-icon">
+                            <i class="icon" ng-class="leftMenu.iconUrl"></i>
+                        </div>
+                        <span class="aside-nav-title">
+                         <span class="text px-0">{{leftMenu.itemName}}</span>
+                         <i class="icon icon-drop" ng-if="leftMenu.resourceTree.length > 0"></i>
+                         <span ng-class="{'badge': isAllMessageRead}"
+                               ng-bind="isAllMessageRead"
+                               ng-if="leftMenu.itemCode=='MyMessage'&&isAllMessageRead"></span>
+                          <span id="unReadQuestions" name="unReadQuestions"
+                                ng-class="{'badge': unReadQuestions}"
+                                ng-bind="unReadQuestions"
+                                ng-if="leftMenu.itemCode=='CustomerService'&&unReadQuestions"></span>
+                    </span>
+                    </a>
+                    <aside class="aside-nav aside-nav-sub" ng-if="leftMenu.resourceTree.length > 0">
+                        <div class="aside-nav-head">
+                            <span class="aside-nav-title">{{leftMenu.itemName}}</span>
+                        </div>
+                        <ul class="aside-nav-list">
+                            <li ui-sref="{{secondMenu.urlPattern}}({signParty:0})" ui-sref-opts="{reload:true}"
+                                ng-repeat="secondMenu in leftMenu.resourceTree | orderBy:'itemIndex'"
+                                ng-class="{'aside-nav-item':true, 'active':($state.contains(secondMenu.hashList))}">
+                                <a class="aside-nav-head">
+                                    <span class="aside-nav-title">
+                                    <span class="text px-0">{{secondMenu.itemName}}</span>
+                                        <span class="badge new tip right-06"
+                                              ng-show="secondMenu.urlPattern == 'userSetting.teamAccountInfoList'">{{"console_common_new"|translate}}</span>
+                                    </span>
+                                    </span>
+                                </a>
+                            </li>
+                        </ul>
+                    </aside>
+                </li>
+            </ul>
+        </aside>
+        <div class="fluid-column">
+            <!-- 头部导航区结束 -->
+            <div class="userguideTOP tips-container" ng-if="showMerchant || msgList.length > 0">
+                <ul class="sample-grid">
+                    <li class="tips-content-text" ng-if="showMerchant">
+                        <div class="float-left">
+                            <p class="tips-title">{{"mymessage_notice"|translate}} :</p>
+                            <span class="tips-text" ng-click="goMerchant()" ng-bind-html="tips2"></span>
+                        </div>
+                        <a class="btn btn-primary " data-dismiss="tip" ng-click="goMerchant()">{{"merchantservice_merchant_service"|translate}}</a>
+                    </li>
+                    <!--在这里改动横幅提示语-->
+                    <li class="tips-content-text" ng-repeat="msg in msgList track by $index">
+                        <i class="icon icon-close _right-top" ng-click="closeTip(msg)"></i>
+                        <div class="float-left wid-90 newDefaultLeft" ng-class="msg.type==1?'agreementBannerTitle':''">
+                            <p class="tips-title">{{msg.title}}</p>
+                            <span class="tips-text ellipsis hftip" ng-if="msg.type!=1">{{msg.text}}
+                </span>
+                            <aui-tooltip content="msg.text" ng-if="msg.type!=1"></aui-tooltip>
+                        </div>
+                        <a class="btn btn-primary agreementBannerCheck newDefaultRight" ng-if="msg.type==1" data-dismiss="tip"
+                           ng-click="signAgreement(msg)">{{"console_common_view"|translate}}</a>
+                        <a class="btn btn-primary newDefaultRight" ng-if="msg.type==2" data-dismiss="tip"
+                           ng-click="gotoPage(msg.pageType)">{{"console_common_view"|translate}}</a>
+                        <a class="btn btn-primary newDefaultRight" ng-if="msg.type==3" data-dismiss="tip"
+                           ng-click="acceptTransferTip()">{{"console_common_view"|translate}}</a>
+                        <a class="btn btn-primary newDefaultRight" ng-if="msg.type==4" data-dismiss="tip"
+                           ng-click="checkAndSignAgreement(msg)">{{"console_common_view"|translate}}</a>
+                    </li>
+                </ul>
+                <div ng-if="showMerchant || msgList.length > 1"
+                     class="paging">
+                    <ul class="paging-point"></ul>
+                </div>
+            </div>
+            <section ui-view></section>
+        </div>
+    </main>
+    <!--自定义桌面 -->
+    <div ng-if="isCustomizerShown" class="dialog-cover" style="display:block;min-width: 1024px;"
+         id="dialog-service-config">
+        <div class="dialog-wrap full">
+            <div class="dialog-box">
+                <div class="dialog-outer">
+                    <div class="dialog-title font-bold h5" ng-bind-html="tips1"></div>
+                    <div class="px-5 dialog-ul">
+                        <ul class="tab-ul">
+                            <li style="width: auto; margin-right: 25px;" ng-repeat="dir in getAllServiceCards()"
+                                ng-class="{active: selectState === $index + 1}"
+                                ng-click="selectTab(dir.itemCode, $index + 1);">
+                                <a style="width: auto;" class="font-bold">{{dir.itemName}}</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="dialog-content">
+                        <div class="clearfix"></div>
+                        <div ng-repeat="dir in getAllServiceCards()" id="{{dir.itemCode}}">
+                            <div class="h5 white pt-2">{{dir.itemName}}</div>
+                            <div ng-repeat="cate in dir.resourceTree">
+                                <div class="h6 gray">{{cate.itemName}}</div>
+                                <div class="services-box servicecards">
+                                    <div ng-repeat="card in cate.cards" class="col-5 abroad-col-5"
+                                         ng-click="customizeCard(card)">
+                                        <div class="service-item relative"
+                                             ng-class="card.isSelected === 'Y' ? 'relative-selected' : ''">
+                                            <div class="title-content">
+                                                <div class="layer-left">
+                                                    <img class="service-img" ng-src="{{card.icon.normal}}"></img>
+                                                    <img class="service-img" ng-src="{{card.icon.hover}}"></img>
+                                                </div>
+                                                <div class="layer-right">
+                                                    <div class="caption">{{card.name}}</div>
+                                                    <div class="detail sub-text">{{card.description}}</div>
+                                                </div>
+                                            </div>
+                                            <span ng-if="card.isNew === 'true'" class="badge new card-new">{{"console_common_new"|translate}}</span>
+                                        </div>
+                                        <div class="hidden-icon pr-0" style="display:block"
+                                             ng-show="card.isSelected === 'Y'">
+                                            <i class="icon icon-lvgou"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="border-container"></div>
+                        </div>
+                        <div class="clearfix" style="height: 600px"></div>
+                    </div>
+                    <div class="dialog-footer">
+                        <a class="btn  dialog-btn" data-dismiss="dialog" ng-click="closeCustomizer()">{{"earnings_close"|translate}}</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="modal"  ng-if="isCoverShow">
+        <div class="loading-model">
+        </div>
+    </div>
+    <div ng-class="{'iframe-responsive':true,'active':showEsdkHelpIframe}" ng-click="closeEsdkHelpShow($event)"></div>
+    <iframe id="esdkShow" ng-class="{'aside-iframe':true,'esdkiframe-1':isRUZone,'active':showEsdkHelpIframe}"
+            frameborder="0" scrolling="no"></iframe>
+</div>
+<div class="modal" id="modal"  >
+    <div class="loading-model">
+    </div>
+</div>
+<script type="text/javascript" src="js/lib/custome-all.js?v=20210728192608"></script>
+<script type="text/javascript" src="js/lib/require/require.min.js?v=20210728192608"></script>
+<script type="text/javascript" src="js/requireConf.js?v=20210728192608"></script>
+
+<script>
+    $(document).ready(function () {
+        _initAsideNav();
+        var js1 = document.createElement('script');
+        require(['maincorp']);
+        document.body.appendChild(js1);
+    });
+    function _initAsideNav() {
+        $('.ucd-fastmenu').each(function () {
+            new UCD.FastMenu(this, {
+                queueSize: 3,
+                delay: 300,
+                activeClassName: 'open'
+            });
+        });
+    }
+    $("body").bind('DOMNodeInserted', function (e) {
+        //缩小范围
+        if (!e || $(e.target).find('input,textarea').length > 0) {
+            $(e.target).find('input,textarea').off("input.Arabic").on("input.Arabic", function () {
+                if (/^[\u0600-\u06FF]+/g.test(this.value.trim())) {
+                    $(this).attr("dir", "rtl");
+                } else {
+                    $(this).removeAttr("dir");
+                }
+            });
+        }
+    });
+    if (!Array.prototype.find) {
+        Object.defineProperty(Array.prototype, 'find', {
+            value: function (predicate) {
+                // 1. Let O be ? ToObject(this value).
+                if (this == null) {
+                    throw new TypeError('"this" is null or not defined');
+                }
+
+                var o = Object(this);
+
+                // 2. Let len be ? ToLength(? Get(O, "length")).
+                var len = o.length >>> 0;
+
+                // 3. If IsCallable(predicate) is false, throw a TypeError exception.
+                if (typeof predicate !== 'function') {
+                    throw new TypeError('predicate must be a function');
+                }
+
+                // 4. If thisArg was supplied, let T be thisArg; else let T be undefined.
+                var thisArg = arguments[1];
+
+                // 5. Let k be 0.
+                var k = 0;
+
+                // 6. Repeat, while k < len
+                while (k < len) {
+                    // a. Let Pk be ! ToString(k).
+                    // b. Let kValue be ? Get(O, Pk).
+                    // c. Let testResult be ToBoolean(? Call(predicate, T, « kValue, k, O »)).
+                    // d. If testResult is true, return kValue.
+                    var kValue = o[k];
+                    if (predicate.call(thisArg, kValue, k, o)) {
+                        return kValue;
+                    }
+                    // e. Increase k by 1.
+                    k++;
+                }
+
+                // 7. Return undefined.
+                return undefined;
+            }
+        });
+    }
+    ;
+</script>
+
+
+</body>
+</html>
