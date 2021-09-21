@@ -1,0 +1,19 @@
+Python 3.7.8 (tags/v3.7.8:4b47a5b6ba, Jun 28 2020, 08:53:46) [MSC v.1916 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+>>> Sinekam Thailand with Techasit.co.,ltd.
+SyntaxError: invalid syntax
+>>> print("hello world")
+hello world
+>>> print ("/Sinekam Thailand")
+/Sinekam Thailand
+>>> print ("Techasit Luanthon")
+Techasit Luanthon
+>>> print ("Raviwan Suwansamut")
+Raviwan Suwansamut
+>>> print ("Mobile phone number +66953150050 with +66826346500")
+Mobile phone number +66953150050 with +66826346500
+>>> Mobile phone number +66953150050 with +66826346500
+SyntaxError: invalid syntax
+>>> ("Make money online")
+'Make money online'
+>>> 
