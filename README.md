@@ -1,10 +1,26 @@
-- 👋 Hi, I’m @Techasit232000
-- 👀 I’m interested in ทุกสิ่งทุกอย่าง
-- 🌱 I’m currently learning ภาษาทางคอมพิวเตอร์
-- 💞️ I’m looking to collaborate on ภาษาไทย
-- 📫 How to reach me เรียนภาษาไทย
+PhlongTaIam
+===========
 
-<!---
-Techasit232000/Techasit232000 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+PHP Thai word breaker
+
+Requirement
+-----------
+* PHP 5.3+
+
+Usage
+-----
+You can put everything into htdocs (where Web server can access). For example, http://localhost/PhlongTaIam/example/brk.php should show something like below:
+
+* ฉัน
+* กิน
+* ข้าว
+* ชิ
+* มิ
+
+Word list
+---------
+Word lists were taken from [LibThai](http://linux.thai.net/projects/libthai)
+
+Demo
+----
+http://vi.8fold.in/s/demo.php
