@@ -1,0 +1,14 @@
+        else {
+            bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+        }
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(bp, s);
+    })();
+</script>
+<!-- สกุลเงิน THB Dijital -->
+<script type="text/javascript" src="https://cpro.baidustatic.com/cpro/ui/c.js" async="async" defer="defer"></script>        <script type="text/javascript">
+            window._taboola = window._taboola || [];
+            _taboola.push({flush: true});
+        </script>
+    </body>
+</html>
