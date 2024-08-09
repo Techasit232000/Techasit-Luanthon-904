@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChatGPT Integration</title>
+</head>
+<body>
+    <h1>ChatGPT Integration Example</h1>
+    <button id="sendRequestBtn">Send Request to ChatGPT</button>
+    <p id="responseDisplay"></p>
+
+    <script>
+        document.getElementById("sendRequestBtn").addEventListener("click", function() {
+            // Your OpenAI API key
+            const apiKey = "your_openai_api_key";
+
+            // The API endpoint and data
+            const url = "https://api.openai.com/v1/chat/completions";
+            const data = {
+                model: "gpt-4",
+                messages: [
+                    {role: "system", content: "You are a helpful assistant."},
+                    {role: "user", content: "How can I integrate ChatGPT with BlackBerry?"}
+                ]
+            };
+
+            // Creating a POST request
+            fetch(url, {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json",
+                    "Authorization": `Bearer ${apiKey}`
+                },
+                body: JSON.stringify(data)
+            })
+            .then(response => {
+                if (response.ok) {
+                    return response.json();
+                } else {
+                    throw new Error("Network response was not ok.");
+                }
+            })
+            .then(responseData => {
+                const chatReply = responseData.choices[0].message.content;
+                document.getElementById("responseDisplay").innerText = `ChatGPT says: ${chatReply}`;
+            })
+            .catch(error => {
+                console.error("There was a problem with the fetch operation:", error);
+                document.getElementById("responseDisplay").innerText = "Error: Unable to fetch response.";
+            });
+        });
+    </script>
+</body>
+</html>
