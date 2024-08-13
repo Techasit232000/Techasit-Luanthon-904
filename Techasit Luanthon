@@ -1,0 +1,11 @@
+from Bio import SeqIO
+
+# Load a DNA sequence from a file
+record = SeqIO.read("data/thai_dna_sequence.fasta", "fasta")
+
+# Print the sequence
+print(f"Sequence: {record.seq}")
+
+# Calculate the GC content
+gc_content = 100 * float(record.seq.count("G") + record.seq.count("C")) / len(record.seq)
+print(f"GC Content: {gc_content:.2f}%")
