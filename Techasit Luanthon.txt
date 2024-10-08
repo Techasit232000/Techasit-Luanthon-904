@@ -1,0 +1,88 @@
+Python 3.13.0 (tags/v3.13.0:60403a5, Oct  7 2024, 09:38:07) [MSC v.1941 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> class Developer:
+...         def __init__(self, name, expertise, projects):
+...                         self.name = name
+...                                 self.expertise = expertise
+...                                         self.projects = projects
+...
+  File "<python-input-0>", line 4
+    self.expertise = expertise
+IndentationError: unexpected indent
+>>>     def introduce(self):
+  File "<python-input-1>", line 1
+    def introduce(self):
+IndentationError: unexpected indent
+>>>         return f"ชื่อ: {self.name}, ผู้เชี่ยวชาญด้าน: {self.expertise}"
+  File "<python-input-2>", line 1
+    return f"ชื่อ: {self.name}, ผู้เชี่ยวชาญด้าน: {self.expertise}"
+IndentationError: unexpected indent
+>>>
+>>>     def display_projects(self):
+  File "<python-input-4>", line 1
+    def display_projects(self):
+IndentationError: unexpected indent
+>>>         print(f"โครงการที่ {self.name} พัฒนา:")
+  File "<python-input-5>", line 1
+    print(f"โครงการที่ {self.name} พัฒนา:")
+IndentationError: unexpected indent
+>>>         for project in self.projects:
+  File "<python-input-6>", line 1
+    for project in self.projects:
+IndentationError: unexpected indent
+>>>             print(f"- {project}")
+  File "<python-input-7>", line 1
+    print(f"- {project}")
+IndentationError: unexpected indent
+>>>
+>>> class SecuritySoftwareDeveloper(Developer):
+...             def __init__(self, name, expertise, projects, security_focus):
+...                                 super().__init__(name, expertise, projects)
+...                                         self.security_focus = security_focus
+...
+  File "<python-input-9>", line 4
+    self.security_focus = security_focus
+IndentationError: unexpected indent
+>>>     def display_security_focus(self):
+  File "<python-input-10>", line 1
+    def display_security_focus(self):
+IndentationError: unexpected indent
+>>>         return f"{self.name} มุ่งเน้นการพัฒนา: {self.security_focus}"
+  File "<python-input-11>", line 1
+    return f"{self.name} มุ่งเน้นการพัฒนา: {self.security_focus}"
+IndentationError: unexpected indent
+>>>
+>>> # ข้อมูลเกี่ยวกับเตชสิทธ์ ล้วนทร
+>>> name = "เตชสิทธ์ ล้วนทร"
+>>> expertise = "Security Software Development"
+>>> projects = ["Firewall Application", "Encryption Tool", "Intrusion Detection System"]
+>>> security_focus = "Cybersecurity Threat Detection"
+>>>
+>>> # สร้างออบเจ็กต์ของผู้พัฒนา
+>>> tesit = SecuritySoftwareDeveloper(name, expertise, projects, security_focus)
+Traceback (most recent call last):
+  File "<python-input-20>", line 1, in <module>
+    tesit = SecuritySoftwareDeveloper(name, expertise, projects, security_focus)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'SecuritySoftwareDeveloper' is not defined
+>>>
+>>> # เรียกใช้งานฟังก์ชันต่าง ๆ
+>>> print(tesit.introduce())
+Traceback (most recent call last):
+  File "<python-input-23>", line 1, in <module>
+    print(tesit.introduce())
+          ^^^^^
+NameError: name 'tesit' is not defined. Did you mean: 'exit'?
+>>> tesit.display_projects()
+Traceback (most recent call last):
+  File "<python-input-24>", line 1, in <module>
+    tesit.display_projects()
+    ^^^^^
+NameError: name 'tesit' is not defined. Did you mean: 'exit'?
+>>> print(tesit.display_security_focus())
+Traceback (most recent call last):
+  File "<python-input-25>", line 1, in <module>
+    print(tesit.display_security_focus())
+          ^^^^^
+NameError: name 'tesit' is not defined. Did you mean: 'exit'?
+>>>
