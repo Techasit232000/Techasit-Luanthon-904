@@ -1,0 +1,16 @@
+#import <GD/sqlite3enc.h>
+ 
+sqlite3 *pDb = NULL;
+char *errorMsg = NULL;
+int returnCode;
+char *databaseName = NULL;
+ 
+databaseName = "financials.db";
+returnCode = sqlite3enc_open(databaseName, &pDb);
+if(returnCode!=SQLITE_OK) {
+    fprintf(stderr,
+        "Error in opening the database. Error: %s", sqlite3_errmsg(pDb)
+    );
+    sqlite3_close(pDb);
+    return;
+}
